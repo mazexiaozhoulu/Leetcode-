@@ -1,6 +1,6 @@
 # Algorithm_Groovy_Club
 
-## Weihan's algorithm showcase space
+## Maze's algorithm showcase space
 
 ### Welcome to my astroworld :star:
 ---
