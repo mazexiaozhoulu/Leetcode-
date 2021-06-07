@@ -4,7 +4,7 @@
 
 ### Welcome to my astroworld :star:
 ---
-[Day2: Binary Tree](https://github.com/WeihanChu-wc2688/Algorithm_Groovy_Club/blob/main/day_2.md)
+[Day2: Binary Tree](https://github.com/mazexiaozhoulu/Leetcode-/blob/main/day-1:%20144%EF%BC%8C94%EF%BC%8C145)
 
 * 二叉树的各种遍历+引申题型
 
