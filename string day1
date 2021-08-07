@@ -44,8 +44,10 @@ class Solution:
   的长度，不是的话就继续下一位。如果for循环结束，indexT的大小都不等于(T)的长度的话，那就return False
  
 ❤❤❤️❤️❤️❤❤️❤️❤️❤❤️❤️❤️❤❤️❤️❤️❤❤️❤️❤️❤❤️❤️❤️* 
-point：for loop+range 确保了遍历S和T的顺序，遍历S，确保遍历了所有字符（如果S最后一位和T最后一位相等）；
-         每次循环判断大小和长度为了避免出现T遍历完了但S没结束的error
+point: >for loop+range 确保了遍历S和T的顺序，遍历S，确保遍历了所有字符（如果S最后一位和T最后一位相等）；
+       >每次循环判断大小和长度为了避免出现T遍历完了但S没结束的error
+       >str(字符串可以计算长度)
+         
 
 class Solution:
     """
@@ -86,8 +88,9 @@ class Solution:
 输出: "I Jidls    Mdijf  I  Lsidj  I P L   "
 
 ❤❤️❤️❤️❤❤️❤️❤️❤❤️❤️❤️❤❤️❤️❤️❤❤️❤️❤️❤❤️❤️❤️*
-point: 
-    大小写转换:chr(ord(s1[i]) - 32)
+point:>大小写转换:chr(ord(s1[i]) - 32)
+      >python 判断整个字符串是不是字母，就用is.alpha(),判断整个字符串里单个字符就用ascii码
+      >字符串（string）可以判断长度，但string是一种不可变的数据类型。list可以。
     
     
 class Solution:
