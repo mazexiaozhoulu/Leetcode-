@@ -1,0 +1,204 @@
+415 · 有效回文串
+描述
+给定一个字符串，判断其是否为一个回文串。只考虑字母和数字，忽略大小写。
+
+你是否考虑过，字符串有可能是空字符串？这是面试过程中，面试官常常会问的问题。
+
+在这个题目中，我们将空字符串判定为有效回文。
+
+样例
+样例 1:
+
+输入: "A man, a plan, a canal: Panama"
+输出: true
+解释: "amanaplanacanalpanama"
+
+思考过程：>根据example我们发现 所有字母都变成小写，没有空格和符号，可能有数字，所以要考虑数字情况：
+point:>声明这个字符串存在
+      >判断是否为字母 isalpha（）；判断是否为数字 isdigit（）； 判断字母&数字：isalnum（）；
+      >[：：-1]表示顺序反向操作
+      example：
+      a=[1,2,3,4,5]
+      b=a[::-1]
+      b = [5, 4, 3, 2, 1]
+
+正确解法：
+
+class Solution:
+    """
+    @param s: A string
+    @return: Whether the string is a valid palindrome
+    """
+    def isPalindrome(self, s):
+        if s is None:
+            return True
+
+        s = s.lower()
+        s1 = list()
+        for i in s:
+            if i.isalnum():
+               s1.append(i)
+
+        if s1 == s1[::-1]:
+            return True
+        else:
+            return False
+******************************************************************
+1352 · 比较版本号
+
+题目题解笔记讨论排名
+描述
+比较两个版本号version1和version2。
+如果version1 > version2返回1，如果version1 < version2返回-1，否则返回0。
+
+您可以认为版本字符串是非空的并且只包含数字和 . 字符。
+这个 '.' 字符不表示小数点，用于分隔数字序列。
+例如，2.5不是“两个半”或“版本三的一半”，它是第二个第一级修订的第五个二级修订。
+
+样例
+样例1
+
+输入: version1 = "1"，version2 = "01"
+输出: 0
+
+
+思路： 如果string长度>1:那就检测第一个是不是0，有没有“.”， 有的话，都去掉。然后再比较两个string的大小...
+问题: 需要考虑的情况太多，总是会有考虑不到的情况
+
+class Solution:
+    """
+    @param version1: the first given number
+    @param version2: the second given number
+    @return: the result of comparing
+    """
+    def compareVersion(self, version1, version2):
+        v1 = list(version1)
+        v2 = list(version2)
+        remo = '.'
+        v2 = [i for i in v2 if i != remo]
+        v1 = [i for i in v1 if i != remo]
+        if len(v1) > 1:
+            if v1[0] == "0":
+                v1.pop(0)
+        ver1 = "".join(v1)
+        print(ver1)
+                
+        if len(v2) > 1:
+            if v2[0] == "0":
+                v2.pop(0)
+        ver2 = "".join(v2)
+        print(ver2)
+
+        if int(ver1) > int(ver2):
+            return 1 
+        elif int(ver1) < int(ver2):
+            return -1
+        else:
+            return 0
+            
+      
+      
+****************************************************      
+      
+      
+171 · 乱序字符串
+算法
+中等
+通过率
+28%
+
+题目题解笔记讨论排名
+描述
+给出一个字符串数组S，找到其中所有的乱序字符串(Anagram)。如果一个字符串是乱序字符串，那么他存在一个字母集合相同，但顺序不同的字符串也在S中。
+
+所有的字符串都只包含小写字母
+
+样例
+样例1:
+
+输入:["lint", "intl", "inlt", "code"]
+输出:["lint", "inlt", "intl"]      
+
+思考过程：只想到了sorted,打么米想到要用hashmap，同时也没注意到用完sorted的sting会变成list，所以还需要转换回去
+正确答案
+      class Solution:
+    """
+    @param strs: A list of strings
+    @return: A list of strings
+    """
+    def anagrams(self, strs):
+        
+        hashmap = {}
+        result = []
+        for string in strs:
+            string = ''.join(sorted(string))
+            #sorted string 就是把str里每个string都排序一遍，并保存到新的list
+            #['i', 'l', 'n', 't']
+            #['i', 'l', 'n', 't']
+            #['i', 'l', 'n', 't']
+            #['c', 'd', 'e', 'o']
+            #''.join(sorted(string))，再把list版本的string变成str的string
+            #ilnt
+            #ilnt
+            #ilnt
+            #cdeo
+            hashmap[string] = hashmap.get(string, 0) + 1
+            #再把这个str里各个string出现的次数统计一下
+         
+        for string in strs:
+            sortedString = ''.join(sorted(string))
+            if sortedString in hashmap and hashmap[sortedString] > 1:
+                #如果这个sortedString在之前的hashmap里，并且统计的数量是大于1的
+                result.append(string)
+                #那就把这个string放到新的list里
+            
+        return result
+        
+        
+**********************************************************************
+1510 · 亲密字符串
+
+描述
+给定两个由小写字母构成的字符串A 和B，只要我们可以通过交换A中的两个字母得到与B相等的结果，就返回true；否则返回false。
+
+1.0 <= A.length <= 20000
+2.0 <= A.length <= 20000
+3.A 和 B 仅由小写字母构成。
+
+思路：
+  1: 先去掉能一眼看出来的错误：
+  长度不一样❌； 
+  A = "ab", B = "ab"这种，AB长度一样，但B调换了位置也不和A重叠，所以要保证A == B and len(A) > len(set(A)):
+  2: 然后：判断两个 string里，A中和B不一样的，A的放到list 1； B的放到list2
+  3: 在判断list 1 & 2: 长度不为2的话，错误；调换后不想等的， 错误
+  
+ point：
+   A = "ab", B = "ab"这种，AB长度一样，但B调换了位置也不和A重叠，所以要保证A == B and len(A) > len(set(A)):
+
+
+class Solution:
+    """
+    @param A: string A
+    @param B: string B
+    @return: bool
+    """
+    def buddyStrings(self, A, B):
+        if len(A) != len(B): 
+            return False
+        if A == B and len(A) > len(set(A)):
+            return True
+        A = list(A)
+        B = list(B)
+        s = list()
+        s2 = list()
+
+        for i in range(len(A)):
+            if A[i] != B[i]:
+                s.append(A[i])
+                s2.append(B[i])
+
+        if len(s) != 2 or len(s2) != 2:
+            return False
+        elif s == s2[::-1]:
+            return True
+        return False
