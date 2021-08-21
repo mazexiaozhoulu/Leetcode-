@@ -86,8 +86,9 @@ class Solution:
     @param m: An integer
     @param n: An integer
     @return: The head of the reversed ListNode
-    """
-    def reverseBetween(self, head, m, n):
+    
+    
+   def reverseBetween(self, head, m, n):
         dummy = ListNode(-1)
         dummy.next = head
         mth_pre = self.findkth(dummy, m-1)
@@ -100,5 +101,21 @@ class Solution:
         mth_pre.next = nth
         mth.next = nth_next
         return dummy.next
+
+    def reverse(self, head):
+        pre = None
+        while head != None:
+            next = head.next
+            head.next = pre
+            pre = head
+            head = next
+        return pre
+
+    def findkth(self, head, k):
+        for i in range(k):
+            if head is None:
+                return None
+            head = head.next
+        return head
         
  一个reverse的function，一个查找节点的function。然后把前后节点连上
