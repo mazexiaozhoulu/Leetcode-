@@ -105,10 +105,10 @@ class Solution:
     def reverse(self, head):
         pre = None
         while head != None:
-            next = head.next
-            head.next = pre
-            pre = head
-            head = next
+            next = head.next（head.next这个位置叫做next）
+            head.next = pre（head.next的值给了pre）
+            pre = head（pre这个值叫做head）
+            head = next（head）
         return pre
 
     def findkth(self, head, k):
