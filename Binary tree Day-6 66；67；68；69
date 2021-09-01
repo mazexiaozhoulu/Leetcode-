@@ -1,4 +1,4 @@
-66；前序；67:中序；后序：
+66；前序；67:中序；68:后序：
 ```
 class Solution:
     """
@@ -31,4 +31,34 @@ class Solution:
         self.traveral(root.left)
         self.traveral(root.right)
         self.result.append(root.val)
-  ```
+```
+
+69: 层级遍历，DFS
+
+```
+class Solution:
+    """
+    @param root: A Tree
+    @return: Level order a list of lists of integer
+    """
+    def levelOrder(self, root):
+        # write your code here
+        result = []
+        if root is None:
+            return result
+        thislevel = 0
+        self.traversal(root, result, thislevel)
+        return result
+
+    def traversal(self, root, result, thislevel):
+        if root is None:
+            return
+        if thislevel >= len(result):
+            result.append([])
+        result[thislevel].append(root.val)
+        thislevel += 1
+        self.traversal(root.left, result, thislevel)
+        self.traversal(root.right, result, thislevel)
+
+        return
+```
