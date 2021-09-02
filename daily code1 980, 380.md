@@ -17,6 +17,7 @@
 7
 
 参考575的思路，不同的是575的字母不需要相加减的关系。
+```
 class Solution:
     """
     @param s: the given expression
@@ -55,3 +56,4 @@ class Solution:
                 num = 0
 
         return sum(stack)
+```
