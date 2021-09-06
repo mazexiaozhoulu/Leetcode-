@@ -1,4 +1,4 @@
-lintcode 380 & leetcode 426 
+lintcode 380 & leetcode 160 
 
 Convert Binary Search Tree to Sorted Doubly Linked List
 
