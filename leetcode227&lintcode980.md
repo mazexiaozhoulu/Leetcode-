@@ -1,4 +1,7 @@
-980 · 基础计算器 II
+leetcode227&lintcode980
+
+Basic Calculator II
+
 本题可以拆分成两个子问题：
 
 数字相加减求结果（运算符不存在优先级，依次从左到右运算即可）；
