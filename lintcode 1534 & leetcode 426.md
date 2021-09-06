@@ -1,3 +1,5 @@
+lintcode 1534 & leetcode 426
+
 二叉树和链表的结合
 
 BST符合inorder 左中右的二叉树遍历 输出list后
