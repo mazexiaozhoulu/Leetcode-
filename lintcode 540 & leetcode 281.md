@@ -1,3 +1,7 @@
+lintcode 540 & leetcode 28
+	
+Zigzag Iterator
+
 
 ```
 class ZigzagIterator:
