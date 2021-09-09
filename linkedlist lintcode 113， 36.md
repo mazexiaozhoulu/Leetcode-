@@ -5,31 +5,13 @@
 描述
 给定一个排序链表，删除所有重复的元素，只留下原链表中没有重复的元素。
 
-链表长度 <= 20000<=20000
-
-样例
-样例 1：
-
-输入：
-
-linked list = null
-输出：
-
-null
-解释：
-
-空链表返回null
-
-样例 2：
-
-输入：
 
 linked list = 1->2->3->3->4->4->5->null
 输出：
 
 1->2->5->null
 
-
+```
 class Solution:
     """
     @param head: head is the head of the linked list
@@ -54,7 +36,7 @@ class Solution:
                 cur = cur.next
         return dummy.next
         
-        
+```
 while front and front.val == cur.val:
   front = front.next
 这两步就是把所有相同的字符都循环判断出来。
@@ -79,7 +61,7 @@ n = 4
 输出：
 
 1->4->3->2->5->NULL
-
+```
 class Solution:
     """
     @param head: ListNode head is the head of the linked list 
@@ -117,5 +99,5 @@ class Solution:
                 return None
             head = head.next
         return head
-        
+ ```       
  一个reverse的function，一个查找节点的function。然后把前后节点连上
