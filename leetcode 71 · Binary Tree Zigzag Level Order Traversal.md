@@ -1,3 +1,6 @@
+先做前序遍历的dfs的traversal
+再把结果reverse
+
 ```
 # Definition for a binary tree node.
 # class TreeNode(object):
@@ -14,7 +17,7 @@ class Solution(object):
         level = 0
 
         self.traversal(root, result, level)
-
+#把result里单数index的内容做reverse
         answer = []
         for i in range(len(result)):
             if i % 2 == 1:
