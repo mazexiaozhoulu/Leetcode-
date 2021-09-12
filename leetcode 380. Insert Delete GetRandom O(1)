@@ -2,7 +2,7 @@
 
 Insert操作：list.append() / hashmap的添加
 
-Remove操作： list.pop() / hashmap的del key
+Remove操作： list.pop() / hashmap的del key=数字；value=index；
 
 Random操作： list.choice()
 
@@ -42,6 +42,7 @@ class RandomizedSet(object):
             index = self.dict[val]
             lastElement = self.list[-1]
             self.list[index], self.dict[lastElement] = lastElement, index
+            ##只保留需要留下的部分，list把最后一个字符覆盖掉要删掉的字符，再把最后一个字符删掉：比如：[1,2,3,4], 要删掉3, 通过这步就变成[1,2,4,4]，再把最后一个4删掉。dict同理
             self.list.pop()
             del self.dict[val]
             return True
