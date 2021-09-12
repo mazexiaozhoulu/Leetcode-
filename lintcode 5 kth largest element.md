@@ -13,6 +13,8 @@ class Solution:
     """
     def kthLargestElement(self, k, nums):
         # write your code here
+        if (nums == null):
+            return = -1
         return self.quickSelect(nums, k, 0, len(nums)-1)
 
     def quickSelect(self, nums, k, start, end):
@@ -22,7 +24,7 @@ class Solution:
         pivot = nums[int((left+right)/2)]
 
         while (left <= right):
-            while (left <= right and nums[left] > pivot):
+            while (left <= right and nums[left] > pivot):#从大到小的找，所以>的话就进行下一步
                 left += 1
             while (left <= right and nums[right] < pivot):
                 right -= 1
@@ -31,9 +33,9 @@ class Solution:
                 left += 1
                 right -= 1
 
-        if k-1 <= right:
+        if k-1 <= right:#说明要找的数在右边
             return self.quickSelect(nums, k, start, right)
-        elif k-1 >= left:
+        elif k-1 >= left:#在左边
             return self.quickSelect(nums, k, left, end)
         else:
             return pivot
