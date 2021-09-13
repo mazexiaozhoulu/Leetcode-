@@ -18,19 +18,18 @@ class Solution(object):
         res = []
         
         for c in s:
-		    if c=="(":
-			    open+=1
-		    elif c==")":
-			    if not open:
-				    continue
-			    open-=1
-                
-		    res.append(c)
+	    if c=="(":
+	        open+=1
+	    elif c==")":
+	        if not open:
+		    continue
+		    open-=1
+            res.append(c)
         i = len(res)-1
         while i>=0 and open:
-		    if res[i]=="(":
-			    res[i]="*"
-			    open-=1
-		    i-=1
+ 	    if res[i]=="(":
+		res[i]="*"
+	    	open-=1
+	    i-=1
         return "".join([c for c in res if c!="*"])
 ```
