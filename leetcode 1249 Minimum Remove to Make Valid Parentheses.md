@@ -14,22 +14,24 @@ class Solution(object):
         :type s: str
         :rtype: str
         """
-        open = 0
-        res = []
+        balance = 0
+        stack = []
         
-        for c in s:
-	    if c=="(":
-	        open+=1
-	    elif c==")":
-	        if not open:
-		    continue
-		    open-=1
-            res.append(c)
-        i = len(res)-1
-        while i>=0 and open:
- 	    if res[i]=="(":
-		res[i]="*"
-	    	open-=1
-	    i-=1
-        return "".join([c for c in res if c!="*"])
+        for i in s:
+            if i == "(":
+                balance += 1
+            elif i == ")":
+                if not balance:
+                    continue
+                else:
+                    balance -= 1
+            stack.append(i)
+	    
+        for j in range(-1, -len(stack)-1, -1):
+            if balance > 0:
+                if stack[j] == "(":
+                    stack[j] = "*"
+                    balance -= 1
+                        
+        return "".join([j for j in stack if j!="*"])
 ```
