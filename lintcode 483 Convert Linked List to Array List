@@ -1,0 +1,15 @@
+```
+class Solution:
+    """
+    @param head: the head of linked list.
+    @return: An integer list
+    """
+
+    def toArrayList(self, head):
+        # write your code here
+        s = []
+        while head:
+            s.append(head.val)
+            head = head.next
+        return s
+```
