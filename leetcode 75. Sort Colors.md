@@ -1,4 +1,4 @@
-用flag，速度比较慢，最好先用sort一下减少时间复杂度。
+用flag，冒泡排序，速度比较慢，最好先用sort一下减少时间复杂度。
 时间复杂度o(n^2)
 ```
 class Solution(object):
