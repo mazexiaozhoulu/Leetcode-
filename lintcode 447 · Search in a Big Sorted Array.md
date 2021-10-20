@@ -1,3 +1,6 @@
+先用倍增法 来确定 range。reader.get(range_len) 就是取数值，range_len就是下标
+时间复杂度：O(logk)
+空间复杂度 O(1)
 ```
 class Solution:
     """
