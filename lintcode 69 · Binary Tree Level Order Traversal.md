@@ -1,5 +1,7 @@
 如果是一个只需要层级遍历，然后不用把每一层都分出来的形式的话 [1,2,3]
+
 #BFS
+
 ```
     def levelOrder(self, root):
         # write your code here
@@ -18,7 +20,9 @@
                     queue.append(node.right)
         return result
 ```
+
 #dfs
+
 ```
 class Solution:
     """
