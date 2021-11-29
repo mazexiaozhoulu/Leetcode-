@@ -6,5 +6,5 @@
 
 拓扑排序：实现容易度远超DFS
 
-BFS三种实现方法：
-单队列：
+BFS:
+[69](https://github.com/mazexiaozhoulu/Leetcode-/blob/ae8412a44d6b63113da89660090c338aef31a4ee/lintcode%2069%20%C2%B7%20Binary%20Tree%20Level%20Order%20Traversal.md)
