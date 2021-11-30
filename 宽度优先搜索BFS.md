@@ -8,3 +8,18 @@
 
 BFS:
 [69](https://github.com/mazexiaozhoulu/Leetcode-/blob/ae8412a44d6b63113da89660090c338aef31a4ee/lintcode%2069%20%C2%B7%20Binary%20Tree%20Level%20Order%20Traversal.md)
+
+BFS（包括图）：N个点 M条边 图上BFS时间复杂度=O(n+m)
+[137](https://github.com/mazexiaozhoulu/Leetcode-/blob/312a5248f9c2cbf6b1a0a74c7a784f4f2971f164/lintcode%20137%20Clone%20Graph.md)
+```
+queue = collections.deque([node])
+distance = {node:0}
+
+while queue:
+  node = queue.popleft()
+  for neighbor in node.get_neighbors():
+    if neighbor in distance:
+      continue
+    distance[neighbor] = distance[node] +1
+    queue.append(neighbor)
+```
