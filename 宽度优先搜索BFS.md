@@ -11,6 +11,9 @@ BFS:
 
 BFS（包括图）：N个点 M条边 图上BFS时间复杂度=O(n+m)
 [137](https://github.com/mazexiaozhoulu/Leetcode-/blob/312a5248f9c2cbf6b1a0a74c7a784f4f2971f164/lintcode%20137%20Clone%20Graph.md)
+[120](https://github.com/mazexiaozhoulu/Leetcode-/blob/b630373864d717297c04845fbfafd30649c5210b/lintcode%20120%20%C2%B7%20Word%20Ladder.md)
+[433](https://github.com/mazexiaozhoulu/Leetcode-/blob/d3f6f1bdd35c8ce1c3afaa522a73d17433bde9f2/lintcode%20433%20%C2%B7%20Number%20of%20Islands.md)
+[611](https://github.com/mazexiaozhoulu/Leetcode-/blob/b00f383aa97ffadada1e7e48677842a2fa47931e/lintcode%20611%20%C2%B7%20Knight%20Shortest%20Path.md)
 ```
 queue = collections.deque([node])
 distance = {node:0}
@@ -25,6 +28,8 @@ while queue:
 ```
 
 #拓扑排序：
+
+[616](https://github.com/mazexiaozhoulu/Leetcode-/blob/0d998842787bac33cc717d3ef6b26c2ac7d2001b/lintcode%20616%20%C2%B7%20Course%20Schedule%20II.md)
 图+有依赖关系+有向+无环
 
 入度（in depth)；有向图中指向当前节点的点的个数
