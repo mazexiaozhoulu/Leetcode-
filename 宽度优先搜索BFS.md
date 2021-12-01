@@ -24,7 +24,7 @@ while queue:
     queue.append(neighbor)
 ```
 
-拓扑排序：
+#拓扑排序：
 图+有依赖关系+有向+无环
 
 入度（in depth)；有向图中指向当前节点的点的个数
