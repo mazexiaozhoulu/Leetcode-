@@ -1,0 +1,27 @@
+用heap，heappop每次只会弹出最小的数字,set用来去重
+```
+import heapq
+
+class Solution:
+    """
+    @param n: An integer
+    @return: return a  integer as description.
+    """
+    def nthUglyNumber(self, n):
+        # write your code here
+        heap = [1]
+        seen = set([])
+        cur_ugly = 1
+
+        for _ in range(n):
+            cur_ugly = heapq.heappop(heap)
+            for factor in [2,3,5]:
+                new_ugly = cur_ugly*factor
+                if new_ugly not in seen:
+                    seen.add(new_ugly)
+                    heapq.heappush(heap, new_ugly)
+        return cur_ugly
+
+
+
+```
