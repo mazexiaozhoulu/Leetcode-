@@ -36,6 +36,7 @@ class Solution:
 ```
 #
 ## 方法2： 双指针算法，建立a set of tuple，最后看set的长短
+```
 class Solution:
     """
     @param nums: an array of integer
@@ -59,3 +60,4 @@ class Solution:
                 left += 1
         return len(count)
 #
+```
