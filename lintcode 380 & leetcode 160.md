@@ -1,3 +1,16 @@
+旧题更新
+```
+    def getIntersectionNode(self, headA, headB):
+        mapstore = set()
+        while headA:
+            mapstore.add(headA)
+            headA = headA.next
+        while headB:
+            if headB in mapstore:
+                return headB
+            else:
+                headB = headB.next
+```
 lintcode 380 & leetcode 160 
 
 Convert Binary Search Tree to Sorted Doubly Linked List
