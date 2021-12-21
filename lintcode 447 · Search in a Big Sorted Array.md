@@ -1,6 +1,7 @@
 先用倍增法 来确定 range。reader.get(range_len) 就是取数值，range_len就是下标
 时间复杂度：O(logk)
 空间复杂度 O(1)
+优化：start从range_len = range_len开始，但不影响时间复杂度
 ```
     def searchBigSortedArray(self, reader, target):
         # write your code here
