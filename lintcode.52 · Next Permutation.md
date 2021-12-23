@@ -1,4 +1,6 @@
-先找到第一个谷底，然后再找到第一个比他小的数字，swap。之后再把谷底之后的数字reverse
+先找到第一个谷底，然后再找到第一个比他小的数字，swap。之后再把谷底之后的数字sorted 和 sort
+
+sort 是应用在list 上的方法，sorted 可以对所有可迭代的对象进行排序操作
 ```
     def nextPermutation(self, nums):
         # write your code here
