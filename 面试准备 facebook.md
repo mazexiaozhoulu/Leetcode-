@@ -3,8 +3,8 @@
 
 # Array:
 [52 · 下一个排列](https://github.com/mazexiaozhoulu/Leetcode-/blob/d101d0e0f34cf3efb2008b7c2ad971f2af6b6902/lintcode.52%20%C2%B7%20Next%20Permutation.md)
-
-1025 · 自定义字符串排序
+# hash table
+[1025 · 自定义字符串排序](https://github.com/mazexiaozhoulu/Leetcode-/blob/d857033770bbdfaa3b6b0116939def33fdfb67a5/lintcode%201025%20%C2%B7%20Custom%20Sort%20String.md)
 1450 · 矩形面积
 641 · 丢失的间隔
 831 · 三数之和 II
