@@ -1,6 +1,7 @@
 1507 · 和至少为 K 的最短子数组
 163 · 不同的二叉查找树
 
+# Array:
 [52 · 下一个排列](https://github.com/mazexiaozhoulu/Leetcode-/blob/d101d0e0f34cf3efb2008b7c2ad971f2af6b6902/lintcode.52%20%C2%B7%20Next%20Permutation.md)
 
 1025 · 自定义字符串排序
