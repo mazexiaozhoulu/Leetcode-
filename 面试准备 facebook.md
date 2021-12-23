@@ -10,7 +10,8 @@
 [1025 · 自定义字符串排序](https://github.com/mazexiaozhoulu/Leetcode-/blob/d857033770bbdfaa3b6b0116939def33fdfb67a5/lintcode%201025%20%C2%B7%20Custom%20Sort%20String.md)
 1450 · 矩形面积
 831 · 三数之和 II
-428 · x的n次幂
+# math
+[428 · x的n次幂](https://github.com/mazexiaozhoulu/Leetcode-/blob/f8fd33246bd64879ff0701a998a6fdd121a5dae0/lintcode.428%20%C2%B7%20Pow(x,%20n).md)
 114 · 不同的路径
 32 · 最小子串覆盖
 64 · 合并排序数组
