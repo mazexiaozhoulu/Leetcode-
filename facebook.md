@@ -3,8 +3,7 @@ lintcode对应题目序号	题目链接
 
 163 · 不同的二叉查找树	https://www.lintcode.com/problem/163/?utm_source=sc-libao-zyq
 
-[52 · 下一个排列	https://www.lintcode.com/problem/52/?utm_source=sc-libao-zyq]
-(https://github.com/mazexiaozhoulu/Leetcode-/blob/d101d0e0f34cf3efb2008b7c2ad971f2af6b6902/lintcode.52%20%C2%B7%20Next%20Permutation.md)
+[52 · 下一个排列	https://www.lintcode.com/problem/52/?utm_source=sc-libao-zyq](https://github.com/mazexiaozhoulu/Leetcode-/blob/d101d0e0f34cf3efb2008b7c2ad971f2af6b6902/lintcode.52%20%C2%B7%20Next%20Permutation.md)
 
 1025 · 自定义字符串排序	https://www.lintcode.com/problem/1025/?utm_source=sc-libao-zyq
 1450 · 矩形面积	https://www.lintcode.com/problem/1450/?utm_source=sc-libao-zyq
