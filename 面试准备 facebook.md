@@ -64,7 +64,8 @@
 86 · 二叉查找树迭代器
 760 · 二叉树的右视图
 433 · 岛屿的个数
-616 · 课程表 II
+[616 · 课程表 II](https://github.com/mazexiaozhoulu/Leetcode-/blob/4fd232593c8eda7e1b3550283b05180e6b7f0721/lintcode%20616%20%C2%B7%20Course%20Schedule%20II.md)
+
 2314 · 列表修改、添加和删除元素
 606 · 第K大的元素 II
 980 · 基础计算器 II
