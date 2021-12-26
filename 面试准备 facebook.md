@@ -19,6 +19,8 @@
 123 · 单词搜索
 # BFS
 [137 · 克隆图](https://github.com/mazexiaozhoulu/Leetcode-/blob/c7642f9e7a88a958d4e12bb17bbd140ca30549b2/lintcode%20137%20Clone%20Graph.md)
+[616 · 课程表 II](https://github.com/mazexiaozhoulu/Leetcode-/blob/4fd232593c8eda7e1b3550283b05180e6b7f0721/lintcode%20616%20%C2%B7%20Course%20Schedule%20II.md)
+
 104 · 合并k个排序链表
 1353 · 根节点到叶节点求和
 187 · 加油站
@@ -64,7 +66,6 @@
 86 · 二叉查找树迭代器
 760 · 二叉树的右视图
 433 · 岛屿的个数
-[616 · 课程表 II](https://github.com/mazexiaozhoulu/Leetcode-/blob/4fd232593c8eda7e1b3550283b05180e6b7f0721/lintcode%20616%20%C2%B7%20Course%20Schedule%20II.md)
 
 2314 · 列表修改、添加和删除元素
 606 · 第K大的元素 II
@@ -127,4 +128,4 @@
 172 · 删除元素
 414 · 两个整数相除
 193 · 最长有效括号
-420 · 报数![image](https://user-images.githubusercontent.com/60911066/147284946-13161b13-aa82-4a3c-ba3b-552057d238be.png)
+420 · 报数!
