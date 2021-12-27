@@ -32,6 +32,9 @@
 # 二分法
 [74 · 第一个错误的代码版本](https://github.com/mazexiaozhoulu/Leetcode-/blob/ee829faaa7553c457c30520ddd2f2b2f67a4d846/lintcode.74%20%C2%B7%20First%20Bad%20Version.md)
 
+# two points
+[57 · 三数之和](https://github.com/mazexiaozhoulu/Leetcode-/blob/0c17c4fcb808d133eae34eebae31017a67adf3ab/lintcode%2057%20%C2%B7%203Sum.md)
+
 104 · 合并k个排序链表
 1353 · 根节点到叶节点求和
 187 · 加油站
@@ -116,7 +119,6 @@
 402 · 连续子数组求和
 412 · 分糖果
 920 · 会议室
-57 · 三数之和
 148 · 颜色挑选
 919 · 会议室Ⅱ
 1393 · 适龄的朋友
