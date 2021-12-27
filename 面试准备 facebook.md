@@ -24,6 +24,9 @@
 # union find
 [477 · 被围绕的区域](https://github.com/mazexiaozhoulu/Leetcode-/blob/218bcd0a77da6868b82b0cacc48efe4fc4939442/lintcode.477%20%C2%B7%20Surrounded%20Regions.md)
 
+# 二分法
+[74 · 第一个错误的代码版本](https://github.com/mazexiaozhoulu/Leetcode-/blob/ee829faaa7553c457c30520ddd2f2b2f67a4d846/lintcode.74%20%C2%B7%20First%20Bad%20Version.md)
+
 104 · 合并k个排序链表
 1353 · 根节点到叶节点求和
 187 · 加油站
@@ -76,7 +79,6 @@
 468 · 对称二叉树
 1212 · 最大连续1的个数
 1310 · 数组除了自身的乘积
-74 · 第一个错误的代码版本
 418 · 整数转罗马数字
 653 · 添加运算符
 7 · 二叉树的序列化和反序列化
