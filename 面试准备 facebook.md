@@ -21,6 +21,9 @@
 [137 · 克隆图](https://github.com/mazexiaozhoulu/Leetcode-/blob/c7642f9e7a88a958d4e12bb17bbd140ca30549b2/lintcode%20137%20Clone%20Graph.md)
 [616 · 课程表 II](https://github.com/mazexiaozhoulu/Leetcode-/blob/4fd232593c8eda7e1b3550283b05180e6b7f0721/lintcode%20616%20%C2%B7%20Course%20Schedule%20II.md)
 
+# union find
+[477 · 被围绕的区域](https://github.com/mazexiaozhoulu/Leetcode-/blob/218bcd0a77da6868b82b0cacc48efe4fc4939442/lintcode.477%20%C2%B7%20Surrounded%20Regions.md)
+
 104 · 合并k个排序链表
 1353 · 根节点到叶节点求和
 187 · 加油站
@@ -56,7 +59,6 @@
 415 · 有效回文串
 121 · 单词接龙 II
 120 · 单词接龙
-477 · 被围绕的区域
 82 · 落单的数
 107 · 单词拆分（一）
 582 · 单词拆分II
