@@ -8,10 +8,14 @@
 
 # hash table
 [1025 · 自定义字符串排序](https://github.com/mazexiaozhoulu/Leetcode-/blob/d857033770bbdfaa3b6b0116939def33fdfb67a5/lintcode%201025%20%C2%B7%20Custom%20Sort%20String.md)
+
+[134 · LRU缓存策略](https://github.com/mazexiaozhoulu/Leetcode-/blob/6a69f19932aa6145281863f0fe9a575cd5904a2f/lintcode%20134%20%C2%B7%20LRU%20Cache.md)
+
 1450 · 矩形面积
 831 · 三数之和 II
 # math
 [428 · x的n次幂](https://github.com/mazexiaozhoulu/Leetcode-/blob/f8fd33246bd64879ff0701a998a6fdd121a5dae0/lintcode.428%20%C2%B7%20Pow(x,%20n).md)
+
 114 · 不同的路径
 32 · 最小子串覆盖
 64 · 合并排序数组
@@ -19,6 +23,7 @@
 123 · 单词搜索
 # BFS
 [137 · 克隆图](https://github.com/mazexiaozhoulu/Leetcode-/blob/c7642f9e7a88a958d4e12bb17bbd140ca30549b2/lintcode%20137%20Clone%20Graph.md)
+
 [616 · 课程表 II](https://github.com/mazexiaozhoulu/Leetcode-/blob/4fd232593c8eda7e1b3550283b05180e6b7f0721/lintcode%20616%20%C2%B7%20Course%20Schedule%20II.md)
 
 # union find
@@ -30,7 +35,6 @@
 104 · 合并k个排序链表
 1353 · 根节点到叶节点求和
 187 · 加油站
-134 · LRU缓存策略
 1304 · H指数
 54 · 转换字符串到整数
 425 · 电话号码的字母组合
