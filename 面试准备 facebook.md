@@ -26,6 +26,8 @@
 
 [120 · 单词接龙](https://github.com/mazexiaozhoulu/Leetcode-/blob/2abc9b09db61af10e235d45b52a8425292bdcae6/lintcode%20120%20%C2%B7%20Word%20Ladder.md)
 
+[433 · 岛屿的个数](https://github.com/mazexiaozhoulu/Leetcode-/blob/d335fa459582bcd418fb45ccdc7e387c79023d98/lintcode%20433%20%C2%B7%20Number%20of%20Islands.md)
+
 # topo
 [616 · 课程表 II](https://github.com/mazexiaozhoulu/Leetcode-/blob/4fd232593c8eda7e1b3550283b05180e6b7f0721/lintcode%20616%20%C2%B7%20Course%20Schedule%20II.md)
 
@@ -82,7 +84,6 @@
 660 · 用Read4从文件中读取N个字符 II-多次调用
 86 · 二叉查找树迭代器
 760 · 二叉树的右视图
-433 · 岛屿的个数
 
 2314 · 列表修改、添加和删除元素
 606 · 第K大的元素 II
