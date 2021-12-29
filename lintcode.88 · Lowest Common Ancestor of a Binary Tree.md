@@ -1,4 +1,5 @@
-        # 如果 A 和 B 都在，return  LCA
+       确保两个数值都在树里
+       # 如果 A 和 B 都在，return  LCA
         # 如果只有 A 在，return A
         # 如果只有 B 在，return B
         # 如果 A, B 都不在，return None
