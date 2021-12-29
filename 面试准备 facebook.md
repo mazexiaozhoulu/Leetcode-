@@ -19,7 +19,6 @@
 114 · 不同的路径
 32 · 最小子串覆盖
 64 · 合并排序数组
-17 · 子集
 123 · 单词搜索
 # BFS
 [137 · 克隆图](https://github.com/mazexiaozhoulu/Leetcode-/blob/c7642f9e7a88a958d4e12bb17bbd140ca30549b2/lintcode%20137%20Clone%20Graph.md)
@@ -27,6 +26,8 @@
 [120 · 单词接龙](https://github.com/mazexiaozhoulu/Leetcode-/blob/2abc9b09db61af10e235d45b52a8425292bdcae6/lintcode%20120%20%C2%B7%20Word%20Ladder.md)
 
 [433 · 岛屿的个数](https://github.com/mazexiaozhoulu/Leetcode-/blob/d335fa459582bcd418fb45ccdc7e387c79023d98/lintcode%20433%20%C2%B7%20Number%20of%20Islands.md)
+
+[17 · 子集](https://github.com/mazexiaozhoulu/Leetcode-/blob/01dbf17ff8280a9c6a45d2b09b7b55a4dd56a24c/lintcode.17%20%C2%B7%20Subsets.md)
 
 # topo
 [616 · 课程表 II](https://github.com/mazexiaozhoulu/Leetcode-/blob/4fd232593c8eda7e1b3550283b05180e6b7f0721/lintcode%20616%20%C2%B7%20Course%20Schedule%20II.md)
