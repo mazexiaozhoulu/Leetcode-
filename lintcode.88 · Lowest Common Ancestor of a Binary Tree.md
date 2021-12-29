@@ -1,8 +1,12 @@
-       确保两个数值都在树里
-       # 如果 A 和 B 都在，return  LCA
-        # 如果只有 A 在，return A
-        # 如果只有 B 在，return B
-        # 如果 A, B 都不在，return None
+# 可以先用hashset()
+# 如果不让用hashset 就可以倒着找到交集
+# 两个节点不一定都在树里（root, q,p 但不保证root里一定有p和q）
+[578 · Lowest Common Ancestor III](https://github.com/mazexiaozhoulu/Leetcode-/blob/afb425f45f4906889f1cdbe0a444271e29b7ad5e/lintcode.578%20%C2%B7%20Lowest%20Common%20Ancestor%20III.md)
+# 确保两个数值都在树里
+如果 A 和 B 都在，return  LCA
+如果只有 A 在，return A
+如果只有 B 在，return B
+如果 A, B 都不在，return None
 ```
 """
 Definition of TreeNode:
