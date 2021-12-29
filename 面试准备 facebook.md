@@ -42,6 +42,9 @@
 
 [148 · 颜色挑选](https://github.com/mazexiaozhoulu/Leetcode-/blob/eb7a958e400826186650f114d7a2cab89f4b868c/lintcode.148%20%C2%B7%20Sort%20Colors.md)
 
+# divide and conquer
+
+[453 · 将二叉树拆成链表](https://github.com/mazexiaozhoulu/Leetcode-/blob/752d0449c84407f3019e40050b7378fe1744be2a/lintcode.453%20%C2%B7%20Flatten%20Binary%20Tree%20to%20Linked%20List.md)
 
 104 · 合并k个排序链表
 1353 · 根节点到叶节点求和
@@ -72,7 +75,6 @@
 141 · 对x开根
 36 · 翻转链表（二）
 95 · 验证二叉查找树
-453 · 将二叉树拆成链表
 94 · 二叉树中的最大路径和
 415 · 有效回文串
 121 · 单词接龙 II
