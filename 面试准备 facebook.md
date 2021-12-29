@@ -43,6 +43,7 @@
 [148 · 颜色挑选](https://github.com/mazexiaozhoulu/Leetcode-/blob/eb7a958e400826186650f114d7a2cab89f4b868c/lintcode.148%20%C2%B7%20Sort%20Colors.md)
 
 # divide and conquer
+[88 · 最近公共祖先](https://github.com/mazexiaozhoulu/Leetcode-/blob/cd1bc7b3d2e59a61c9f51cc36dfd0e15936f070d/lintcode.88%20%C2%B7%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree.md)
 
 [453 · 将二叉树拆成链表](https://github.com/mazexiaozhoulu/Leetcode-/blob/752d0449c84407f3019e40050b7378fe1744be2a/lintcode.453%20%C2%B7%20Flatten%20Binary%20Tree%20to%20Linked%20List.md)
 
@@ -53,7 +54,7 @@
 54 · 转换字符串到整数
 425 · 电话号码的字母组合
 1311 · 二叉搜索树的最近公共祖先
-88 · 最近公共祖先
+
 891 · 有效回文 II
 1889 · 区间合并
 52 · 二叉树垂直遍历
