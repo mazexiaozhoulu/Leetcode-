@@ -21,6 +21,7 @@ backtracking
             return res.append(combination)
         else:
             for letter in phone[nextdigit[0]]:
+            #phone[nextdigit[0]] 表示的是 nextdigit[1:]的第一个数字，如果sample是2345，那第一次就是2345的2，第二次是345的3，第三次是45的4
                 self.backtracking(combination + letter, nextdigit[1:], res, phone)
 
 ```
