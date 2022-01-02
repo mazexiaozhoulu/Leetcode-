@@ -1,4 +1,5 @@
 backtracking 
+时间复杂度 4^n 每个数字是有3-4哥字母组成的，有几个数字就要乘几次
 ```
     def letterCombinations(self, digits):
         if not digits:
