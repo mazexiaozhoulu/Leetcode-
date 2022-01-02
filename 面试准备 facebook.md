@@ -52,6 +52,8 @@
 
 [148 · 颜色挑选](https://github.com/mazexiaozhoulu/Leetcode-/blob/eb7a958e400826186650f114d7a2cab89f4b868c/lintcode.148%20%C2%B7%20Sort%20Colors.md)
 
+[172 · 删除元素](https://github.com/mazexiaozhoulu/Leetcode-/blob/72423cbf304d7e2ef8d80f4a10d43507a059e03e/lintcode.172%20%C2%B7%20Remove%20Element.md)
+
 # divide and conquer
 [88 · 最近公共祖先](https://github.com/mazexiaozhoulu/Leetcode-/blob/cd1bc7b3d2e59a61c9f51cc36dfd0e15936f070d/lintcode.88%20%C2%B7%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree.md)
 
@@ -142,7 +144,6 @@
 1465 · 任务顺序
 1506 · 二叉树中所有距离为 K 的结点
 41 · 最大子数组
-172 · 删除元素
 397 · 最长上升连续子序列
 539 · 移动零
 647 · 子串字谜
@@ -152,7 +153,6 @@
 62 · 搜索旋转排序数组
 200 · 最长回文子串
 154 · 正则表达式匹配
-172 · 删除元素
 414 · 两个整数相除
 193 · 最长有效括号
 420 · 报数!
