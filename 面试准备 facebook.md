@@ -36,6 +36,8 @@
 # DFS
 (Backtracking)[425 · 电话号码的字母组合](https://github.com/mazexiaozhoulu/Leetcode-/blob/7fc0f838949fa50082b32d1b0caf0d0b7ec3b50d/lintcode.425%20%C2%B7%20Letter%20Combinations%20of%20a%20Phone%20Number.md)
 
+(摆列组合)[135 · 数字组合](https://github.com/mazexiaozhoulu/Leetcode-/blob/572cdecd778bbbc6d0aaa7ad4fe6572a47beafad/lintcode.135%20%C2%B7%20Combination%20Sum.md)
+
 [1353 · 根节点到叶节点求和](https://github.com/mazexiaozhoulu/Leetcode-/blob/98aaba11a1e73a6df42af7cc9092ebb7c311a123/lintcode.1353%20%C2%B7%20Sum%20Root%20to%20Leaf%20Numbers.md)
 
 # topo
@@ -78,7 +80,6 @@
 1249 · 密码强度检查器
 347 · 最大值期望
 665 · 平面范围求和-不可变矩阵
-135 · 数字组合
 153 · 数字组合 II
 34 · N皇后问题（二）
 156 · 合并区间
