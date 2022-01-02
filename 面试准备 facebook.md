@@ -22,6 +22,7 @@
 # BST
 [163 · 不同的二叉查找树](https://github.com/mazexiaozhoulu/Leetcode-/blob/424ebb2b39125bb20b0d1a9d95ff5deb3f3526cc/lintcode.163%20%C2%B7%20Unique%20Binary%20Search%20Trees.md)
 
+[1311 · 二叉搜索树的最近公共祖先](https://github.com/mazexiaozhoulu/Leetcode-/blob/08ae9cba9a4d301f0b66cc8011a2795f0ba246eb/lintcode.1311%20%C2%B7%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree.md)
 
 # BFS
 [137 · 克隆图](https://github.com/mazexiaozhoulu/Leetcode-/blob/c7642f9e7a88a958d4e12bb17bbd140ca30549b2/lintcode%20137%20Clone%20Graph.md)
@@ -62,7 +63,6 @@
 1304 · H指数
 54 · 转换字符串到整数
 
-1311 · 二叉搜索树的最近公共祖先
 
 891 · 有效回文 II
 1889 · 区间合并
