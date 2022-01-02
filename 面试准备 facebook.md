@@ -1,5 +1,4 @@
 1507 · 和至少为 K 的最短子数组
-163 · 不同的二叉查找树
 
 # Array:
 [52 · 下一个排列](https://github.com/mazexiaozhoulu/Leetcode-/blob/d101d0e0f34cf3efb2008b7c2ad971f2af6b6902/lintcode.52%20%C2%B7%20Next%20Permutation.md)
@@ -20,6 +19,10 @@
 32 · 最小子串覆盖
 64 · 合并排序数组
 123 · 单词搜索
+# BST
+[163 · 不同的二叉查找树](https://github.com/mazexiaozhoulu/Leetcode-/blob/424ebb2b39125bb20b0d1a9d95ff5deb3f3526cc/lintcode.163%20%C2%B7%20Unique%20Binary%20Search%20Trees.md)
+
+
 # BFS
 [137 · 克隆图](https://github.com/mazexiaozhoulu/Leetcode-/blob/c7642f9e7a88a958d4e12bb17bbd140ca30549b2/lintcode%20137%20Clone%20Graph.md)
 
