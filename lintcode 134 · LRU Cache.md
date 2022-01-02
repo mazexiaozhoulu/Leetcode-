@@ -23,7 +23,7 @@ class LRUCache:
             return -1
         #从map中删掉key->value pair
         value = self.cache.pop(key)
-        #在map中存入新的key->value pair
+        #在map中存入新的key->value pair，加到最后
         self.cache[key] = value
         return value
 
