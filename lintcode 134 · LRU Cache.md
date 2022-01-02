@@ -1,4 +1,6 @@
 直播班21 1小时50分
+
+时间复杂度: get O(1);set o(1); 空间复杂度 o(n)
 ![image](https://user-images.githubusercontent.com/60911066/147892215-85e38e4b-1c4f-42d5-847f-4261842d2244.png)
 
 ```
