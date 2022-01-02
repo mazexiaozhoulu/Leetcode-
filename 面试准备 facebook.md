@@ -31,6 +31,9 @@
 
 # DFS
 (Backtracking)[425 · 电话号码的字母组合](https://github.com/mazexiaozhoulu/Leetcode-/blob/7fc0f838949fa50082b32d1b0caf0d0b7ec3b50d/lintcode.425%20%C2%B7%20Letter%20Combinations%20of%20a%20Phone%20Number.md)
+
+[1353 · 根节点到叶节点求和](https://github.com/mazexiaozhoulu/Leetcode-/blob/98aaba11a1e73a6df42af7cc9092ebb7c311a123/lintcode.1353%20%C2%B7%20Sum%20Root%20to%20Leaf%20Numbers.md)
+
 # topo
 [616 · 课程表 II](https://github.com/mazexiaozhoulu/Leetcode-/blob/4fd232593c8eda7e1b3550283b05180e6b7f0721/lintcode%20616%20%C2%B7%20Course%20Schedule%20II.md)
 
@@ -51,7 +54,7 @@
 [453 · 将二叉树拆成链表](https://github.com/mazexiaozhoulu/Leetcode-/blob/752d0449c84407f3019e40050b7378fe1744be2a/lintcode.453%20%C2%B7%20Flatten%20Binary%20Tree%20to%20Linked%20List.md)
 
 104 · 合并k个排序链表
-1353 · 根节点到叶节点求和
+
 187 · 加油站
 1304 · H指数
 54 · 转换字符串到整数
