@@ -34,6 +34,8 @@
 
 [17 · 子集](https://github.com/mazexiaozhoulu/Leetcode-/blob/01dbf17ff8280a9c6a45d2b09b7b55a4dd56a24c/lintcode.17%20%C2%B7%20Subsets.md)
 
+[651 · 二叉树垂直遍历](https://github.com/mazexiaozhoulu/Leetcode-/blob/226952f0299e121b859ea4c3ffcb69f55af8ed3b/lintcode%20651%20&%20leetcode%20314.md)
+
 # DFS
 (Backtracking)[425 · 电话号码的字母组合](https://github.com/mazexiaozhoulu/Leetcode-/blob/7fc0f838949fa50082b32d1b0caf0d0b7ec3b50d/lintcode.425%20%C2%B7%20Letter%20Combinations%20of%20a%20Phone%20Number.md)
 
@@ -59,23 +61,25 @@
 
 [64 · 合并排序数组](https://github.com/mazexiaozhoulu/Leetcode-/blob/3ddeda1a812436ff0105075b088ece2af3b694ce/lintcode.64%20%C2%B7%20Merge%20Sorted%20Array%20(easy%20version).md)
 
+[891 · 有效回文 II](https://github.com/mazexiaozhoulu/Leetcode-/blob/226952f0299e121b859ea4c3ffcb69f55af8ed3b/lintcode%20891%20%C2%B7%20Valid%20Palindrome%20II.md)
+
 # divide and conquer
 [88 · 最近公共祖先](https://github.com/mazexiaozhoulu/Leetcode-/blob/cd1bc7b3d2e59a61c9f51cc36dfd0e15936f070d/lintcode.88%20%C2%B7%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree.md)
 
 [453 · 将二叉树拆成链表](https://github.com/mazexiaozhoulu/Leetcode-/blob/752d0449c84407f3019e40050b7378fe1744be2a/lintcode.453%20%C2%B7%20Flatten%20Binary%20Tree%20to%20Linked%20List.md)
+
+# Linkedlist
+
+[165 · 合并两个排序链表](https://github.com/mazexiaozhoulu/Leetcode-/blob/226952f0299e121b859ea4c3ffcb69f55af8ed3b/linkedlist%20lintcode%20219%20174%20165%20.md)
 
 104 · 合并k个排序链表
 
 187 · 加油站
 54 · 转换字符串到整数
 
-
-891 · 有效回文 II
 1889 · 区间合并
-52 · 二叉树垂直遍历
 1205 · 对角线遍历
 838 · 子数组和为K
-165 · 合并两个排序链表
 363 · 接雨水
 105 · 复制带随机指针的链表
 314 · 丢失的记录
