@@ -5,6 +5,8 @@
 
 [641 · 丢失的间隔](https://github.com/mazexiaozhoulu/Leetcode-/blob/c337da5a172093c8d0365810c272bc6e34344674/lintcode.641%20%C2%B7%20Missing%20Ranges.md)
 
+[1304 · H指数](https://github.com/mazexiaozhoulu/Leetcode-/blob/405339bd1be7d5c2b71d9ea6a9da3d6abb8ab3d3/lintcode.1304%20%C2%B7%20H%E6%8C%87%E6%95%B0.md)
+
 # hash table
 [1025 · 自定义字符串排序](https://github.com/mazexiaozhoulu/Leetcode-/blob/d857033770bbdfaa3b6b0116939def33fdfb67a5/lintcode%201025%20%C2%B7%20Custom%20Sort%20String.md)
 
@@ -65,7 +67,6 @@
 104 · 合并k个排序链表
 
 187 · 加油站
-1304 · H指数
 54 · 转换字符串到整数
 
 
