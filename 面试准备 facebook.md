@@ -18,7 +18,6 @@
 [428 · x的n次幂](https://github.com/mazexiaozhoulu/Leetcode-/blob/f8fd33246bd64879ff0701a998a6fdd121a5dae0/lintcode.428%20%C2%B7%20Pow(x,%20n).md)
 
 114 · 不同的路径
-32 · 最小子串覆盖
 123 · 单词搜索
 # BST
 [163 · 不同的二叉查找树](https://github.com/mazexiaozhoulu/Leetcode-/blob/424ebb2b39125bb20b0d1a9d95ff5deb3f3526cc/lintcode.163%20%C2%B7%20Unique%20Binary%20Search%20Trees.md)
@@ -62,6 +61,8 @@
 [64 · 合并排序数组](https://github.com/mazexiaozhoulu/Leetcode-/blob/3ddeda1a812436ff0105075b088ece2af3b694ce/lintcode.64%20%C2%B7%20Merge%20Sorted%20Array%20(easy%20version).md)
 
 [891 · 有效回文 II](https://github.com/mazexiaozhoulu/Leetcode-/blob/226952f0299e121b859ea4c3ffcb69f55af8ed3b/lintcode%20891%20%C2%B7%20Valid%20Palindrome%20II.md)
+
+[32 · 最小子串覆盖](https://github.com/mazexiaozhoulu/Leetcode-/blob/f00553eda2fe98b2fc70456f8cd4d5747ae9fa3a/lintcode.32%20%C2%B7%20Minimum%20Window%20Substring.md)
 
 # divide and conquer
 [88 · 最近公共祖先](https://github.com/mazexiaozhoulu/Leetcode-/blob/cd1bc7b3d2e59a61c9f51cc36dfd0e15936f070d/lintcode.88%20%C2%B7%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree.md)
