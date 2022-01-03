@@ -12,6 +12,8 @@
 
 [134 · LRU缓存策略](https://github.com/mazexiaozhoulu/Leetcode-/blob/6a69f19932aa6145281863f0fe9a575cd5904a2f/lintcode%20134%20%C2%B7%20LRU%20Cache.md)
 
+[82 · 落单的数](https://github.com/mazexiaozhoulu/Leetcode-/blob/db1640348384655a751af092463cdc3fbdd1e419/lintcode.82%20%C2%B7%20Single%20Number.md)
+
 1450 · 矩形面积
 831 · 三数之和 II
 # math
@@ -98,7 +100,6 @@
 94 · 二叉树中的最大路径和
 415 · 有效回文串
 121 · 单词接龙 II
-82 · 落单的数
 107 · 单词拆分（一）
 582 · 单词拆分II
 160 · 寻找旋转排序数组中的最小值 II
