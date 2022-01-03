@@ -17,7 +17,6 @@
 
 114 · 不同的路径
 32 · 最小子串覆盖
-64 · 合并排序数组
 123 · 单词搜索
 # BST
 [163 · 不同的二叉查找树](https://github.com/mazexiaozhoulu/Leetcode-/blob/424ebb2b39125bb20b0d1a9d95ff5deb3f3526cc/lintcode.163%20%C2%B7%20Unique%20Binary%20Search%20Trees.md)
@@ -55,6 +54,8 @@
 [148 · 颜色挑选](https://github.com/mazexiaozhoulu/Leetcode-/blob/eb7a958e400826186650f114d7a2cab89f4b868c/lintcode.148%20%C2%B7%20Sort%20Colors.md)
 
 [172 · 删除元素](https://github.com/mazexiaozhoulu/Leetcode-/blob/72423cbf304d7e2ef8d80f4a10d43507a059e03e/lintcode.172%20%C2%B7%20Remove%20Element.md)
+
+[64 · 合并排序数组](https://github.com/mazexiaozhoulu/Leetcode-/blob/3ddeda1a812436ff0105075b088ece2af3b694ce/lintcode.64%20%C2%B7%20Merge%20Sorted%20Array%20(easy%20version).md)
 
 # divide and conquer
 [88 · 最近公共祖先](https://github.com/mazexiaozhoulu/Leetcode-/blob/cd1bc7b3d2e59a61c9f51cc36dfd0e15936f070d/lintcode.88%20%C2%B7%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree.md)
