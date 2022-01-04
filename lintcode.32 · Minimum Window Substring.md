@@ -5,30 +5,32 @@ class Solution:
     @param target: A string
     @return: A string denote the minimum window, return "" if there is no such a string
     """
-    def minWindow(self, s, t):
-        # write your code here
-        need=collections.defaultdict(int)
-        for c in t:
-            need[c]+=1
-        needCnt=len(t)
-        i=0
-        res=(0,float('inf'))
-        for j,c in enumerate(s):
-            if need[c]>0:
-                needCnt-=1
-            need[c]-=1
-            if needCnt==0:       #步骤一：滑动窗口包含了所有T元素
-                while True:      #步骤二：增加i，排除多余元素
-                    c=s[i] 
-                    if need[c]==0:
-                        break
-                    need[c]+=1
-                    i+=1
+    def minWindow(self, s , t):
+        # 初始化,need 的初始化是t的字符情况，在这个窗口中，这个字符，t比s少几个
+        need = collections.defaultdict(int)
+        for char in t:
+            need[char] += 1
+        needCNT = len(t)
+        i = 0
+        res = (0,float('inf'))
+
+        #遍历s,把s的字符情况统计到need里, 如果s的情况是多余，那就-; 如果刚好，那need[char]减到0；
+        #只要S的这个字符在t里出现过，那distance就变短。
+        for j,char in enumerate(s):
+            if need[char] > 0:
+                needCNT -= 1
+            need[char] -= 1
+            #如果distance 变为0了。那说明是完整的区间，我们需要通过移动i剪掉多余的字符
+            if needCNT == 0:
+                while need[s[i]] != 0: #value！=0；说明是多余的
+                    need[s[i]] += 1 # s里i移动的同时，这个字符的频次就比t中出现的少一个
+                    i += 1
                 if j-i<res[1]-res[0]:   #记录结果
                     res=(i,j)
-                need[s[i]]+=1  #步骤三：i增加一个位置，寻找新的满足条件滑动窗口
-                needCnt+=1
-                i+=1
-        return '' if res[1]>len(s) else s[res[0]:res[1]+1]    #如果res始终没被更新过，代表无满足条件的结果
+                # i向右移动（+1），那就是t中这个字符多出来一个，距离（needCNT）+1
+                need[s[i]] += 1
+                needCNT += 1
+                i += 1
+        return '' if res[1]>len(s) else s[res[0]:res[1]+1] 
 
 ```
