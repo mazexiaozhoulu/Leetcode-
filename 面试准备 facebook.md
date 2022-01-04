@@ -1,4 +1,3 @@
-1507 · 和至少为 K 的最短子数组
 
 # Array:
 [52 · 下一个排列](https://github.com/mazexiaozhoulu/Leetcode-/blob/d101d0e0f34cf3efb2008b7c2ad971f2af6b6902/lintcode.52%20%C2%B7%20Next%20Permutation.md)
@@ -13,6 +12,8 @@
 [134 · LRU缓存策略](https://github.com/mazexiaozhoulu/Leetcode-/blob/6a69f19932aa6145281863f0fe9a575cd5904a2f/lintcode%20134%20%C2%B7%20LRU%20Cache.md)
 
 [82 · 落单的数](https://github.com/mazexiaozhoulu/Leetcode-/blob/db1640348384655a751af092463cdc3fbdd1e419/lintcode.82%20%C2%B7%20Single%20Number.md)
+
+[838 · 子数组和为K](https://github.com/mazexiaozhoulu/Leetcode-/blob/b9d58c8b2d5e4c11b5df743ef69399a02f628e69/lintcode.838%20%C2%B7%20Subarray%20Sum%20Equals%20K.md)
 
 1450 · 矩形面积
 831 · 三数之和 II
@@ -53,6 +54,8 @@
 # 二分法
 [74 · 第一个错误的代码版本](https://github.com/mazexiaozhoulu/Leetcode-/blob/ee829faaa7553c457c30520ddd2f2b2f67a4d846/lintcode.74%20%C2%B7%20First%20Bad%20Version.md)
 
+[141 · 对x开根](https://github.com/mazexiaozhoulu/Leetcode-/blob/02cc4055f53a051d9082ca4d0fbb3574cfc79081/lintcode.141%20%C2%B7%20Sqrt(x).md)
+
 # two points
 [57 · 三数之和](https://github.com/mazexiaozhoulu/Leetcode-/blob/0c17c4fcb808d133eae34eebae31017a67adf3ab/lintcode%2057%20%C2%B7%203Sum.md)
 
@@ -64,7 +67,9 @@
 
 [891 · 有效回文 II](https://github.com/mazexiaozhoulu/Leetcode-/blob/226952f0299e121b859ea4c3ffcb69f55af8ed3b/lintcode%20891%20%C2%B7%20Valid%20Palindrome%20II.md)
 
-[32 · 最小子串覆盖](https://github.com/mazexiaozhoulu/Leetcode-/blob/f00553eda2fe98b2fc70456f8cd4d5747ae9fa3a/lintcode.32%20%C2%B7%20Minimum%20Window%20Substring.md)
+(滑动窗口)[32 · 最小子串覆盖](https://github.com/mazexiaozhoulu/Leetcode-/blob/f00553eda2fe98b2fc70456f8cd4d5747ae9fa3a/lintcode.32%20%C2%B7%20Minimum%20Window%20Substring.md)
+
+(滑动窗口)[1507 · 和至少为 K 的最短子数组](https://github.com/mazexiaozhoulu/Leetcode-/blob/314428da973d19faa730f9219f79a7a7e1dce50a/lintcode.1507%20%C2%B7%20Shortest%20Subarray%20with%20Sum%20at%20Least%20K.md)
 
 # divide and conquer
 [88 · 最近公共祖先](https://github.com/mazexiaozhoulu/Leetcode-/blob/cd1bc7b3d2e59a61c9f51cc36dfd0e15936f070d/lintcode.88%20%C2%B7%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree.md)
@@ -75,6 +80,10 @@
 
 [165 · 合并两个排序链表](https://github.com/mazexiaozhoulu/Leetcode-/blob/226952f0299e121b859ea4c3ffcb69f55af8ed3b/linkedlist%20lintcode%20219%20174%20165%20.md)
 
+# sort
+
+[156 · 合并区间](https://github.com/mazexiaozhoulu/Leetcode-/blob/28c59c35d5637ca87937b2a18bc1df724118e5ea/lintcode.156%20%C2%B7%20Merge%20Intervals.md)
+
 104 · 合并k个排序链表
 
 187 · 加油站
@@ -82,7 +91,6 @@
 
 1889 · 区间合并
 1205 · 对角线遍历
-838 · 子数组和为K
 363 · 接雨水
 105 · 复制带随机指针的链表
 314 · 丢失的记录
@@ -91,10 +99,8 @@
 665 · 平面范围求和-不可变矩阵
 153 · 数字组合 II
 34 · N皇后问题（二）
-156 · 合并区间
 30 · 插入区间
 408 · 二进制求和
-141 · 对x开根
 36 · 翻转链表（二）
 95 · 验证二叉查找树
 94 · 二叉树中的最大路径和
