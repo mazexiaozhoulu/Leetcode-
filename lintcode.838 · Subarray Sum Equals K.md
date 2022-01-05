@@ -1,8 +1,13 @@
-# first we start from a sum which is equal to 0, and the count of it is 1. 
-# this is the input list ex :    [   1    4    9     -5   8]
-# this is the sum array (s) ex : [0  1    5    13    8    16 ]    
-# sumDict key: sum; value: # of occurance
-# sumDict:{[0:1, 1:1, 5:1, 13:1, 8:1, 16:1]}
+first we start from a sum which is equal to 0, and the count of it is 1. 
+
+this is the input list ex :    [   1    4    9     -5   8]
+
+this is the sum array (s) ex : [0  1    5    13    8    16 ]    
+
+sumDict key: sum; value: # of occurance
+
+sumDict:{[0:1, 1:1, 5:1, 13:1, 8:1, 16:1]}
+
 
 如果[1,2,5,-5] k = 5
 
