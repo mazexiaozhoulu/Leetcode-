@@ -1,3 +1,16 @@
+# first we start from a sum which is equal to 0, and the count of it is 1. 
+# this is the input list ex :    [   1    4    9     -5   8]
+# this is the sum array (s) ex : [0  1    5    13    8    16 ]    
+# sumDict key: sum; value: # of occurance
+# sumDict:{[0:1, 1:1, 5:1, 13:1, 8:1, 16:1]}
+
+如果[1,2,5,-5] k = 5
+
+那dict = {0: 1, 1: 1, 3: 2, 8: 1}
+
+count = 1
+
+不会出现count=2的结果，因为统计到8的时候，3只有一个。所以count=1；最后一个3是在-5之后才出现的，那个时候的sum = 3； 3-5=-2不在dict里。
 ```
 class Solution:
     """
@@ -7,12 +20,6 @@ class Solution:
     """
 
     def subarraySum(self, nums: List[int], k: int) -> int:
-    
-#first we start from a sum which is equal to 0, and the count of it is 1. 
-# this is the input list ex :    [   1    4    9     -5   8]
-# this is the sum array (s) ex : [0  1    5    13    8    16 ]    
-# sumDict key: sum; value: # of occurance
-# sumDict:{[0:1, 1:1, 5:1, 13:1, 8:1, 16:1]}
     
         sumDict = {0:1}
         n = len(nums)
