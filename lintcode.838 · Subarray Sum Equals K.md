@@ -6,17 +6,34 @@ class Solution:
     @return: return an integer, denote the number of continuous subarrays whose sum equals to k
     """
 
-    def subarraySumEqualsK(self, nums, k):
-        # write your code here
-        for i in range(1, len(nums)):
-        	nums[i] += nums[i - 1]
-        d, ans = {0 : 1}, 0
-        for i in range(len(nums)):
-        	if(d.get(nums[i] - k) != None):
-        		ans += d[nums[i] - k]
-        	if(d.get(nums[i]) == None):
-        		d[nums[i]] = 1
-        	else:
-        		d[nums[i]] += 1
-        return ans
+    def subarraySum(self, nums: List[int], k: int) -> int:
+    
+#first we start from a sum which is equal to 0, and the count of it is 1. 
+# this is the input list ex :    [   1    4    9     -5   8]
+# this is the sum array (s) ex : [0  1    5    13    8    16 ]    
+# sumDict key: sum; value: # of occurance
+# sumDict:{[0:1, 1:1, 5:1, 13:1, 8:1, 16:1]}
+    
+        sumDict = {0:1}
+        n = len(nums)
+        count = 0 
+        sum = 0 
+    
+        for num in nums:
+#we keep adding to the cumilative sums, s; 计算前缀和        
+            sum += num
+
+#we make sure to check if the sum - k is already in the dictionary, if so, increase the count.： 
+#如果 sum - k （就是sumDict的key）出现了，就在count里增加出现的次数（key的value）
+            if sum-k in sumDict:
+                count += sumDict[s-k]
+
+# #we check if s is already in the sumDict, if so, increase by 1, if not assign 1.             
+            if sum in sumDict:
+                sumDict[s] +=1
+            else:
+                sumDict[s] = 1
+
+#finally return the occurance    
+        return count
 ```
