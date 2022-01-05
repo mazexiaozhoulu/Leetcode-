@@ -6,7 +6,7 @@ count = 1
 
 不会出现count=2的结果，因为统计到8的时候，3只有一个。所以count=1；最后一个3是在-5之后才出现的，那个时候的sum = 3； 3-5=-2不在dict里。
 
-####
+# ###
 
 first we start from a sum which is equal to 0, and the count of it is 1. 
 
