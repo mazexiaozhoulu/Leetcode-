@@ -38,6 +38,8 @@
 
 [468 · 对称二叉树](https://github.com/mazexiaozhoulu/Leetcode-/blob/bd54b038c0bb4bd2bb3c0326a0c9e71a8427b142/lintcode.468%20%C2%B7%20Symmetric%20Binary%20Tree.md)
 
+[760 · 二叉树的右视图](https://github.com/mazexiaozhoulu/Leetcode-/blob/d702eb1a8f456f80954a770e81af9dff02ce7b68/lintcode.760%20%C2%B7%20Binary%20Tree%20Right%20Side%20View.md)
+
 
 # BFS
 [137 · 克隆图](https://github.com/mazexiaozhoulu/Leetcode-/blob/c7642f9e7a88a958d4e12bb17bbd140ca30549b2/lintcode%20137%20Clone%20Graph.md)
@@ -123,7 +125,6 @@
 12 · 带最小值操作的栈
 660 · 用Read4从文件中读取N个字符 II-多次调用
 86 · 二叉查找树迭代器
-760 · 二叉树的右视图
 2314 · 列表修改、添加和删除元素
 606 · 第K大的元素 II
 980 · 基础计算器 II
