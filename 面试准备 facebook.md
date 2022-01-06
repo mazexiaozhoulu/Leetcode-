@@ -6,6 +6,8 @@
 
 [1304 · H指数](https://github.com/mazexiaozhoulu/Leetcode-/blob/405339bd1be7d5c2b71d9ea6a9da3d6abb8ab3d3/lintcode.1304%20%C2%B7%20H%E6%8C%87%E6%95%B0.md)
 
+[30 · 插入区间](https://github.com/mazexiaozhoulu/Leetcode-/blob/8437fdcba75b779eeae0f73cf1e2447f3b893a2f/lintcode.30%20%C2%B7%20Insert%20Interval.md)
+
 # hash table
 [1025 · 自定义字符串排序](https://github.com/mazexiaozhoulu/Leetcode-/blob/d857033770bbdfaa3b6b0116939def33fdfb67a5/lintcode%201025%20%C2%B7%20Custom%20Sort%20String.md)
 
@@ -99,7 +101,6 @@
 665 · 平面范围求和-不可变矩阵
 153 · 数字组合 II
 34 · N皇后问题（二）
-30 · 插入区间
 408 · 二进制求和
 36 · 翻转链表（二）
 95 · 验证二叉查找树
