@@ -19,8 +19,9 @@
 
 1450 · 矩形面积
 831 · 三数之和 II
-# math
+# math & bin
 [428 · x的n次幂](https://github.com/mazexiaozhoulu/Leetcode-/blob/f8fd33246bd64879ff0701a998a6fdd121a5dae0/lintcode.428%20%C2%B7%20Pow(x,%20n).md)
+[408 · 二进制求和](https://github.com/mazexiaozhoulu/Leetcode-/blob/f784c9791146877186e51fd1e793b4a3e4f6f575/lintcode.408%20%C2%B7%20Add%20Binary.md)
 
 114 · 不同的路径
 123 · 单词搜索
@@ -112,7 +113,6 @@
 665 · 平面范围求和-不可变矩阵
 153 · 数字组合 II
 34 · N皇后问题（二）
-408 · 二进制求和
 95 · 验证二叉查找树
 121 · 单词接龙 II
 107 · 单词拆分（一）
@@ -122,7 +122,6 @@
 660 · 用Read4从文件中读取N个字符 II-多次调用
 86 · 二叉查找树迭代器
 760 · 二叉树的右视图
-
 2314 · 列表修改、添加和删除元素
 606 · 第K大的元素 II
 980 · 基础计算器 II
