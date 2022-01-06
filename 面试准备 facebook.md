@@ -69,6 +69,8 @@
 
 [891 · 有效回文 II](https://github.com/mazexiaozhoulu/Leetcode-/blob/226952f0299e121b859ea4c3ffcb69f55af8ed3b/lintcode%20891%20%C2%B7%20Valid%20Palindrome%20II.md)
 
+[415 · 有效回文串](https://github.com/mazexiaozhoulu/Leetcode-/blob/6ae130dcdee567661739e0ed33bcf4ca3d493c5d/lintcode%20415%20%C2%B7%20Valid%20Palindrome.md)
+
 (滑动窗口)[32 · 最小子串覆盖](https://github.com/mazexiaozhoulu/Leetcode-/blob/f00553eda2fe98b2fc70456f8cd4d5747ae9fa3a/lintcode.32%20%C2%B7%20Minimum%20Window%20Substring.md)
 
 (滑动窗口)[1507 · 和至少为 K 的最短子数组](https://github.com/mazexiaozhoulu/Leetcode-/blob/314428da973d19faa730f9219f79a7a7e1dce50a/lintcode.1507%20%C2%B7%20Shortest%20Subarray%20with%20Sum%20at%20Least%20K.md)
@@ -81,6 +83,8 @@
 # Linkedlist
 
 [165 · 合并两个排序链表](https://github.com/mazexiaozhoulu/Leetcode-/blob/226952f0299e121b859ea4c3ffcb69f55af8ed3b/linkedlist%20lintcode%20219%20174%20165%20.md)
+
+[36 · 翻转链表（二）](https://github.com/mazexiaozhoulu/Leetcode-/blob/6ae130dcdee567661739e0ed33bcf4ca3d493c5d/linkedlist%20lintcode%20113%EF%BC%8C%2036.md)
 
 # sort
 
@@ -102,10 +106,8 @@
 153 · 数字组合 II
 34 · N皇后问题（二）
 408 · 二进制求和
-36 · 翻转链表（二）
 95 · 验证二叉查找树
 94 · 二叉树中的最大路径和
-415 · 有效回文串
 121 · 单词接龙 II
 107 · 单词拆分（一）
 582 · 单词拆分II
