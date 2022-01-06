@@ -8,6 +8,8 @@
 
 [30 · 插入区间](https://github.com/mazexiaozhoulu/Leetcode-/blob/8437fdcba75b779eeae0f73cf1e2447f3b893a2f/lintcode.30%20%C2%B7%20Insert%20Interval.md)
 
+[767 · 翻转数组](https://github.com/mazexiaozhoulu/Leetcode-/blob/cf8a9d782e6c86477cd3e172635c5c4761837fdd/lintcode.767%20%C2%B7%20Reverse%20Array.md)
+
 # hash table
 [1025 · 自定义字符串排序](https://github.com/mazexiaozhoulu/Leetcode-/blob/d857033770bbdfaa3b6b0116939def33fdfb67a5/lintcode%201025%20%C2%B7%20Custom%20Sort%20String.md)
 
@@ -168,7 +170,6 @@
 397 · 最长上升连续子序列
 539 · 移动零
 647 · 子串字谜
-767 · 翻转数组
 1745 · 单调数列
 52 · 下一个排列
 62 · 搜索旋转排序数组
