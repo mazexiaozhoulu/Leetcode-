@@ -29,6 +29,8 @@
 
 [1311 · 二叉搜索树的最近公共祖先](https://github.com/mazexiaozhoulu/Leetcode-/blob/08ae9cba9a4d301f0b66cc8011a2795f0ba246eb/lintcode.1311%20%C2%B7%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree.md)
 
+[94 · 二叉树中的最大路径和](https://github.com/mazexiaozhoulu/Leetcode-/blob/b491a2fbd2e1dec5e995c7399720efaa5ee0cb11/lintcode.%2094%20%C2%B7%20Binary%20Tree%20Maximum%20Path%20Sum.md)
+
 # BFS
 [137 · 克隆图](https://github.com/mazexiaozhoulu/Leetcode-/blob/c7642f9e7a88a958d4e12bb17bbd140ca30549b2/lintcode%20137%20Clone%20Graph.md)
 
@@ -107,7 +109,6 @@
 34 · N皇后问题（二）
 408 · 二进制求和
 95 · 验证二叉查找树
-94 · 二叉树中的最大路径和
 121 · 单词接龙 II
 107 · 单词拆分（一）
 582 · 单词拆分II
