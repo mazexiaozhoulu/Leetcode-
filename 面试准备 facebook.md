@@ -31,6 +31,11 @@
 
 [94 · 二叉树中的最大路径和](https://github.com/mazexiaozhoulu/Leetcode-/blob/b491a2fbd2e1dec5e995c7399720efaa5ee0cb11/lintcode.%2094%20%C2%B7%20Binary%20Tree%20Maximum%20Path%20Sum.md)
 
+[7 · 二叉树的序列化和反序列化](https://github.com/mazexiaozhoulu/Leetcode-/blob/bb4c94c064661cccbc0516f93fc7cae100b60431/lintcode.7%20%C2%B7%20Serialize%20and%20Deserialize%20Binary%20Tree.md)
+
+[468 · 对称二叉树](https://github.com/mazexiaozhoulu/Leetcode-/blob/bd54b038c0bb4bd2bb3c0326a0c9e71a8427b142/lintcode.468%20%C2%B7%20Symmetric%20Binary%20Tree.md)
+
+
 # BFS
 [137 · 克隆图](https://github.com/mazexiaozhoulu/Leetcode-/blob/c7642f9e7a88a958d4e12bb17bbd140ca30549b2/lintcode%20137%20Clone%20Graph.md)
 
@@ -122,12 +127,10 @@
 606 · 第K大的元素 II
 980 · 基础计算器 II
 362 · 滑动窗口的最大值
-[468 · 对称二叉树](https://github.com/mazexiaozhoulu/Leetcode-/blob/bd54b038c0bb4bd2bb3c0326a0c9e71a8427b142/lintcode.468%20%C2%B7%20Symmetric%20Binary%20Tree.md)
 1212 · 最大连续1的个数
 1310 · 数组除了自身的乘积
 418 · 整数转罗马数字
 653 · 添加运算符
-7 · 二叉树的序列化和反序列化
 780 · 删除无效的括号
 669 · 换硬币
 910 · 最大二叉搜索子树
