@@ -35,6 +35,7 @@
 831 · 三数之和 II
 # math & bin
 [428 · x的n次幂](https://github.com/mazexiaozhoulu/Leetcode-/blob/f8fd33246bd64879ff0701a998a6fdd121a5dae0/lintcode.428%20%C2%B7%20Pow(x,%20n).md)
+
 [408 · 二进制求和](https://github.com/mazexiaozhoulu/Leetcode-/blob/f784c9791146877186e51fd1e793b4a3e4f6f575/lintcode.408%20%C2%B7%20Add%20Binary.md)
 
 114 · 不同的路径
