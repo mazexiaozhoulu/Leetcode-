@@ -10,6 +10,8 @@
 
 [767 · 翻转数组](https://github.com/mazexiaozhoulu/Leetcode-/blob/cf8a9d782e6c86477cd3e172635c5c4761837fdd/lintcode.767%20%C2%B7%20Reverse%20Array.md)
 
+[1212 · 最大连续1的个数](https://github.com/mazexiaozhoulu/Leetcode-/blob/578b9886503f6e919945bc581fe35774ee324de2/lintcode.1212%20%C2%B7%20Max%20Consecutive%20Ones.md)
+
 # hash table
 [1025 · 自定义字符串排序](https://github.com/mazexiaozhoulu/Leetcode-/blob/d857033770bbdfaa3b6b0116939def33fdfb67a5/lintcode%201025%20%C2%B7%20Custom%20Sort%20String.md)
 
@@ -129,7 +131,6 @@
 606 · 第K大的元素 II
 980 · 基础计算器 II
 362 · 滑动窗口的最大值
-1212 · 最大连续1的个数
 1310 · 数组除了自身的乘积
 418 · 整数转罗马数字
 653 · 添加运算符
