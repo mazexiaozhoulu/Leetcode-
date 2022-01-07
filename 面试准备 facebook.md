@@ -115,6 +115,8 @@
 
 [156 · 合并区间](https://github.com/mazexiaozhoulu/Leetcode-/blob/28c59c35d5637ca87937b2a18bc1df724118e5ea/lintcode.156%20%C2%B7%20Merge%20Intervals.md)
 
+[1901 · 有序数组的平方](https://github.com/mazexiaozhoulu/Leetcode-/blob/d5db59b27d7d8dd973b1451921ca6e8cfa10ebf8/lintcode.1901%20%C2%B7%20Squares%20of%20a%20Sorted%20Array.md)
+
 104 · 合并k个排序链表
 
 187 · 加油站
@@ -167,7 +169,6 @@
 1704 · 二叉搜索树的范围和
 1702 · 不同的子序列 II
 1876 · 外星人字典（简单）
-1901 · 有序数组的平方
 149 · 买卖股票的最佳时机
 412 · 分糖果
 920 · 会议室
