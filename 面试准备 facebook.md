@@ -63,6 +63,8 @@
 
 [651 · 二叉树垂直遍历](https://github.com/mazexiaozhoulu/Leetcode-/blob/226952f0299e121b859ea4c3ffcb69f55af8ed3b/lintcode%20651%20&%20leetcode%20314.md)
 
+[1115 · 二叉树每层的平均数](https://github.com/mazexiaozhoulu/Leetcode-/blob/86fe0c928840881dcdbddca31333d1264f8bf10e/lintcode.1115%20%C2%B7%20Average%20of%20Levels%20in%20Binary%20Tree.md)
+
 # DFS
 (Backtracking)[425 · 电话号码的字母组合](https://github.com/mazexiaozhoulu/Leetcode-/blob/7fc0f838949fa50082b32d1b0caf0d0b7ec3b50d/lintcode.425%20%C2%B7%20Letter%20Combinations%20of%20a%20Phone%20Number.md)
 
@@ -156,7 +158,6 @@
 707 · 最优账户结余
 1183 · 排序数组中的单个元素
 945 · 任务计划
-1115 · 二叉树每层的平均数
 397 · 最长上升连续子序列
 1042 · 托普利兹矩阵
 810 · 水位上升的泳池中游泳
