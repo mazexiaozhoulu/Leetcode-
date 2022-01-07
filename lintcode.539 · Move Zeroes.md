@@ -5,6 +5,9 @@ Output Data
 [12,1,3,0,0]
 Expected
 [1,3,12,0,0]
+
+
+经典双指针的话，速度会很慢
 ```
 class Solution:
     """
@@ -24,4 +27,13 @@ class Solution:
                 left += 1
                 right -= 1
         return left
+```
+
+更快的解法
+```
+        for i in range(len(nums)-1,-1,-1):
+            if nums[i]==0:
+                nums.append(0)
+                del nums[i]
+        return nums
 ```
