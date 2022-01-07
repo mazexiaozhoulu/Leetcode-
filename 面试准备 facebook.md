@@ -16,6 +16,8 @@
 
 [402 · 连续子数组求和](https://github.com/mazexiaozhoulu/Leetcode-/blob/d46af2fa6ee5de40bd03b296dba8cca65152d64e/lintcode.402%20%C2%B7%20Continuous%20Subarray%20Sum.md)
 
+[1745 · 单调数列](https://github.com/mazexiaozhoulu/Leetcode-/blob/b5c4c7f3067f305d2e54ff1ed48fbd6ff229bb80/lintcode.1745%20%C2%B7%20Monotonic%20Array.md)
+
 # string
 [1222 · 检验IP地址](https://github.com/mazexiaozhoulu/Leetcode-/blob/0267c6ad9f009a3fdeaca4073a70e0e267082ad1/lintcode.1222%20%C2%B7%20Validate%20IP%20Address.md)
 
@@ -175,7 +177,6 @@
 41 · 最大子数组
 397 · 最长上升连续子序列
 647 · 子串字谜
-1745 · 单调数列
 52 · 下一个排列
 62 · 搜索旋转排序数组
 200 · 最长回文子串
