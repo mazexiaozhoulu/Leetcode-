@@ -21,7 +21,7 @@
 # string
 [1222 · 检验IP地址](https://github.com/mazexiaozhoulu/Leetcode-/blob/0267c6ad9f009a3fdeaca4073a70e0e267082ad1/lintcode.1222%20%C2%B7%20Validate%20IP%20Address.md)
 
-[1022 · 合法的井字棋状态]https://github.com/mazexiaozhoulu/Leetcode-/blob/52019bf59366caddc16057c45f05aec1bab7b081/lintcode.1022%20%C2%B7%20Valid%20Tic-Tac-Toe%20State.md
+[1022 · 合法的井字棋状态](https://github.com/mazexiaozhoulu/Leetcode-/blob/52019bf59366caddc16057c45f05aec1bab7b081/lintcode.1022%20%C2%B7%20Valid%20Tic-Tac-Toe%20State.md)
 # hash table
 [1025 · 自定义字符串排序](https://github.com/mazexiaozhoulu/Leetcode-/blob/d857033770bbdfaa3b6b0116939def33fdfb67a5/lintcode%201025%20%C2%B7%20Custom%20Sort%20String.md)
 
