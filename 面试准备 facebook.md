@@ -14,6 +14,8 @@
 
 [539 · 移动零](https://github.com/mazexiaozhoulu/Leetcode-/blob/5643e2e4bbbb12108c12844ef720ad28882d6f9f/lintcode.539%20%C2%B7%20Move%20Zeroes.md)
 
+[402 · 连续子数组求和](https://github.com/mazexiaozhoulu/Leetcode-/blob/d46af2fa6ee5de40bd03b296dba8cca65152d64e/lintcode.402%20%C2%B7%20Continuous%20Subarray%20Sum.md)
+
 # hash table
 [1025 · 自定义字符串排序](https://github.com/mazexiaozhoulu/Leetcode-/blob/d857033770bbdfaa3b6b0116939def33fdfb67a5/lintcode%201025%20%C2%B7%20Custom%20Sort%20String.md)
 
@@ -162,7 +164,6 @@
 1876 · 外星人字典（简单）
 1901 · 有序数组的平方
 149 · 买卖股票的最佳时机
-402 · 连续子数组求和
 412 · 分糖果
 920 · 会议室
 919 · 会议室Ⅱ
