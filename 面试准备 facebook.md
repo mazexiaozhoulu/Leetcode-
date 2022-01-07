@@ -12,6 +12,8 @@
 
 [1212 · 最大连续1的个数](https://github.com/mazexiaozhoulu/Leetcode-/blob/578b9886503f6e919945bc581fe35774ee324de2/lintcode.1212%20%C2%B7%20Max%20Consecutive%20Ones.md)
 
+[539 · 移动零](https://github.com/mazexiaozhoulu/Leetcode-/blob/5643e2e4bbbb12108c12844ef720ad28882d6f9f/lintcode.539%20%C2%B7%20Move%20Zeroes.md)
+
 # hash table
 [1025 · 自定义字符串排序](https://github.com/mazexiaozhoulu/Leetcode-/blob/d857033770bbdfaa3b6b0116939def33fdfb67a5/lintcode%201025%20%C2%B7%20Custom%20Sort%20String.md)
 
@@ -169,7 +171,6 @@
 1506 · 二叉树中所有距离为 K 的结点
 41 · 最大子数组
 397 · 最长上升连续子序列
-539 · 移动零
 647 · 子串字谜
 1745 · 单调数列
 52 · 下一个排列
