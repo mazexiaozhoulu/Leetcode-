@@ -16,6 +16,9 @@
 
 [402 · 连续子数组求和](https://github.com/mazexiaozhoulu/Leetcode-/blob/d46af2fa6ee5de40bd03b296dba8cca65152d64e/lintcode.402%20%C2%B7%20Continuous%20Subarray%20Sum.md)
 
+# string
+[1222 · 检验IP地址](https://github.com/mazexiaozhoulu/Leetcode-/blob/0267c6ad9f009a3fdeaca4073a70e0e267082ad1/lintcode.1222%20%C2%B7%20Validate%20IP%20Address.md)
+
 # hash table
 [1025 · 自定义字符串排序](https://github.com/mazexiaozhoulu/Leetcode-/blob/d857033770bbdfaa3b6b0116939def33fdfb67a5/lintcode%201025%20%C2%B7%20Custom%20Sort%20String.md)
 
@@ -148,7 +151,6 @@
 639 · 单词缩写
 655 · 大整数加法
 647 · 子串字谜
-1222 · 检验IP地址
 707 · 最优账户结余
 1183 · 排序数组中的单个元素
 945 · 任务计划
