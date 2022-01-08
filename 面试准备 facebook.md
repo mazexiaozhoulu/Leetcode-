@@ -99,6 +99,8 @@
 
 [141 · 对x开根](https://github.com/mazexiaozhoulu/Leetcode-/blob/02cc4055f53a051d9082ca4d0fbb3574cfc79081/lintcode.141%20%C2%B7%20Sqrt(x).md)
 
+[1183 · 排序数组中的单个元素](https://github.com/mazexiaozhoulu/Leetcode-/blob/db42a18ba5acf6e01f4312c754d6196ef696d37c/lintcode.1183%20%C2%B7%20Single%20Element%20in%20a%20Sorted%20Array.md
+)
 # two points
 
 [57 · 三数之和](https://github.com/mazexiaozhoulu/Leetcode-/blob/0c17c4fcb808d133eae34eebae31017a67adf3ab/lintcode%2057%20%C2%B7%203Sum.md)
@@ -180,7 +182,6 @@
 655 · 大整数加法
 647 · 子串字谜
 707 · 最优账户结余
-1183 · 排序数组中的单个元素
 945 · 任务计划
 397 · 最长上升连续子序列
 1042 · 托普利兹矩阵
