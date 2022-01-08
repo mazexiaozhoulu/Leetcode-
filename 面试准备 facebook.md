@@ -22,7 +22,9 @@
 [1222 · 检验IP地址](https://github.com/mazexiaozhoulu/Leetcode-/blob/0267c6ad9f009a3fdeaca4073a70e0e267082ad1/lintcode.1222%20%C2%B7%20Validate%20IP%20Address.md)
 
 [1022 · 合法的井字棋状态](https://github.com/mazexiaozhoulu/Leetcode-/blob/52019bf59366caddc16057c45f05aec1bab7b081/lintcode.1022%20%C2%B7%20Valid%20Tic-Tac-Toe%20State.md)
+
 # hash table
+
 [1025 · 自定义字符串排序](https://github.com/mazexiaozhoulu/Leetcode-/blob/d857033770bbdfaa3b6b0116939def33fdfb67a5/lintcode%201025%20%C2%B7%20Custom%20Sort%20String.md)
 
 [134 · LRU缓存策略](https://github.com/mazexiaozhoulu/Leetcode-/blob/6a69f19932aa6145281863f0fe9a575cd5904a2f/lintcode%20134%20%C2%B7%20LRU%20Cache.md)
@@ -40,7 +42,9 @@
 
 114 · 不同的路径
 123 · 单词搜索
+
 # BST
+
 [163 · 不同的二叉查找树](https://github.com/mazexiaozhoulu/Leetcode-/blob/424ebb2b39125bb20b0d1a9d95ff5deb3f3526cc/lintcode.163%20%C2%B7%20Unique%20Binary%20Search%20Trees.md)
 
 [1311 · 二叉搜索树的最近公共祖先](https://github.com/mazexiaozhoulu/Leetcode-/blob/08ae9cba9a4d301f0b66cc8011a2795f0ba246eb/lintcode.1311%20%C2%B7%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree.md)
@@ -55,6 +59,7 @@
 
 
 # BFS
+
 [137 · 克隆图](https://github.com/mazexiaozhoulu/Leetcode-/blob/c7642f9e7a88a958d4e12bb17bbd140ca30549b2/lintcode%20137%20Clone%20Graph.md)
 
 [120 · 单词接龙](https://github.com/mazexiaozhoulu/Leetcode-/blob/2abc9b09db61af10e235d45b52a8425292bdcae6/lintcode%20120%20%C2%B7%20Word%20Ladder.md)
@@ -68,6 +73,7 @@
 [1115 · 二叉树每层的平均数](https://github.com/mazexiaozhoulu/Leetcode-/blob/86fe0c928840881dcdbddca31333d1264f8bf10e/lintcode.1115%20%C2%B7%20Average%20of%20Levels%20in%20Binary%20Tree.md)
 
 # DFS
+
 (Backtracking)[425 · 电话号码的字母组合](https://github.com/mazexiaozhoulu/Leetcode-/blob/7fc0f838949fa50082b32d1b0caf0d0b7ec3b50d/lintcode.425%20%C2%B7%20Letter%20Combinations%20of%20a%20Phone%20Number.md)
 
 (排列组合)[135 · 数字组合](https://github.com/mazexiaozhoulu/Leetcode-/blob/572cdecd778bbbc6d0aaa7ad4fe6572a47beafad/lintcode.135%20%C2%B7%20Combination%20Sum.md)
@@ -75,17 +81,21 @@
 [1353 · 根节点到叶节点求和](https://github.com/mazexiaozhoulu/Leetcode-/blob/98aaba11a1e73a6df42af7cc9092ebb7c311a123/lintcode.1353%20%C2%B7%20Sum%20Root%20to%20Leaf%20Numbers.md)
 
 # topo
+
 [616 · 课程表 II](https://github.com/mazexiaozhoulu/Leetcode-/blob/4fd232593c8eda7e1b3550283b05180e6b7f0721/lintcode%20616%20%C2%B7%20Course%20Schedule%20II.md)
 
 # union find
+
 [477 · 被围绕的区域](https://github.com/mazexiaozhoulu/Leetcode-/blob/218bcd0a77da6868b82b0cacc48efe4fc4939442/lintcode.477%20%C2%B7%20Surrounded%20Regions.md)
 
 # 二分法
+
 [74 · 第一个错误的代码版本](https://github.com/mazexiaozhoulu/Leetcode-/blob/ee829faaa7553c457c30520ddd2f2b2f67a4d846/lintcode.74%20%C2%B7%20First%20Bad%20Version.md)
 
 [141 · 对x开根](https://github.com/mazexiaozhoulu/Leetcode-/blob/02cc4055f53a051d9082ca4d0fbb3574cfc79081/lintcode.141%20%C2%B7%20Sqrt(x).md)
 
 # two points
+
 [57 · 三数之和](https://github.com/mazexiaozhoulu/Leetcode-/blob/0c17c4fcb808d133eae34eebae31017a67adf3ab/lintcode%2057%20%C2%B7%203Sum.md)
 
 [148 · 颜色挑选](https://github.com/mazexiaozhoulu/Leetcode-/blob/eb7a958e400826186650f114d7a2cab89f4b868c/lintcode.148%20%C2%B7%20Sort%20Colors.md)
@@ -103,6 +113,7 @@
 (滑动窗口)[1507 · 和至少为 K 的最短子数组](https://github.com/mazexiaozhoulu/Leetcode-/blob/314428da973d19faa730f9219f79a7a7e1dce50a/lintcode.1507%20%C2%B7%20Shortest%20Subarray%20with%20Sum%20at%20Least%20K.md)
 
 # divide and conquer
+
 [88 · 最近公共祖先](https://github.com/mazexiaozhoulu/Leetcode-/blob/cd1bc7b3d2e59a61c9f51cc36dfd0e15936f070d/lintcode.88%20%C2%B7%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree.md)
 
 [453 · 将二叉树拆成链表](https://github.com/mazexiaozhoulu/Leetcode-/blob/752d0449c84407f3019e40050b7378fe1744be2a/lintcode.453%20%C2%B7%20Flatten%20Binary%20Tree%20to%20Linked%20List.md)
@@ -118,6 +129,10 @@
 [156 · 合并区间](https://github.com/mazexiaozhoulu/Leetcode-/blob/28c59c35d5637ca87937b2a18bc1df724118e5ea/lintcode.156%20%C2%B7%20Merge%20Intervals.md)
 
 [1901 · 有序数组的平方](https://github.com/mazexiaozhoulu/Leetcode-/blob/d5db59b27d7d8dd973b1451921ca6e8cfa10ebf8/lintcode.1901%20%C2%B7%20Squares%20of%20a%20Sorted%20Array.md)
+
+# stack
+
+12 · [带最小值操作的栈](https://github.com/mazexiaozhoulu/Leetcode-/blob/8dd9966e7b32b69d49af4e3baee8cc91ed8cd4dc/lintcode.12%20%C2%B7%20Min%20Stack.md)
 
 104 · 合并k个排序链表
 
@@ -139,7 +154,6 @@
 107 · 单词拆分（一）
 582 · 单词拆分II
 160 · 寻找旋转排序数组中的最小值 II
-12 · 带最小值操作的栈
 660 · 用Read4从文件中读取N个字符 II-多次调用
 86 · 二叉查找树迭代器
 2314 · 列表修改、添加和删除元素
