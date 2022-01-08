@@ -1,6 +1,6 @@
-时间复杂度：O(C)O(C)，由于此题给定的棋盘大小为常数 C = 9C=9，因此时间复杂度为常数。
+时间复杂度：O(C)，由于此题给定的棋盘大小为常数 C = 9，因此时间复杂度为常数。
 
-空间复杂度：O(1)O(1)。
+空间复杂度：O(1)
 
 ```
 # any() 函数用于判断给定的可迭代参数iterable 是否全部为False，则返回False，如果有一个为True，则返回True。 元素除了是0、空、FALSE 外都算TRUE。
@@ -13,15 +13,13 @@ class Solution:
                    # 两个对角线 都是 p
                    board[0][0] == p and board[1][1] == p and board[2][2] == p or \
                    board[0][2] == p and board[1][1] == p and board[2][0] == p
-
+    # 通过检验 没有不合法的行为，去确定合法。
     def validTicTacToe(self, board):
-    #先计算 'O' 和 'X'的数量
+    #先计算 'O' 和 'X'的数量，并且确认没有不合法的情况
         oCount = sum(row.count('O') for row in board)
         xCount = sum(row.count('X') for row in board)
-        # 如果'X'>='O' 则合法；
-        return not (oCount != xCount and oCount != xCount - 1 or
-        #如果‘O’（玩家2）胜利，则‘X’和‘O’的数量相同，再加上 not 就是反义
-                    oCount != xCount and self.win(board, 'O') or
-                    oCount != xCount - 1 and self.win(board, 'X'))
+        return not (oCount != xCount and oCount != xCount - 1 or # 只有‘O’和'X'的数量相等，或者'O'比'X'的数量少一个 才是合法的，
+                    oCount != xCount and self.win(board, 'O') or# 在玩家2（'O'）赢得情况下，但‘O’和'X'的数量大小不一样，则不合法
+                    oCount != xCount - 1 and self.win(board, 'X')# 在玩家2（'X'）赢得情况下，但‘O’并不比'X少一个，则不合法)
 
 ```
