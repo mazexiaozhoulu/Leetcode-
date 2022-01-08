@@ -29,6 +29,8 @@
 
 [1042 · 托普利兹矩阵](https://github.com/mazexiaozhoulu/Leetcode-/blob/499ba05dba172eddc907cd860e9c72e761108b29/lintcode.1042%20%C2%B7%20Toeplitz%20Matrix.md)
 
+[1394 · 山羊拉丁文](https://github.com/mazexiaozhoulu/Leetcode-/blob/4d821157f488275bc665f2eed11f6d7439c97db7/lintcode.1394%20%C2%B7%20Goat%20Latin.md)
+
 # hash table
 
 [1025 · 自定义字符串排序](https://github.com/mazexiaozhoulu/Leetcode-/blob/d857033770bbdfaa3b6b0116939def33fdfb67a5/lintcode%201025%20%C2%B7%20Custom%20Sort%20String.md)
@@ -187,7 +189,6 @@
 397 · 最长上升连续子序列
 810 · 水位上升的泳池中游泳
 1031 · 图可以被二分么？
-1394 · 山羊拉丁文
 1721 · 使括号有效的最少添加
 1704 · 二叉搜索树的范围和
 1702 · 不同的子序列 II
