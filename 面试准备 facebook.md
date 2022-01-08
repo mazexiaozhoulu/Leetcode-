@@ -23,6 +23,11 @@
 
 [1022 · 合法的井字棋状态](https://github.com/mazexiaozhoulu/Leetcode-/blob/52019bf59366caddc16057c45f05aec1bab7b081/lintcode.1022%20%C2%B7%20Valid%20Tic-Tac-Toe%20State.md)
 
+[980 · 基础计算器 II](https://github.com/mazexiaozhoulu/Leetcode-/blob/092154a72dc12e2847eb0784d494479832034505/lintcode980%20&%20leetcode227.md)
+
+[1263 · 是子序列吗？](https://github.com/mazexiaozhoulu/Leetcode-/blob/2fdd1a93d3687a3d240000bff60a43aa66f0be1d/lintcode.1263%20%C2%B7%20Is%20Subsequence.md)
+
+
 # hash table
 
 [1025 · 自定义字符串排序](https://github.com/mazexiaozhoulu/Leetcode-/blob/d857033770bbdfaa3b6b0116939def33fdfb67a5/lintcode%201025%20%C2%B7%20Custom%20Sort%20String.md)
@@ -132,7 +137,10 @@
 
 # stack
 
-12 · [带最小值操作的栈](https://github.com/mazexiaozhoulu/Leetcode-/blob/8dd9966e7b32b69d49af4e3baee8cc91ed8cd4dc/lintcode.12%20%C2%B7%20Min%20Stack.md)
+[12 · 带最小值操作的栈](https://github.com/mazexiaozhoulu/Leetcode-/blob/8dd9966e7b32b69d49af4e3baee8cc91ed8cd4dc/lintcode.12%20%C2%B7%20Min%20Stack.md)
+
+# heap
+[606 · 第K大的元素II](https://github.com/mazexiaozhoulu/Leetcode-/blob/092154a72dc12e2847eb0784d494479832034505/lintcode.606%20%C2%B7%20Kth%20Largest%20Element%20II.md)
 
 104 · 合并k个排序链表
 
@@ -157,8 +165,7 @@
 660 · 用Read4从文件中读取N个字符 II-多次调用
 86 · 二叉查找树迭代器
 2314 · 列表修改、添加和删除元素
-606 · 第K大的元素 II
-980 · 基础计算器 II
+
 362 · 滑动窗口的最大值
 1310 · 数组除了自身的乘积
 418 · 整数转罗马数字
@@ -169,7 +176,6 @@
 551 · 嵌套列表的加权和
 746 · 设计井字棋
 1272 · 有序矩阵中的第K小元素
-1263 · 是子序列吗？
 639 · 单词缩写
 655 · 大整数加法
 647 · 子串字谜
