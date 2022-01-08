@@ -27,6 +27,7 @@
 
 [1263 · 是子序列吗？](https://github.com/mazexiaozhoulu/Leetcode-/blob/2fdd1a93d3687a3d240000bff60a43aa66f0be1d/lintcode.1263%20%C2%B7%20Is%20Subsequence.md)
 
+[1042 · 托普利兹矩阵](https://github.com/mazexiaozhoulu/Leetcode-/blob/499ba05dba172eddc907cd860e9c72e761108b29/lintcode.1042%20%C2%B7%20Toeplitz%20Matrix.md)
 
 # hash table
 
@@ -184,7 +185,6 @@
 707 · 最优账户结余
 945 · 任务计划
 397 · 最长上升连续子序列
-1042 · 托普利兹矩阵
 810 · 水位上升的泳池中游泳
 1031 · 图可以被二分么？
 1394 · 山羊拉丁文
