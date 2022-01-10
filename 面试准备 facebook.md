@@ -41,15 +41,11 @@
 
 [838 · 子数组和为K](https://github.com/mazexiaozhoulu/Leetcode-/blob/b9d58c8b2d5e4c11b5df743ef69399a02f628e69/lintcode.838%20%C2%B7%20Subarray%20Sum%20Equals%20K.md)
 
-1450 · 矩形面积
-831 · 三数之和 II
 # math & bin
 [428 · x的n次幂](https://github.com/mazexiaozhoulu/Leetcode-/blob/f8fd33246bd64879ff0701a998a6fdd121a5dae0/lintcode.428%20%C2%B7%20Pow(x,%20n).md)
 
 [408 · 二进制求和](https://github.com/mazexiaozhoulu/Leetcode-/blob/f784c9791146877186e51fd1e793b4a3e4f6f575/lintcode.408%20%C2%B7%20Add%20Binary.md)
 
-114 · 不同的路径
-123 · 单词搜索
 
 # BST
 
@@ -148,10 +144,12 @@
 [606 · 第K大的元素II](https://github.com/mazexiaozhoulu/Leetcode-/blob/092154a72dc12e2847eb0784d494479832034505/lintcode.606%20%C2%B7%20Kth%20Largest%20Element%20II.md)
 
 104 · 合并k个排序链表
-
 187 · 加油站
 54 · 转换字符串到整数
-
+1450 · 矩形面积
+114 · 不同的路径
+123 · 单词搜索
+831 · 三数之和 II
 1889 · 区间合并
 1205 · 对角线遍历
 363 · 接雨水
