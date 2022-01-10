@@ -143,6 +143,10 @@
 # heap
 [606 · 第K大的元素II](https://github.com/mazexiaozhoulu/Leetcode-/blob/092154a72dc12e2847eb0784d494479832034505/lintcode.606%20%C2%B7%20Kth%20Largest%20Element%20II.md)
 
+# greedy
+
+[945 · 任务计划](https://github.com/mazexiaozhoulu/Leetcode-/blob/efc6c0030fb4d3dfecdd148952d4d4e7be67fd73/lintcode.945%20%C2%B7%20Task%20Scheduler.md)
+
 104 · 合并k个排序链表
 187 · 加油站
 54 · 转换字符串到整数
@@ -183,7 +187,6 @@
 655 · 大整数加法
 647 · 子串字谜
 707 · 最优账户结余
-945 · 任务计划
 397 · 最长上升连续子序列
 810 · 水位上升的泳池中游泳
 1031 · 图可以被二分么？
