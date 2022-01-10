@@ -18,6 +18,8 @@
 
 [1745 · 单调数列](https://github.com/mazexiaozhoulu/Leetcode-/blob/b5c4c7f3067f305d2e54ff1ed48fbd6ff229bb80/lintcode.1745%20%C2%B7%20Monotonic%20Array.md)
 
+[665 · 平面范围求和-不可变矩阵](https://github.com/mazexiaozhoulu/Leetcode-/blob/48e88d646060398b7f3e0bbc1e82ca0195c320c4/lintcode.665%20%C2%B7%20Range%20Sum%20Query%202D%20-%20Immutable.md)
+
 # string
 [1222 · 检验IP地址](https://github.com/mazexiaozhoulu/Leetcode-/blob/0267c6ad9f009a3fdeaca4073a70e0e267082ad1/lintcode.1222%20%C2%B7%20Validate%20IP%20Address.md)
 
@@ -167,7 +169,6 @@
 314 · 丢失的记录
 1249 · 密码强度检查器
 347 · 最大值期望
-665 · 平面范围求和-不可变矩阵
 153 · 数字组合 II
 34 · N皇后问题（二）
 95 · 验证二叉查找树
