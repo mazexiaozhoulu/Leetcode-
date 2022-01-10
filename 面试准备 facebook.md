@@ -31,6 +31,8 @@
 
 [1394 · 山羊拉丁文](https://github.com/mazexiaozhoulu/Leetcode-/blob/4d821157f488275bc665f2eed11f6d7439c97db7/lintcode.1394%20%C2%B7%20Goat%20Latin.md)
 
+[420 · 报数!](https://github.com/mazexiaozhoulu/Leetcode-/blob/42853429084b713e39a7d34e0230d0f43e8b153e/lintcode.420%20%C2%B7%20Count%20and%20Say.md)
+
 # hash table
 
 [1025 · 自定义字符串排序](https://github.com/mazexiaozhoulu/Leetcode-/blob/d857033770bbdfaa3b6b0116939def33fdfb67a5/lintcode%201025%20%C2%B7%20Custom%20Sort%20String.md)
@@ -210,4 +212,3 @@
 154 · 正则表达式匹配
 414 · 两个整数相除
 193 · 最长有效括号
-420 · 报数!
