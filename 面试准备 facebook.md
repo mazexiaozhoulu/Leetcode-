@@ -142,6 +142,8 @@
 
 [12 · 带最小值操作的栈](https://github.com/mazexiaozhoulu/Leetcode-/blob/8dd9966e7b32b69d49af4e3baee8cc91ed8cd4dc/lintcode.12%20%C2%B7%20Min%20Stack.md)
 
+[193 · 最长有效括号](https://github.com/mazexiaozhoulu/Leetcode-/blob/8ae280f1ed03f1fd24a9904d50430fbbc6acc200/lintcode.%20193%20%C2%B7%20Longest%20Valid%20Parentheses.md)
+
 # heap
 [606 · 第K大的元素II](https://github.com/mazexiaozhoulu/Leetcode-/blob/092154a72dc12e2847eb0784d494479832034505/lintcode.606%20%C2%B7%20Kth%20Largest%20Element%20II.md)
 
@@ -211,4 +213,3 @@
 200 · 最长回文子串
 154 · 正则表达式匹配
 414 · 两个整数相除
-193 · 最长有效括号
