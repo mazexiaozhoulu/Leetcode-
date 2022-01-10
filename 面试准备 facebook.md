@@ -66,17 +66,22 @@
 
 # BFS
 
-[137 · 克隆图](https://github.com/mazexiaozhoulu/Leetcode-/blob/c7642f9e7a88a958d4e12bb17bbd140ca30549b2/lintcode%20137%20Clone%20Graph.md)
-
 [120 · 单词接龙](https://github.com/mazexiaozhoulu/Leetcode-/blob/2abc9b09db61af10e235d45b52a8425292bdcae6/lintcode%20120%20%C2%B7%20Word%20Ladder.md)
-
-[433 · 岛屿的个数](https://github.com/mazexiaozhoulu/Leetcode-/blob/d335fa459582bcd418fb45ccdc7e387c79023d98/lintcode%20433%20%C2%B7%20Number%20of%20Islands.md)
 
 [17 · 子集](https://github.com/mazexiaozhoulu/Leetcode-/blob/01dbf17ff8280a9c6a45d2b09b7b55a4dd56a24c/lintcode.17%20%C2%B7%20Subsets.md)
 
 [651 · 二叉树垂直遍历](https://github.com/mazexiaozhoulu/Leetcode-/blob/226952f0299e121b859ea4c3ffcb69f55af8ed3b/lintcode%20651%20&%20leetcode%20314.md)
 
 [1115 · 二叉树每层的平均数](https://github.com/mazexiaozhoulu/Leetcode-/blob/86fe0c928840881dcdbddca31333d1264f8bf10e/lintcode.1115%20%C2%B7%20Average%20of%20Levels%20in%20Binary%20Tree.md)
+# graph
+[477 · 被围绕的区域](https://github.com/mazexiaozhoulu/Leetcode-/blob/218bcd0a77da6868b82b0cacc48efe4fc4939442/lintcode.477%20%C2%B7%20Surrounded%20Regions.md)
+
+[123 · 单词搜索](https://github.com/mazexiaozhoulu/Leetcode-/blob/8d5570852203e57a12ede63875f38d1953970d74/lintcode.123%20%C2%B7%20Word%20Search.md)
+
+[137 · 克隆图](https://github.com/mazexiaozhoulu/Leetcode-/blob/c7642f9e7a88a958d4e12bb17bbd140ca30549b2/lintcode%20137%20Clone%20Graph.md)
+
+[433 · 岛屿的个数](https://github.com/mazexiaozhoulu/Leetcode-/blob/d335fa459582bcd418fb45ccdc7e387c79023d98/lintcode%20433%20%C2%B7%20Number%20of%20Islands.md)
+
 
 # DFS
 
@@ -89,10 +94,6 @@
 # topo
 
 [616 · 课程表 II](https://github.com/mazexiaozhoulu/Leetcode-/blob/4fd232593c8eda7e1b3550283b05180e6b7f0721/lintcode%20616%20%C2%B7%20Course%20Schedule%20II.md)
-
-# union find
-
-[477 · 被围绕的区域](https://github.com/mazexiaozhoulu/Leetcode-/blob/218bcd0a77da6868b82b0cacc48efe4fc4939442/lintcode.477%20%C2%B7%20Surrounded%20Regions.md)
 
 # 二分法
 
@@ -156,7 +157,6 @@
 54 · 转换字符串到整数
 1450 · 矩形面积
 114 · 不同的路径
-123 · 单词搜索
 831 · 三数之和 II
 1889 · 区间合并
 1205 · 对角线遍历
