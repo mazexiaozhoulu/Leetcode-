@@ -43,6 +43,8 @@
 
 [838 · 子数组和为K](https://github.com/mazexiaozhoulu/Leetcode-/blob/b9d58c8b2d5e4c11b5df743ef69399a02f628e69/lintcode.838%20%C2%B7%20Subarray%20Sum%20Equals%20K.md)
 
+[1876 · 外星人字典（简单）](https://github.com/mazexiaozhoulu/Leetcode-/blob/3c1865e98770f7c73c7b47ae6ccf0b71b1986977/lintcode.1876%20%C2%B7%20Alien%20Dictionary(easy).md)
+
 # math & bin
 [428 · x的n次幂](https://github.com/mazexiaozhoulu/Leetcode-/blob/f8fd33246bd64879ff0701a998a6fdd121a5dae0/lintcode.428%20%C2%B7%20Pow(x,%20n).md)
 
@@ -197,7 +199,7 @@
 1721 · 使括号有效的最少添加
 1704 · 二叉搜索树的范围和
 1702 · 不同的子序列 II
-1876 · 外星人字典（简单）
+
 149 · 买卖股票的最佳时机
 412 · 分糖果
 920 · 会议室
