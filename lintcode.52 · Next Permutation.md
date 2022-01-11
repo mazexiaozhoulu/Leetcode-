@@ -10,7 +10,9 @@ steps:
         
         #c: swap i&j
         
-        #d:sort th numbers which behind the i
+        #d: sort th numbers which behind the i
+        
+        #e: dealing with the whole increase list or whole same number list
         
         # attention: 
         
@@ -27,17 +29,17 @@ Space complexity : O(1)O(1). No extra space is used. In place replacements are d
 
 ```
     def nextPermutation(self, nums):
-        # write your code here
         if len(nums)<=1:
             return nums
-        #从右向左扫过，寻找一个递增序列
+        #a
         for i in range(len(nums)-2,-1,-1):
-            #找到谷底的值
             if nums[i]<nums[i+1]:
+            #b
                 for k in range(len(nums)-1,i,-1):
                     if nums[k]>nums[i]:
-                        print(nums[k],nums[i])
+                    #c
                         nums[i],nums[k]=nums[k],nums[i]
+                        #d
                         nums[i+1:]=sorted(nums[i+1:])
                         break
                 break
