@@ -107,6 +107,9 @@
 
 [1183 · 排序数组中的单个元素](https://github.com/mazexiaozhoulu/Leetcode-/blob/db42a18ba5acf6e01f4312c754d6196ef696d37c/lintcode.1183%20%C2%B7%20Single%20Element%20in%20a%20Sorted%20Array.md
 )
+
+[1272 · 有序矩阵中的第K小元素](https://github.com/mazexiaozhoulu/Leetcode-/blob/ca7cb069431e9820c164beed0bd46e2abf5f3b51/lintcode.1272%20%C2%B7%20Kth%20Smallest%20Element%20in%20a%20Sorted%20Matrix.md)
+
 # two points
 
 [57 · 三数之和](https://github.com/mazexiaozhoulu/Leetcode-/blob/0c17c4fcb808d133eae34eebae31017a67adf3ab/lintcode%2057%20%C2%B7%203Sum.md)
@@ -151,8 +154,6 @@
 
 # heap
 [606 · 第K大的元素II](https://github.com/mazexiaozhoulu/Leetcode-/blob/092154a72dc12e2847eb0784d494479832034505/lintcode.606%20%C2%B7%20Kth%20Largest%20Element%20II.md)
-
-[1272 · 有序矩阵中的第K小元素](https://github.com/mazexiaozhoulu/Leetcode-/blob/ca7cb069431e9820c164beed0bd46e2abf5f3b51/lintcode.1272%20%C2%B7%20Kth%20Smallest%20Element%20in%20a%20Sorted%20Matrix.md)
 
 # greedy
 
