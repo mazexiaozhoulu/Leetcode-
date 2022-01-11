@@ -152,6 +152,8 @@
 # heap
 [606 · 第K大的元素II](https://github.com/mazexiaozhoulu/Leetcode-/blob/092154a72dc12e2847eb0784d494479832034505/lintcode.606%20%C2%B7%20Kth%20Largest%20Element%20II.md)
 
+[1272 · 有序矩阵中的第K小元素](https://github.com/mazexiaozhoulu/Leetcode-/blob/ca7cb069431e9820c164beed0bd46e2abf5f3b51/lintcode.1272%20%C2%B7%20Kth%20Smallest%20Element%20in%20a%20Sorted%20Matrix.md)
+
 # greedy
 
 [945 · 任务计划](https://github.com/mazexiaozhoulu/Leetcode-/blob/efc6c0030fb4d3dfecdd148952d4d4e7be67fd73/lintcode.945%20%C2%B7%20Task%20Scheduler.md)
@@ -189,7 +191,7 @@
 910 · 最大二叉搜索子树
 551 · 嵌套列表的加权和
 746 · 设计井字棋
-1272 · 有序矩阵中的第K小元素
+
 639 · 单词缩写
 655 · 大整数加法
 647 · 子串字谜
