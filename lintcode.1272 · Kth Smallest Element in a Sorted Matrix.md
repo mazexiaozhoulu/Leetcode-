@@ -1,6 +1,10 @@
 sort函数进行排序的时间复杂度为n*log2n
 build min heap 时间复杂度 logn
 
+
+四种解法，第一，二种没有利用矩阵的性质，所以时间复杂度最差；第三种解法只利用了一部分性质（每一行是一个有序数列，而忽视了列之间的关系）；第四种解法则利用了全部性质，所以时间复杂度最佳。
+
+
 # 方法1 2D->1D + sort 
 时间复杂度 sort的时间复杂度 * 找到(k-1的时间复杂度=n^2logn
 
@@ -28,7 +32,7 @@ class Solution:
         return x 
 ```
 
-# 归并k次的heap
+# 方法3 归并k次的heap
 时间复杂度是klogn, pop & push 都是logn的时间复杂度，重复k次
 ```
 import heapq
@@ -43,5 +47,35 @@ class Solution:
             if y != n:
                 heapq.heappush(pq,(matrix[x][y + 1], x, y+1))
         return heapq.heappop(pq)[0]
+
+```
+# 方法4 二分法
+时间复杂度：O(n\log(r-l))O(nlog(r−l))，二分查找进行次数为 O(\log(r-l))O(log(r−l))，每次操作时间复杂度为 O(n)O(n)
+
+```
+class Solution:
+    def kthSmallest(self, matrix: List[List[int]], k: int) -> int:
+        n = len(matrix)
+
+        def check(mid):
+            i, j = n - 1, 0
+            num = 0
+            while i >= 0 and j < n:
+                if matrix[i][j] <= mid:
+                    num += i + 1
+                    j += 1
+                else:
+                    i -= 1
+            return num >= k
+
+        left, right = matrix[0][0], matrix[-1][-1]
+        while left < right:
+            mid = (left + right) // 2
+            if check(mid):
+                right = mid
+            else:
+                left = mid + 1
+        
+        return left
 
 ```
