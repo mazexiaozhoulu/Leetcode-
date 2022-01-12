@@ -77,6 +77,7 @@
 [651 · 二叉树垂直遍历](https://github.com/mazexiaozhoulu/Leetcode-/blob/226952f0299e121b859ea4c3ffcb69f55af8ed3b/lintcode%20651%20&%20leetcode%20314.md)
 
 [1115 · 二叉树每层的平均数](https://github.com/mazexiaozhoulu/Leetcode-/blob/86fe0c928840881dcdbddca31333d1264f8bf10e/lintcode.1115%20%C2%B7%20Average%20of%20Levels%20in%20Binary%20Tree.md)
+
 # graph
 [477 · 被围绕的区域](https://github.com/mazexiaozhoulu/Leetcode-/blob/218bcd0a77da6868b82b0cacc48efe4fc4939442/lintcode.477%20%C2%B7%20Surrounded%20Regions.md)
 
@@ -155,11 +156,13 @@
 # heap
 [606 · 第K大的元素II](https://github.com/mazexiaozhoulu/Leetcode-/blob/092154a72dc12e2847eb0784d494479832034505/lintcode.606%20%C2%B7%20Kth%20Largest%20Element%20II.md)
 
+[104 · 合并k个排序链表](https://github.com/mazexiaozhoulu/Leetcode-/blob/9bdf1df1b4044dbc6f9bc48141a2a884a948563c/lintcode.104%20%C2%B7%20Merge%20K%20Sorted%20Lists.md)
+
 # greedy
 
 [945 · 任务计划](https://github.com/mazexiaozhoulu/Leetcode-/blob/efc6c0030fb4d3dfecdd148952d4d4e7be67fd73/lintcode.945%20%C2%B7%20Task%20Scheduler.md)
 
-104 · 合并k个排序链表
+
 187 · 加油站
 54 · 转换字符串到整数
 1450 · 矩形面积
