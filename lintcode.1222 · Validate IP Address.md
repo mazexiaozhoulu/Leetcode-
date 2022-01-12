@@ -1,3 +1,20 @@
+# 内置函数
+
+```
+from ipaddress import ip_address, IPv6Address
+class Solution:
+    def validIPAddress(self, IP: str) -> str:
+        try:
+            return "IPv6" if type(ip_address(IP)) is IPv6Address else "IPv4"
+        except ValueError:
+            return "Neither"
+
+```
+
+# 分治法
+
+时间复杂度O（1）
+
 ```
 class Solution:
     """
