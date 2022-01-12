@@ -1,3 +1,6 @@
+时间复杂度：O(n)O(n)，其中 nn 是数组 \textit{intervals}intervals 的长度，即给定的区间个数。
+
+空间复杂度：O(1)O(1)。除了存储返回答案的空间以外，我们只需要额外的常数空间即可。
 ```
 class Solution:
     """
