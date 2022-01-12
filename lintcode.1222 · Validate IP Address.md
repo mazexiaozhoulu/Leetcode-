@@ -1,35 +1,41 @@
 ```
-class Solution(object):
+class Solution:
+    """
+    @param IP: the given IP
+    @return: whether an input string is a valid IPv4 address or IPv6 address or neither
+    """
     def validIPAddress(self, IP):
-        """
-        :type IP: str
-        :rtype: str
-        """
-        ip = IP.split('.')
-        if len(ip) == 4:
-            # ipv4 candidate, validate it
-            for octet_s in ip:
-                try:
-                    octet = int(octet_s)
-                except ValueError:
-                    return 'Neither'
-                if octet < 0 or octet > 255 or (octet_s != '0' and (octet // 10**(len(octet_s) - 1) == 0)):
-                    return 'Neither'
-            return 'IPv4'
+        if IP.count('.') == 3:
+            return self.validate_IPv4(IP)
+        elif IP.count(':') == 7:
+            return self.validate_IPv6(IP)
         else:
-            ip = IP.split(':')
-            if len(ip) == 8:
-                # ipv6 candidate, validate it
-                for hexa_s in ip:
-                    if not hexa_s or len(hexa_s) > 4 or not hexa_s[0].isalnum():
-                        return 'Neither'
-                    try:
-                        hexa = int(hexa_s, base=16)
-                    except ValueError:
-                        return 'Neither'
-                    hexa_redo = '{:x}'.format(hexa)
-                    if hexa < 0 or hexa > 65535:
-                        return 'Neither'
-                return 'IPv6'
-        return 'Neither'
+            return "Neither"
+
+    def validate_IPv4(self, IP):
+        nums = IP.split('.')
+        for x in nums:
+            # Validate integer in range (0, 255):
+            # 1. length of chunk is between 1 and 3
+            if len(x) == 0 or len(x) > 3:
+                return "Neither"
+            # 2. no extra leading zeros
+            # 3. only digits are allowed
+            # 4. less than 255
+            if x[0] == '0' and len(x) != 1 or not x.isdigit() or int(x) > 255:
+                return "Neither"
+        return "IPv4"
+    
+    def validate_IPv6(self, IP: str) -> str:
+        nums = IP.split(':')
+        hexdigits = '0123456789abcdefABCDEF'
+        for x in nums:
+            # Validate hexadecimal in range (0, 2**16):
+            # 1. at least one and not more than 4 hexdigits in one chunk
+            # 2. only hexdigits are allowed: 0-9, a-f, A-F
+            if len(x) == 0 or len(x) > 4 or not all(c in hexdigits for c in x):
+                return "Neither"
+        return "IPv6"
+ 
+
 ```
