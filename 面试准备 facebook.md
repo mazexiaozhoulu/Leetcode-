@@ -16,6 +16,8 @@
 
 [402 · 连续子数组求和](https://github.com/mazexiaozhoulu/Leetcode-/blob/d46af2fa6ee5de40bd03b296dba8cca65152d64e/lintcode.402%20%C2%B7%20Continuous%20Subarray%20Sum.md)
 
+[41 · 最大子数组](https://github.com/mazexiaozhoulu/Leetcode-/blob/12eba6fa453eb5a00fc9e342608ddba07718eb17/lintcode.41%20%C2%B7%20Maximum%20Subarray.md)
+
 [1745 · 单调数列](https://github.com/mazexiaozhoulu/Leetcode-/blob/b5c4c7f3067f305d2e54ff1ed48fbd6ff229bb80/lintcode.1745%20%C2%B7%20Monotonic%20Array.md)
 
 [665 · 平面范围求和-不可变矩阵](https://github.com/mazexiaozhoulu/Leetcode-/blob/48e88d646060398b7f3e0bbc1e82ca0195c320c4/lintcode.665%20%C2%B7%20Range%20Sum%20Query%202D%20-%20Immutable.md)
@@ -214,7 +216,6 @@
 1393 · 适龄的朋友
 1465 · 任务顺序
 1506 · 二叉树中所有距离为 K 的结点
-41 · 最大子数组
 397 · 最长上升连续子序列
 647 · 子串字谜
 52 · 下一个排列
