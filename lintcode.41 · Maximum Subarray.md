@@ -1,0 +1,32 @@
+same as lintcode402
+```
+class Solution:
+    """
+    @param nums: A list of integers
+    @return: A integer indicate the sum of max subarray
+    """
+    def maxSubArray(self, A):
+        # write your code here
+        n = len(A)
+        # max_sum维护全局最大连续子数组和
+        # sum维护当前最大连续子数组和，即当前元素必选的最大和
+        max_sum = A[0]
+        sum = 0
+        # first, last表示全局最大连续子数组的左右端点
+        # bg表示当前连续子数组的左端点
+        first = last = 0
+        bg = 0;
+        for i in range(n):
+            #第一个if else 是用来遍历所有数字，并且
+            if sum >= 0:
+                sum += A[i]
+            else:
+                bg = i
+                sum = A[i]
+
+            if max_sum < sum:
+                max_sum = sum
+                first = bg
+                last = i
+        return max_sum
+```
