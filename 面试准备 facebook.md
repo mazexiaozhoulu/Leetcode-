@@ -1,6 +1,6 @@
 
 # Array:
-[52 · 下一个排列](https://github.com/mazexiaozhoulu/Leetcode-/blob/d101d0e0f34cf3efb2008b7c2ad971f2af6b6902/lintcode.52%20%C2%B7%20Next%20Permutation.md)
+[52 · 下一个排列](https://github.com/mazexiaozhoulu/Leetcode-/blob/d101d0e0f34cf3efb2008b7c2ad971f2af6b6902/lintcode.52%20%C2%B7%20Next%20Permutation.md)(https://www.lintcode.com/problem/52/)
 
 [641 · 丢失的间隔](https://github.com/mazexiaozhoulu/Leetcode-/blob/c337da5a172093c8d0365810c272bc6e34344674/lintcode.641%20%C2%B7%20Missing%20Ranges.md)
 
