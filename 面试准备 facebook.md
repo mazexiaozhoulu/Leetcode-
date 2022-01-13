@@ -22,6 +22,8 @@
 
 [665 · 平面范围求和-不可变矩阵](https://github.com/mazexiaozhoulu/Leetcode-/blob/48e88d646060398b7f3e0bbc1e82ca0195c320c4/lintcode.665%20%C2%B7%20Range%20Sum%20Query%202D%20-%20Immutable.md)
 
+[1310 · 数组除了自身的乘积](https://github.com/mazexiaozhoulu/Leetcode-/blob/268f0b326deedb702492f970e6cbee0cba5bd15c/lintcode.1310%20%C2%B7%20Product%20of%20Array%20Except%20Self.md)
+
 # string
 [1222 · 检验IP地址](https://github.com/mazexiaozhoulu/Leetcode-/blob/0267c6ad9f009a3fdeaca4073a70e0e267082ad1/lintcode.1222%20%C2%B7%20Validate%20IP%20Address.md)
 
@@ -190,7 +192,6 @@
 2314 · 列表修改、添加和删除元素
 
 362 · 滑动窗口的最大值
-1310 · 数组除了自身的乘积
 418 · 整数转罗马数字
 653 · 添加运算符
 780 · 删除无效的括号
