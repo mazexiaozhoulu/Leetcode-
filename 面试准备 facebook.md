@@ -49,6 +49,8 @@
 
 [1876 · 外星人字典（简单）](https://github.com/mazexiaozhoulu/Leetcode-/blob/3c1865e98770f7c73c7b47ae6ccf0b71b1986977/lintcode.1876%20%C2%B7%20Alien%20Dictionary(easy).md)
 
+[1205 · 对角线遍历](https://github.com/mazexiaozhoulu/Leetcode-/blob/a501ce2e9f1f3b7eeffd765047c6c89d55e871cd/lintcode.1205%20%C2%B7%20Diagonal%20Traverse.md)\
+
 # math & bin
 [428 · x的n次幂](https://github.com/mazexiaozhoulu/Leetcode-/blob/f8fd33246bd64879ff0701a998a6fdd121a5dae0/lintcode.428%20%C2%B7%20Pow(x,%20n).md)
 
@@ -171,7 +173,6 @@
 114 · 不同的路径
 831 · 三数之和 II
 1889 · 区间合并
-1205 · 对角线遍历
 363 · 接雨水
 105 · 复制带随机指针的链表
 314 · 丢失的记录
