@@ -2,42 +2,42 @@
 # Array:
 [52 · 下一个排列](https://github.com/mazexiaozhoulu/Leetcode-/blob/d101d0e0f34cf3efb2008b7c2ad971f2af6b6902/lintcode.52%20%C2%B7%20Next%20Permutation.md)(https://www.lintcode.com/problem/52/)
 
-[641 · 丢失的间隔](https://github.com/mazexiaozhoulu/Leetcode-/blob/c337da5a172093c8d0365810c272bc6e34344674/lintcode.641%20%C2%B7%20Missing%20Ranges.md)
+[641 · 丢失的间隔](https://github.com/mazexiaozhoulu/Leetcode-/blob/c337da5a172093c8d0365810c272bc6e34344674/lintcode.641%20%C2%B7%20Missing%20Ranges.md)(https://www.lintcode.com/problem/641/)
 
-[1304 · H指数](https://github.com/mazexiaozhoulu/Leetcode-/blob/405339bd1be7d5c2b71d9ea6a9da3d6abb8ab3d3/lintcode.1304%20%C2%B7%20H%E6%8C%87%E6%95%B0.md)
+[1304 · H指数](https://github.com/mazexiaozhoulu/Leetcode-/blob/405339bd1be7d5c2b71d9ea6a9da3d6abb8ab3d3/lintcode.1304%20%C2%B7%20H%E6%8C%87%E6%95%B0.md)(https://www.lintcode.com/problem/1304/)
 
-[30 · 插入区间](https://github.com/mazexiaozhoulu/Leetcode-/blob/8437fdcba75b779eeae0f73cf1e2447f3b893a2f/lintcode.30%20%C2%B7%20Insert%20Interval.md)
+[30 · 插入区间](https://github.com/mazexiaozhoulu/Leetcode-/blob/8437fdcba75b779eeae0f73cf1e2447f3b893a2f/lintcode.30%20%C2%B7%20Insert%20Interval.md)(https://www.lintcode.com/problem/30/)
 
-[767 · 翻转数组](https://github.com/mazexiaozhoulu/Leetcode-/blob/cf8a9d782e6c86477cd3e172635c5c4761837fdd/lintcode.767%20%C2%B7%20Reverse%20Array.md)
+[767 · 翻转数组](https://github.com/mazexiaozhoulu/Leetcode-/blob/cf8a9d782e6c86477cd3e172635c5c4761837fdd/lintcode.767%20%C2%B7%20Reverse%20Array.md)(https://www.lintcode.com/problem/767/)
 
-[1212 · 最大连续1的个数](https://github.com/mazexiaozhoulu/Leetcode-/blob/578b9886503f6e919945bc581fe35774ee324de2/lintcode.1212%20%C2%B7%20Max%20Consecutive%20Ones.md)
+[1212 · 最大连续1的个数](https://github.com/mazexiaozhoulu/Leetcode-/blob/578b9886503f6e919945bc581fe35774ee324de2/lintcode.1212%20%C2%B7%20Max%20Consecutive%20Ones.md)(https://www.lintcode.com/problem/1212/)
 
-[539 · 移动零](https://github.com/mazexiaozhoulu/Leetcode-/blob/5643e2e4bbbb12108c12844ef720ad28882d6f9f/lintcode.539%20%C2%B7%20Move%20Zeroes.md)
+[539 · 移动零](https://github.com/mazexiaozhoulu/Leetcode-/blob/5643e2e4bbbb12108c12844ef720ad28882d6f9f/lintcode.539%20%C2%B7%20Move%20Zeroes.md)(https://www.lintcode.com/problem/539/)
 
-[402 · 连续子数组求和](https://github.com/mazexiaozhoulu/Leetcode-/blob/d46af2fa6ee5de40bd03b296dba8cca65152d64e/lintcode.402%20%C2%B7%20Continuous%20Subarray%20Sum.md)
+[402 · 连续子数组求和](https://github.com/mazexiaozhoulu/Leetcode-/blob/d46af2fa6ee5de40bd03b296dba8cca65152d64e/lintcode.402%20%C2%B7%20Continuous%20Subarray%20Sum.md)(https://www.lintcode.com/problem/402/)
 
-[41 · 最大子数组](https://github.com/mazexiaozhoulu/Leetcode-/blob/12eba6fa453eb5a00fc9e342608ddba07718eb17/lintcode.41%20%C2%B7%20Maximum%20Subarray.md)
+[41 · 最大子数组](https://github.com/mazexiaozhoulu/Leetcode-/blob/12eba6fa453eb5a00fc9e342608ddba07718eb17/lintcode.41%20%C2%B7%20Maximum%20Subarray.md)(https://www.lintcode.com/problem/41/)
 
-[1745 · 单调数列](https://github.com/mazexiaozhoulu/Leetcode-/blob/b5c4c7f3067f305d2e54ff1ed48fbd6ff229bb80/lintcode.1745%20%C2%B7%20Monotonic%20Array.md)
+[1745 · 单调数列](https://github.com/mazexiaozhoulu/Leetcode-/blob/b5c4c7f3067f305d2e54ff1ed48fbd6ff229bb80/lintcode.1745%20%C2%B7%20Monotonic%20Array.md)(https://www.lintcode.com/problem/1745/)
 
-[665 · 平面范围求和-不可变矩阵](https://github.com/mazexiaozhoulu/Leetcode-/blob/48e88d646060398b7f3e0bbc1e82ca0195c320c4/lintcode.665%20%C2%B7%20Range%20Sum%20Query%202D%20-%20Immutable.md)
+[665 · 平面范围求和-不可变矩阵](https://github.com/mazexiaozhoulu/Leetcode-/blob/48e88d646060398b7f3e0bbc1e82ca0195c320c4/lintcode.665%20%C2%B7%20Range%20Sum%20Query%202D%20-%20Immutable.md)(https://www.lintcode.com/problem/665/)
 
-[1310 · 数组除了自身的乘积](https://github.com/mazexiaozhoulu/Leetcode-/blob/268f0b326deedb702492f970e6cbee0cba5bd15c/lintcode.1310%20%C2%B7%20Product%20of%20Array%20Except%20Self.md)
+[1310 · 数组除了自身的乘积](https://github.com/mazexiaozhoulu/Leetcode-/blob/268f0b326deedb702492f970e6cbee0cba5bd15c/lintcode.1310%20%C2%B7%20Product%20of%20Array%20Except%20Self.md)(https://www.lintcode.com/problem/1310/)
 
 # string
-[1222 · 检验IP地址](https://github.com/mazexiaozhoulu/Leetcode-/blob/0267c6ad9f009a3fdeaca4073a70e0e267082ad1/lintcode.1222%20%C2%B7%20Validate%20IP%20Address.md)
+[1222 · 检验IP地址](https://github.com/mazexiaozhoulu/Leetcode-/blob/0267c6ad9f009a3fdeaca4073a70e0e267082ad1/lintcode.1222%20%C2%B7%20Validate%20IP%20Address.md)(https://www.lintcode.com/problem/1222/)
 
-[1022 · 合法的井字棋状态](https://github.com/mazexiaozhoulu/Leetcode-/blob/52019bf59366caddc16057c45f05aec1bab7b081/lintcode.1022%20%C2%B7%20Valid%20Tic-Tac-Toe%20State.md)
+[1022 · 合法的井字棋状态](https://github.com/mazexiaozhoulu/Leetcode-/blob/52019bf59366caddc16057c45f05aec1bab7b081/lintcode.1022%20%C2%B7%20Valid%20Tic-Tac-Toe%20State.md)(https://www.lintcode.com/problem/1022/)
 
-[980 · 基础计算器 II](https://github.com/mazexiaozhoulu/Leetcode-/blob/092154a72dc12e2847eb0784d494479832034505/lintcode980%20&%20leetcode227.md)
+[980 · 基础计算器 II](https://github.com/mazexiaozhoulu/Leetcode-/blob/092154a72dc12e2847eb0784d494479832034505/lintcode980%20&%20leetcode227.md)(https://www.lintcode.com/problem/980/)
 
-[1263 · 是子序列吗？](https://github.com/mazexiaozhoulu/Leetcode-/blob/2fdd1a93d3687a3d240000bff60a43aa66f0be1d/lintcode.1263%20%C2%B7%20Is%20Subsequence.md)
+[1263 · 是子序列吗？](https://github.com/mazexiaozhoulu/Leetcode-/blob/2fdd1a93d3687a3d240000bff60a43aa66f0be1d/lintcode.1263%20%C2%B7%20Is%20Subsequence.md)(https://www.lintcode.com/problem/1263/)
 
-[1042 · 托普利兹矩阵](https://github.com/mazexiaozhoulu/Leetcode-/blob/499ba05dba172eddc907cd860e9c72e761108b29/lintcode.1042%20%C2%B7%20Toeplitz%20Matrix.md)
+[1042 · 托普利兹矩阵](https://github.com/mazexiaozhoulu/Leetcode-/blob/499ba05dba172eddc907cd860e9c72e761108b29/lintcode.1042%20%C2%B7%20Toeplitz%20Matrix.md)(https://www.lintcode.com/problem/1042/)
 
-[1394 · 山羊拉丁文](https://github.com/mazexiaozhoulu/Leetcode-/blob/4d821157f488275bc665f2eed11f6d7439c97db7/lintcode.1394%20%C2%B7%20Goat%20Latin.md)
+[1394 · 山羊拉丁文](https://github.com/mazexiaozhoulu/Leetcode-/blob/4d821157f488275bc665f2eed11f6d7439c97db7/lintcode.1394%20%C2%B7%20Goat%20Latin.md)(https://www.lintcode.com/problem/1394/)
 
-[420 · 报数!](https://github.com/mazexiaozhoulu/Leetcode-/blob/42853429084b713e39a7d34e0230d0f43e8b153e/lintcode.420%20%C2%B7%20Count%20and%20Say.md)
+[420 · 报数!](https://github.com/mazexiaozhoulu/Leetcode-/blob/42853429084b713e39a7d34e0230d0f43e8b153e/lintcode.420%20%C2%B7%20Count%20and%20Say.md)(https://www.lintcode.com/problem/420/)
 
 # hash table
 
