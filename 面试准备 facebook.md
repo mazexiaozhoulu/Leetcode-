@@ -73,6 +73,7 @@
 
 [760 · 二叉树的右视图](https://github.com/mazexiaozhoulu/Leetcode-/blob/d702eb1a8f456f80954a770e81af9dff02ce7b68/lintcode.760%20%C2%B7%20Binary%20Tree%20Right%20Side%20View.md)
 
+[1704 · 二叉搜索树的范围和](https://github.com/mazexiaozhoulu/Leetcode-/blob/c46b7e29313b8e2edc4db87fb898bd121de16266/lintcode.1704%20%C2%B7%20Range%20Sum%20of%20BST.md)
 
 # BFS
 
@@ -208,7 +209,6 @@
 810 · 水位上升的泳池中游泳
 1031 · 图可以被二分么？
 1721 · 使括号有效的最少添加
-1704 · 二叉搜索树的范围和
 1702 · 不同的子序列 II
 
 149 · 买卖股票的最佳时机
