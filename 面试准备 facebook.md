@@ -169,6 +169,9 @@
 
 [945 · 任务计划](https://github.com/mazexiaozhoulu/Leetcode-/blob/efc6c0030fb4d3dfecdd148952d4d4e7be67fd73/lintcode.945%20%C2%B7%20Task%20Scheduler.md)
 
+# dp
+
+[200 · 最长回文子串](https://github.com/mazexiaozhoulu/Leetcode-/blob/ab69b9009a8fe4662d01f3f579f1298fe192ae61/lintcode.200%20%C2%B7%20Longest%20Palindromic%20Substring.md)
 
 187 · 加油站
 54 · 转换字符串到整数
@@ -222,6 +225,6 @@
 647 · 子串字谜
 52 · 下一个排列
 62 · 搜索旋转排序数组
-200 · 最长回文子串
+[200 · 最长回文子串](https://github.com/mazexiaozhoulu/Leetcode-/blob/ab69b9009a8fe4662d01f3f579f1298fe192ae61/lintcode.200%20%C2%B7%20Longest%20Palindromic%20Substring.md)
 154 · 正则表达式匹配
 414 · 两个整数相除
