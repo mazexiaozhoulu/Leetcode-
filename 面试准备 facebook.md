@@ -41,17 +41,17 @@
 
 # hash table
 
-[1025 · 自定义字符串排序](https://github.com/mazexiaozhoulu/Leetcode-/blob/d857033770bbdfaa3b6b0116939def33fdfb67a5/lintcode%201025%20%C2%B7%20Custom%20Sort%20String.md)
+[1025 · 自定义字符串排序](https://github.com/mazexiaozhoulu/Leetcode-/blob/d857033770bbdfaa3b6b0116939def33fdfb67a5/lintcode%201025%20%C2%B7%20Custom%20Sort%20String.md)(https://www.lintcode.com/problem/1025/)
 
-[134 · LRU缓存策略](https://github.com/mazexiaozhoulu/Leetcode-/blob/6a69f19932aa6145281863f0fe9a575cd5904a2f/lintcode%20134%20%C2%B7%20LRU%20Cache.md)
+[134 · LRU缓存策略](https://github.com/mazexiaozhoulu/Leetcode-/blob/6a69f19932aa6145281863f0fe9a575cd5904a2f/lintcode%20134%20%C2%B7%20LRU%20Cache.md)(https://www.lintcode.com/problem/134/)
 
-[82 · 落单的数](https://github.com/mazexiaozhoulu/Leetcode-/blob/db1640348384655a751af092463cdc3fbdd1e419/lintcode.82%20%C2%B7%20Single%20Number.md)
+[82 · 落单的数](https://github.com/mazexiaozhoulu/Leetcode-/blob/db1640348384655a751af092463cdc3fbdd1e419/lintcode.82%20%C2%B7%20Single%20Number.md)(https://www.lintcode.com/problem/82/)
 
-[838 · 子数组和为K](https://github.com/mazexiaozhoulu/Leetcode-/blob/b9d58c8b2d5e4c11b5df743ef69399a02f628e69/lintcode.838%20%C2%B7%20Subarray%20Sum%20Equals%20K.md)
+[838 · 子数组和为K](https://github.com/mazexiaozhoulu/Leetcode-/blob/b9d58c8b2d5e4c11b5df743ef69399a02f628e69/lintcode.838%20%C2%B7%20Subarray%20Sum%20Equals%20K.md)(https://www.lintcode.com/problem/838/)
 
-[1876 · 外星人字典（简单）](https://github.com/mazexiaozhoulu/Leetcode-/blob/3c1865e98770f7c73c7b47ae6ccf0b71b1986977/lintcode.1876%20%C2%B7%20Alien%20Dictionary(easy).md)
+[1876 · 外星人字典（简单）](https://github.com/mazexiaozhoulu/Leetcode-/blob/3c1865e98770f7c73c7b47ae6ccf0b71b1986977/lintcode.1876%20%C2%B7%20Alien%20Dictionary(easy).md)(https://www.lintcode.com/problem/1876/)
 
-[1205 · 对角线遍历](https://github.com/mazexiaozhoulu/Leetcode-/blob/a501ce2e9f1f3b7eeffd765047c6c89d55e871cd/lintcode.1205%20%C2%B7%20Diagonal%20Traverse.md)
+[1205 · 对角线遍历](https://github.com/mazexiaozhoulu/Leetcode-/blob/a501ce2e9f1f3b7eeffd765047c6c89d55e871cd/lintcode.1205%20%C2%B7%20Diagonal%20Traverse.md)(https://www.lintcode.com/problem/1205/)
 
 # math & bin
 [428 · x的n次幂](https://github.com/mazexiaozhoulu/Leetcode-/blob/f8fd33246bd64879ff0701a998a6fdd121a5dae0/lintcode.428%20%C2%B7%20Pow(x,%20n).md)
