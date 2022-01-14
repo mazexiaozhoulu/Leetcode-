@@ -169,11 +169,12 @@
 
 [945 · 任务计划](https://github.com/mazexiaozhoulu/Leetcode-/blob/efc6c0030fb4d3dfecdd148952d4d4e7be67fd73/lintcode.945%20%C2%B7%20Task%20Scheduler.md)
 
+[187 · 加油站](https://github.com/mazexiaozhoulu/Leetcode-/blob/4b85beae586730b631603edccf586dab59dd530e/lintcode.187%20%C2%B7%20Gas%20Station.md)
+
 # dp
 
 [200 · 最长回文子串](https://github.com/mazexiaozhoulu/Leetcode-/blob/ab69b9009a8fe4662d01f3f579f1298fe192ae61/lintcode.200%20%C2%B7%20Longest%20Palindromic%20Substring.md)
 
-187 · 加油站
 54 · 转换字符串到整数
 1450 · 矩形面积
 114 · 不同的路径
