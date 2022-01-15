@@ -100,9 +100,10 @@
 
 [425 · 电话号码的字母组合](https://github.com/mazexiaozhoulu/Leetcode-/blob/7fc0f838949fa50082b32d1b0caf0d0b7ec3b50d/lintcode.425%20%C2%B7%20Letter%20Combinations%20of%20a%20Phone%20Number.md)
 
-34 · N皇后问题（二）(https://github.com/mazexiaozhoulu/Leetcode-/blob/a0ed9d24d25bef9cfe340d6d8000e2eb826319aa/lintcode.33%20%C2%B7%20N-Queens.md)
+[34 · N皇后问题（二）](https://github.com/mazexiaozhoulu/Leetcode-/blob/a0ed9d24d25bef9cfe340d6d8000e2eb826319aa/lintcode.33%20%C2%B7%20N-Queens.md)
 
-[135 · 数字组合](https://github.com/mazexiaozhoulu/Leetcode-/blob/572cdecd778bbbc6d0aaa7ad4fe6572a47beafad/lintcode.135%20%C2%B7%20Combination%20Sum.md)(排列组合)
+(排列组合)
+[135 · 数字组合](https://github.com/mazexiaozhoulu/Leetcode-/blob/572cdecd778bbbc6d0aaa7ad4fe6572a47beafad/lintcode.135%20%C2%B7%20Combination%20Sum.md)
 
 [1353 · 根节点到叶节点求和](https://github.com/mazexiaozhoulu/Leetcode-/blob/98aaba11a1e73a6df42af7cc9092ebb7c311a123/lintcode.1353%20%C2%B7%20Sum%20Root%20to%20Leaf%20Numbers.md)
 
@@ -175,10 +176,6 @@
 [945 · 任务计划](https://github.com/mazexiaozhoulu/Leetcode-/blob/efc6c0030fb4d3dfecdd148952d4d4e7be67fd73/lintcode.945%20%C2%B7%20Task%20Scheduler.md)
 
 [187 · 加油站](https://github.com/mazexiaozhoulu/Leetcode-/blob/4b85beae586730b631603edccf586dab59dd530e/lintcode.187%20%C2%B7%20Gas%20Station.md)
-
-# dp
-
-[200 · 最长回文子串](https://github.com/mazexiaozhoulu/Leetcode-/blob/ab69b9009a8fe4662d01f3f579f1298fe192ae61/lintcode.200%20%C2%B7%20Longest%20Palindromic%20Substring.md)
 
 54 · 转换字符串到整数
 1450 · 矩形面积
