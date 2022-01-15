@@ -96,8 +96,11 @@
 
 
 # DFS
+(Backtracking)
 
-[425 · 电话号码的字母组合](https://github.com/mazexiaozhoulu/Leetcode-/blob/7fc0f838949fa50082b32d1b0caf0d0b7ec3b50d/lintcode.425%20%C2%B7%20Letter%20Combinations%20of%20a%20Phone%20Number.md)(Backtracking)
+[425 · 电话号码的字母组合](https://github.com/mazexiaozhoulu/Leetcode-/blob/7fc0f838949fa50082b32d1b0caf0d0b7ec3b50d/lintcode.425%20%C2%B7%20Letter%20Combinations%20of%20a%20Phone%20Number.md)
+
+34 · N皇后问题（二）(https://github.com/mazexiaozhoulu/Leetcode-/blob/a0ed9d24d25bef9cfe340d6d8000e2eb826319aa/lintcode.33%20%C2%B7%20N-Queens.md)
 
 [135 · 数字组合](https://github.com/mazexiaozhoulu/Leetcode-/blob/572cdecd778bbbc6d0aaa7ad4fe6572a47beafad/lintcode.135%20%C2%B7%20Combination%20Sum.md)(排列组合)
 
@@ -135,6 +138,8 @@
 (滑动窗口)[32 · 最小子串覆盖](https://github.com/mazexiaozhoulu/Leetcode-/blob/f00553eda2fe98b2fc70456f8cd4d5747ae9fa3a/lintcode.32%20%C2%B7%20Minimum%20Window%20Substring.md)
 
 (滑动窗口)[1507 · 和至少为 K 的最短子数组](https://github.com/mazexiaozhoulu/Leetcode-/blob/314428da973d19faa730f9219f79a7a7e1dce50a/lintcode.1507%20%C2%B7%20Shortest%20Subarray%20with%20Sum%20at%20Least%20K.md)
+
+[200 · 最长回文子串](https://github.com/mazexiaozhoulu/Leetcode-/blob/ab69b9009a8fe4662d01f3f579f1298fe192ae61/lintcode.200%20%C2%B7%20Longest%20Palindromic%20Substring.md)
 
 # divide and conquer
 
@@ -186,7 +191,6 @@
 1249 · 密码强度检查器
 347 · 最大值期望
 153 · 数字组合 II
-34 · N皇后问题（二）
 95 · 验证二叉查找树
 121 · 单词接龙 II
 107 · 单词拆分（一）
@@ -226,6 +230,5 @@
 647 · 子串字谜
 52 · 下一个排列
 62 · 搜索旋转排序数组
-[200 · 最长回文子串](https://github.com/mazexiaozhoulu/Leetcode-/blob/ab69b9009a8fe4662d01f3f579f1298fe192ae61/lintcode.200%20%C2%B7%20Longest%20Palindromic%20Substring.md)
 154 · 正则表达式匹配
 414 · 两个整数相除
