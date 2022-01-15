@@ -1,3 +1,4 @@
+#34 N-Queens II 就是把33题的 return res 变成 return len(res)
 ```
 class Solution:
     """
