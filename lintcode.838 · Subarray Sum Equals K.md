@@ -21,12 +21,6 @@ sumDict:{[0:1, 1:1, 5:1, 13:1, 8:1, 16:1]}
 
 ```
 class Solution:
-    """
-    @param nums: a list of integer
-    @param k: an integer
-    @return: return an integer, denote the number of continuous subarrays whose sum equals to k
-    """
-
     def subarraySum(self, nums: List[int], k: int) -> int:
     
         sumDict = {0:1}
@@ -41,13 +35,13 @@ class Solution:
 #we make sure to check if the sum - k is already in the dictionary, if so, increase the count.： 
 #如果 sum - k （就是sumDict的key）出现了，就在count里增加出现的次数（key的value）
             if sum-k in sumDict:
-                count += sumDict[s-k]
+                count += sumDict[sum-k]
 
 # #we check if s is already in the sumDict, if so, increase by 1, if not assign 1.             
             if sum in sumDict:
-                sumDict[s] +=1
+                sumDict[sum] +=1
             else:
-                sumDict[s] = 1
+                sumDict[sum] = 1
 
 #finally return the occurance    
         return count
