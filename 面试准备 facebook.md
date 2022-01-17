@@ -47,7 +47,7 @@
 
 [82 · 落单的数](https://github.com/mazexiaozhoulu/Leetcode-/blob/db1640348384655a751af092463cdc3fbdd1e419/lintcode.82%20%C2%B7%20Single%20Number.md)(https://www.lintcode.com/problem/82/)
 
-[838 · 子数组和为K](https://github.com/mazexiaozhoulu/Leetcode-/blob/b9d58c8b2d5e4c11b5df743ef69399a02f628e69/lintcode.838%20%C2%B7%20Subarray%20Sum%20Equals%20K.md)(https://www.lintcode.com/problem/838/)
+[838 · 子数组和为K](https://github.com/mazexiaozhoulu/Leetcode-/blob/ad782edb08012c6420c3955233ff6fd5654f34df/lintcode.838%20%C2%B7%20Subarray%20Sum%20Equals%20K.md)(https://www.lintcode.com/problem/838/)
 
 [1876 · 外星人字典（简单）](https://github.com/mazexiaozhoulu/Leetcode-/blob/3c1865e98770f7c73c7b47ae6ccf0b71b1986977/lintcode.1876%20%C2%B7%20Alien%20Dictionary(easy).md)(https://www.lintcode.com/problem/1876/)
 
