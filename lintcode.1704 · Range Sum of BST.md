@@ -8,11 +8,15 @@ Output: 32
 
 Explanation: Nodes 7, 10, and 15 are in the range [7, 15]. 7 + 10 + 15 = 32.
 
-
+########
 Time Complexity: O(N), where N is the number of nodes in the tree.
 
 Space Complexity: O(N)
+
+#Recursive Implementation
+
 ```
+
 class Solution(object):
     def rangeSumBST(self, root, L, R):
         def dfs(node):
@@ -28,4 +32,23 @@ class Solution(object):
         self.ans = 0
         dfs(root)
         return self.ans
+```
+#Iterative Implementation
+
+```
+
+class Solution(object):
+    def rangeSumBST(self, root, L, R):
+        ans = 0
+        stack = [root]
+        while stack:
+            node = stack.pop()
+            if node:
+                if L <= node.val <= R:
+                    ans += node.val
+                if L < node.val:
+                    stack.append(node.left)
+                if node.val < R:
+                    stack.append(node.right)
+        return ans
 ```
