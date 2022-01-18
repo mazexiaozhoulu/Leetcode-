@@ -54,7 +54,7 @@
 [1205 · 对角线遍历](https://github.com/mazexiaozhoulu/Leetcode-/blob/a501ce2e9f1f3b7eeffd765047c6c89d55e871cd/lintcode.1205%20%C2%B7%20Diagonal%20Traverse.md)(https://www.lintcode.com/problem/1205/)
 
 # math & bin
-[428 · x的n次幂](https://github.com/mazexiaozhoulu/Leetcode-/blob/f8fd33246bd64879ff0701a998a6fdd121a5dae0/lintcode.428%20%C2%B7%20Pow(x,%20n).md)
+[428 · Pow(x, n)](https://github.com/mazexiaozhoulu/Leetcode-/blob/3aa9ac400fc7ee3d36f6798617d7f5acd39c4545/lintcode.428%20%C2%B7%20Pow(x,%20n).md)
 
 [408 · 二进制求和](https://github.com/mazexiaozhoulu/Leetcode-/blob/f784c9791146877186e51fd1e793b4a3e4f6f575/lintcode.408%20%C2%B7%20Add%20Binary.md)
 
