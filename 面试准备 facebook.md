@@ -73,7 +73,7 @@
 
 [760 · 二叉树的右视图](https://github.com/mazexiaozhoulu/Leetcode-/blob/d702eb1a8f456f80954a770e81af9dff02ce7b68/lintcode.760%20%C2%B7%20Binary%20Tree%20Right%20Side%20View.md)
 
-[1704 · Range Sum of BST](https://github.com/mazexiaozhoulu/Leetcode-/blob/0ae6fee111333c296cc32216ab898e50217e63f6/lintcode.1704%20%C2%B7%20Range%20Sum%20of%20BST.md)
+[1704 · Range Sum of BST](https://github.com/mazexiaozhoulu/Leetcode-/blob/6a1c467c99ab78dc89fe25b19635f52d5919d5cf/lintcode.1704%20%C2%B7%20Range%20Sum%20of%20BST.md)
 
 # BFS
 
