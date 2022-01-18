@@ -60,7 +60,7 @@
 # math & bin
 [428 · Pow(x, n)](https://github.com/mazexiaozhoulu/Leetcode-/blob/3aa9ac400fc7ee3d36f6798617d7f5acd39c4545/lintcode.428%20%C2%B7%20Pow(x,%20n).md)
 
-[408 · 二进制求和](https://github.com/mazexiaozhoulu/Leetcode-/blob/f784c9791146877186e51fd1e793b4a3e4f6f575/lintcode.408%20%C2%B7%20Add%20Binary.md)
+[408 · Add Binary](https://github.com/mazexiaozhoulu/Leetcode-/blob/f784c9791146877186e51fd1e793b4a3e4f6f575/lintcode.408%20%C2%B7%20Add%20Binary.md)
 
 
 # BST
