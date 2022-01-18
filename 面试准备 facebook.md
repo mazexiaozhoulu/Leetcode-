@@ -81,7 +81,7 @@
 
 [17 · 子集](https://github.com/mazexiaozhoulu/Leetcode-/blob/01dbf17ff8280a9c6a45d2b09b7b55a4dd56a24c/lintcode.17%20%C2%B7%20Subsets.md)
 
-[651 · 二叉树垂直遍历](https://github.com/mazexiaozhoulu/Leetcode-/blob/226952f0299e121b859ea4c3ffcb69f55af8ed3b/lintcode%20651%20&%20leetcode%20314.md)
+[651 · Binary Tree Vertical Order Traversal](https://github.com/mazexiaozhoulu/Leetcode-/blob/eead5aae42a41ad7c43009c46cc80b0f942bd150/lintcode%20651%20Binary%20Tree%20Vertical%20Order%20Traversal%20.md)
 
 [1115 · 二叉树每层的平均数](https://github.com/mazexiaozhoulu/Leetcode-/blob/86fe0c928840881dcdbddca31333d1264f8bf10e/lintcode.1115%20%C2%B7%20Average%20of%20Levels%20in%20Binary%20Tree.md)
 
