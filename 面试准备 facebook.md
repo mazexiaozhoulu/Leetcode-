@@ -53,6 +53,8 @@
 
 [1205 · 对角线遍历](https://github.com/mazexiaozhoulu/Leetcode-/blob/a501ce2e9f1f3b7eeffd765047c6c89d55e871cd/lintcode.1205%20%C2%B7%20Diagonal%20Traverse.md)(https://www.lintcode.com/problem/1205/)
 
+[1281 · Top K Frequent Elements](https://github.com/mazexiaozhoulu/Leetcode-/blob/5dfd9e88122e3e5b5c63a8a8d1da2913d249b373/lintcode.1281%20%C2%B7%20Top%20K%20Frequent%20Elements.md)
+
 # math & bin
 [428 · Pow(x, n)](https://github.com/mazexiaozhoulu/Leetcode-/blob/3aa9ac400fc7ee3d36f6798617d7f5acd39c4545/lintcode.428%20%C2%B7%20Pow(x,%20n).md)
 
