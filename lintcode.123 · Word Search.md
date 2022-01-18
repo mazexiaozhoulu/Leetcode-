@@ -1,3 +1,15 @@
+# Description:
+
+Given a 2D board and a string word, find if the string word exists in the grid.
+
+The string word can be constructed from letters of sequentially adjacent cell, where "adjacent" cells are those horizontally or vertically neighboring.
+
+The same letter cell may not be used more than once.
+# sample:
+board = ["ABCE","SFCS","ADEE"]
+word = "ABCCED"
+
+# code 
 ```
 class Solution:
     def exist(self, board, word):
