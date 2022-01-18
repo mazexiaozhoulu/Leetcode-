@@ -28,10 +28,11 @@ class Solution:
             result.append(group[col])
         return result
 ```
-Time Complexity: \mathcal{O}(N) where N is the number of nodes in the tree.
-Following the same analysis in the previous BFS approach, the only difference is that this time we don't need the costy sorting operation (i.e. \mathcal{O}(N \log N)).
+Time Complexity: {O}(N) where N is the number of nodes in the tree.
 
-Space Complexity: {O}(N)O(N) where NN is the number of nodes in the tree. The analysis follows the same logic as in the previous BFS approach.
+Following the same analysis in the previous BFS approach, the only difference is that this time we don't need the costy sorting operation (i.e. {O}(N \log N)).
+
+Space Complexity: {O}(N) where NN is the number of nodes in the tree. The analysis follows the same logic as in the previous BFS approach.
 ```
 from collections import defaultdict
 class Solution:
