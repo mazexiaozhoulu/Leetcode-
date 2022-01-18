@@ -4,7 +4,7 @@ Binary Tree Vertical Order Traversal
 
 在用BFS的时候把每个node的index搞出来， 方法就是左子树-1， 右子树+1， 然后把这个node存到对应的index的group里面。 最后从小到大输出即可
 
-Time Complexity: \mathcal{O}(N \log N) where N is the number of nodes in the tree.
+Time Complexity: {O}(N \log N) where N is the number of nodes in the tree.
 ```
 class Solution:
     def verticalOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
@@ -31,7 +31,7 @@ class Solution:
 Time Complexity: \mathcal{O}(N) where N is the number of nodes in the tree.
 Following the same analysis in the previous BFS approach, the only difference is that this time we don't need the costy sorting operation (i.e. \mathcal{O}(N \log N)).
 
-Space Complexity: \mathcal{O}(N)O(N) where NN is the number of nodes in the tree. The analysis follows the same logic as in the previous BFS approach.
+Space Complexity: {O}(N)O(N) where NN is the number of nodes in the tree. The analysis follows the same logic as in the previous BFS approach.
 ```
 from collections import defaultdict
 class Solution:
