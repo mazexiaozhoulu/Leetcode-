@@ -92,7 +92,7 @@
 # graph
 [477 · 被围绕的区域](https://github.com/mazexiaozhoulu/Leetcode-/blob/218bcd0a77da6868b82b0cacc48efe4fc4939442/lintcode.477%20%C2%B7%20Surrounded%20Regions.md)
 
-[123 · 单词搜索](https://github.com/mazexiaozhoulu/Leetcode-/blob/8d5570852203e57a12ede63875f38d1953970d74/lintcode.123%20%C2%B7%20Word%20Search.md)
+[123 · Word Search](https://github.com/mazexiaozhoulu/Leetcode-/blob/e9ecb4550fe1a8e2205de9ac3e8b64219eabb822/lintcode.123%20%C2%B7%20Word%20Search.md)
 
 [137 · 克隆图](https://github.com/mazexiaozhoulu/Leetcode-/blob/c7642f9e7a88a958d4e12bb17bbd140ca30549b2/lintcode%20137%20Clone%20Graph.md)
 
