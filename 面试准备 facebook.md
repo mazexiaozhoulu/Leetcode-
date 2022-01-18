@@ -24,6 +24,8 @@
 
 [1310 · 数组除了自身的乘积](https://github.com/mazexiaozhoulu/Leetcode-/blob/268f0b326deedb702492f970e6cbee0cba5bd15c/lintcode.1310%20%C2%B7%20Product%20of%20Array%20Except%20Self.md)(https://www.lintcode.com/problem/1310/)
 
+[100 · Remove Duplicates from Sorted Array](https://github.com/mazexiaozhoulu/Leetcode-/blob/96aa1895d6d8d11e39898c637369ea7aeabe6ed4/lintcode.100%20%C2%B7%20Remove%20Duplicates%20from%20Sorted%20Array.md)
+
 # string
 [1222 · 检验IP地址](https://github.com/mazexiaozhoulu/Leetcode-/blob/0267c6ad9f009a3fdeaca4073a70e0e267082ad1/lintcode.1222%20%C2%B7%20Validate%20IP%20Address.md)(https://www.lintcode.com/problem/1222/)
 
