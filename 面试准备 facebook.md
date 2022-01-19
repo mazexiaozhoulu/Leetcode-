@@ -1,12 +1,12 @@
 
 # Array:
-[52 · 下一个排列](https://github.com/mazexiaozhoulu/Leetcode-/blob/d101d0e0f34cf3efb2008b7c2ad971f2af6b6902/lintcode.52%20%C2%B7%20Next%20Permutation.md)(https://www.lintcode.com/problem/52/)
+[52 · Next Permutation](https://github.com/mazexiaozhoulu/Leetcode-/blob/7483f782f60a0d97de2e14015352fb337c7f4021/lintcode.52%20%C2%B7%20Next%20Permutation.md)(https://www.lintcode.com/problem/52/)
 
-[641 · 丢失的间隔](https://github.com/mazexiaozhoulu/Leetcode-/blob/c337da5a172093c8d0365810c272bc6e34344674/lintcode.641%20%C2%B7%20Missing%20Ranges.md)(https://www.lintcode.com/problem/641/)
+[641 · Missing Ranges](https://github.com/mazexiaozhoulu/Leetcode-/blob/647c0edadb309498c4fd77bb031563403a6b0b6f/lintcode.641%20%C2%B7%20Missing%20Ranges.md)(https://www.lintcode.com/problem/641/)
 
-[1304 · H指数](https://github.com/mazexiaozhoulu/Leetcode-/blob/405339bd1be7d5c2b71d9ea6a9da3d6abb8ab3d3/lintcode.1304%20%C2%B7%20H%E6%8C%87%E6%95%B0.md)(https://www.lintcode.com/problem/1304/)
+[1304 · H-index](https://github.com/mazexiaozhoulu/Leetcode-/blob/4aa1a1d35a45ac5f988a3fb73ba240c758bc1c81/lintcode.1304%20%C2%B7%20H%E6%8C%87%E6%95%B0.md)(https://www.lintcode.com/problem/1304/)
 
-[30 · 插入区间](https://github.com/mazexiaozhoulu/Leetcode-/blob/8437fdcba75b779eeae0f73cf1e2447f3b893a2f/lintcode.30%20%C2%B7%20Insert%20Interval.md)(https://www.lintcode.com/problem/30/)
+[30 · Insert Interval.](https://github.com/mazexiaozhoulu/Leetcode-/blob/2b74317abbfeee0737a617f9ce39463ce6cdfc68/lintcode.30%20%C2%B7%20Insert%20Interval.md)(https://www.lintcode.com/problem/30/)
 
 [767 · 翻转数组](https://github.com/mazexiaozhoulu/Leetcode-/blob/cf8a9d782e6c86477cd3e172635c5c4761837fdd/lintcode.767%20%C2%B7%20Reverse%20Array.md)(https://www.lintcode.com/problem/767/)
 
