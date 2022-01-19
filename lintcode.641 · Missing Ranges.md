@@ -18,7 +18,7 @@ in range[0,7],the missing range include range[4,6]
 # 时间复杂度
 O（n）
 # 方法
-#step:
+         #step:
          #a: extend nums, add lower and upper in nums
          #b: set two points, determine whether h - l >= 2; we don't need to consider about h - 1 < 2,which would show in result
          #c: if h - l >= 2 and h - l == 2, result add l+1
