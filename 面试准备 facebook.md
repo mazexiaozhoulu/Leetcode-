@@ -12,9 +12,9 @@
 
 [1212 · Max Consecutive Ones](https://github.com/mazexiaozhoulu/Leetcode-/blob/5534b3e639ccae2e2b53a76e3071391cce6daf40/lintcode.1212%20%C2%B7%20Max%20Consecutive%20Ones.md)(https://www.lintcode.com/problem/1212/)
 
-[539 · 移动零](https://github.com/mazexiaozhoulu/Leetcode-/blob/5643e2e4bbbb12108c12844ef720ad28882d6f9f/lintcode.539%20%C2%B7%20Move%20Zeroes.md)(https://www.lintcode.com/problem/539/)
+[539 · Move Zeroes](https://github.com/mazexiaozhoulu/Leetcode-/blob/b8e42e5eda39ae490a4beaeca50af71a87004ddb/lintcode.539%20%C2%B7%20Move%20Zeroes.md)(https://www.lintcode.com/problem/539/)
 
-[402 · 连续子数组求和](https://github.com/mazexiaozhoulu/Leetcode-/blob/d46af2fa6ee5de40bd03b296dba8cca65152d64e/lintcode.402%20%C2%B7%20Continuous%20Subarray%20Sum.md)(https://www.lintcode.com/problem/402/)
+[402 · Continuous Subarray Sum](https://github.com/mazexiaozhoulu/Leetcode-/blob/3df8e1c4e7c3753c21a5d25f65a39545d91de0c0/lintcode.402%20%C2%B7%20Continuous%20Subarray%20Sum.md)(https://www.lintcode.com/problem/402/)
 
 [41 · 最大子数组](https://github.com/mazexiaozhoulu/Leetcode-/blob/12eba6fa453eb5a00fc9e342608ddba07718eb17/lintcode.41%20%C2%B7%20Maximum%20Subarray.md)(https://www.lintcode.com/problem/41/)
 
