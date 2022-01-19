@@ -1,6 +1,29 @@
-时间复杂度：O(n)O(n)，其中 nn 是数组 \textit{intervals}intervals 的长度，即给定的区间个数。
+# Description
+Given a non-overlapping interval list which is sorted by start point.
+Insert a new interval into it, make sure the list is still in order and non-overlapping (merge intervals if necessary).
 
-空间复杂度：O(1)O(1)。除了存储返回答案的空间以外，我们只需要额外的常数空间即可。
+# Example 1:
+
+Input:
+
+interval list = [(1,2), (5,9)]
+
+new interval = (2, 5)
+
+Output:
+
+[(1,9)]
+# 时间复杂度
+
+时间复杂度：O(n)，其中 nn 是数组intervals 的长度，即给定的区间个数。
+
+空间复杂度：O(1)。除了存储返回答案的空间以外，我们只需要额外的常数空间即可。
+
+# 方法
+    # 独立左边的放左边
+    # 独立右边的放右边
+    # 重复的用max&min取大小做新的interval
+    # 合并起来
 ```
 class Solution:
     """
