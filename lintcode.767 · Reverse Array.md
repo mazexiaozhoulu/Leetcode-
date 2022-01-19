@@ -14,7 +14,7 @@ Output:
 #时间复杂度
 时间复杂度：O(N)，其中 N 为字符数组的长度。一共执行了 N/2 次的交换。
 
-# 代码
+# 代码1
 ```
     def reverseArray(self, nums):
         # write your code here
@@ -22,7 +22,7 @@ Output:
             nums[i],nums[len(nums)-1-i] = nums[len(nums)-1-i],nums[i]
         return nums
 ```
-
+# 代码2
 ```
     def reverseArray(self, nums):
         if not nums:
