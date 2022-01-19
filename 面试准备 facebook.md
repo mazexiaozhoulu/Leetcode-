@@ -69,7 +69,7 @@
 
 [1311 · 二叉搜索树的最近公共祖先](https://github.com/mazexiaozhoulu/Leetcode-/blob/08ae9cba9a4d301f0b66cc8011a2795f0ba246eb/lintcode.1311%20%C2%B7%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree.md)
 
-[94 · 二叉树中的最大路径和](https://github.com/mazexiaozhoulu/Leetcode-/blob/b491a2fbd2e1dec5e995c7399720efaa5ee0cb11/lintcode.%2094%20%C2%B7%20Binary%20Tree%20Maximum%20Path%20Sum.md)
+[94 · Binary Tree Maximum Path Sum](https://github.com/mazexiaozhoulu/Leetcode-/blob/1399e574eca7d40b869c5609334595f970c50f4b/lintcode.%2094%20%C2%B7%20Binary%20Tree%20Maximum%20Path%20Sum.md)
 
 [7 · 二叉树的序列化和反序列化](https://github.com/mazexiaozhoulu/Leetcode-/blob/bb4c94c064661cccbc0516f93fc7cae100b60431/lintcode.7%20%C2%B7%20Serialize%20and%20Deserialize%20Binary%20Tree.md)
 
