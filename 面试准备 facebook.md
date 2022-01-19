@@ -8,9 +8,9 @@
 
 [30 · Insert Interval.](https://github.com/mazexiaozhoulu/Leetcode-/blob/2b74317abbfeee0737a617f9ce39463ce6cdfc68/lintcode.30%20%C2%B7%20Insert%20Interval.md)(https://www.lintcode.com/problem/30/)
 
-[767 · 翻转数组](https://github.com/mazexiaozhoulu/Leetcode-/blob/cf8a9d782e6c86477cd3e172635c5c4761837fdd/lintcode.767%20%C2%B7%20Reverse%20Array.md)(https://www.lintcode.com/problem/767/)
+[767 · Reverse Array](https://github.com/mazexiaozhoulu/Leetcode-/blob/fb180c4840d3cf2a813e2a3c87dd928fe2395adc/lintcode.767%20%C2%B7%20Reverse%20Array.md)(https://www.lintcode.com/problem/767/)
 
-[1212 · 最大连续1的个数](https://github.com/mazexiaozhoulu/Leetcode-/blob/578b9886503f6e919945bc581fe35774ee324de2/lintcode.1212%20%C2%B7%20Max%20Consecutive%20Ones.md)(https://www.lintcode.com/problem/1212/)
+[1212 · Max Consecutive Ones](https://github.com/mazexiaozhoulu/Leetcode-/blob/5534b3e639ccae2e2b53a76e3071391cce6daf40/lintcode.1212%20%C2%B7%20Max%20Consecutive%20Ones.md)(https://www.lintcode.com/problem/1212/)
 
 [539 · 移动零](https://github.com/mazexiaozhoulu/Leetcode-/blob/5643e2e4bbbb12108c12844ef720ad28882d6f9f/lintcode.539%20%C2%B7%20Move%20Zeroes.md)(https://www.lintcode.com/problem/539/)
 
