@@ -89,7 +89,11 @@
 
 [1115 · 二叉树每层的平均数](https://github.com/mazexiaozhoulu/Leetcode-/blob/86fe0c928840881dcdbddca31333d1264f8bf10e/lintcode.1115%20%C2%B7%20Average%20of%20Levels%20in%20Binary%20Tree.md)
 
+[1031 · 图可以被二分么？](https://github.com/mazexiaozhoulu/Leetcode-/blob/33f89a3bf0d6726e839d5d7cb620c6275f9b015c/lintcode.1031%20%C2%B7%20Is%20Graph%20Bipartite%3F.md)
+
+
 # graph
+
 [477 · 被围绕的区域](https://github.com/mazexiaozhoulu/Leetcode-/blob/218bcd0a77da6868b82b0cacc48efe4fc4939442/lintcode.477%20%C2%B7%20Surrounded%20Regions.md)
 
 [123 · Word Search](https://github.com/mazexiaozhoulu/Leetcode-/blob/e9ecb4550fe1a8e2205de9ac3e8b64219eabb822/lintcode.123%20%C2%B7%20Word%20Search.md)
@@ -175,6 +179,7 @@
 [1721 · 使括号有效的最少添加](https://github.com/mazexiaozhoulu/Leetcode-/blob/97b99cd988423475572d557dda62eba79d78fe5e/lintcode.1721%20%C2%B7%20Minimum%20Add%20to%20Make%20Parentheses%20Valid.md)
 
 # heap
+
 [606 · 第K大的元素II](https://github.com/mazexiaozhoulu/Leetcode-/blob/092154a72dc12e2847eb0784d494479832034505/lintcode.606%20%C2%B7%20Kth%20Largest%20Element%20II.md)
 
 [104 · 合并k个排序链表](https://github.com/mazexiaozhoulu/Leetcode-/blob/9bdf1df1b4044dbc6f9bc48141a2a884a948563c/lintcode.104%20%C2%B7%20Merge%20K%20Sorted%20Lists.md)
@@ -226,7 +231,6 @@
 707 · 最优账户结余
 397 · 最长上升连续子序列
 810 · 水位上升的泳池中游泳
-1031 · 图可以被二分么？
 
 1702 · 不同的子序列 II
 
