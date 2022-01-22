@@ -26,6 +26,8 @@
 
 [100 · Remove Duplicates from Sorted Array](https://github.com/mazexiaozhoulu/Leetcode-/blob/77277412133f77995cfd1da935f19bf1a406f40f/lintcode.100%20%C2%B7%20Remove%20Duplicates%20from%20Sorted%20Array.md)
 
+[1393 · 适龄的朋友](https://github.com/mazexiaozhoulu/Leetcode-/blob/3b6b49ecb3e62b25c8721f8cbbd2f7ce44763bb8/lintcode.1393%20%C2%B7%20Friends%20Of%20Appropriate%20Ages.md)
+
 # string
 [1222 · 检验IP地址](https://github.com/mazexiaozhoulu/Leetcode-/blob/0267c6ad9f009a3fdeaca4073a70e0e267082ad1/lintcode.1222%20%C2%B7%20Validate%20IP%20Address.md)(https://www.lintcode.com/problem/1222/)
 
@@ -237,7 +239,6 @@
 
 149 · 买卖股票的最佳时机
 412 · 分糖果
-1393 · 适龄的朋友
 1465 · 任务顺序
 1506 · 二叉树中所有距离为 K 的结点
 397 · 最长上升连续子序列
