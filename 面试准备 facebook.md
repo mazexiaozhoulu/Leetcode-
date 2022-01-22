@@ -111,7 +111,7 @@
 [34 · N皇后问题（二）](https://github.com/mazexiaozhoulu/Leetcode-/blob/a0ed9d24d25bef9cfe340d6d8000e2eb826319aa/lintcode.33%20%C2%B7%20N-Queens.md)
 
 (排列组合)
-[135 · 数字组合](https://github.com/mazexiaozhoulu/Leetcode-/blob/572cdecd778bbbc6d0aaa7ad4fe6572a47beafad/lintcode.135%20%C2%B7%20Combination%20Sum.md)
+[135 · 数字组合](https://github.com/mazexiaozhoulu/Leetcode-/blob/6520e24a852084686be0dc0a23438ef25252f220/lintcode.135%20%C2%B7%20Combination%20Sum.md)
 
 [1353 · 根节点到叶节点求和](https://github.com/mazexiaozhoulu/Leetcode-/blob/98aaba11a1e73a6df42af7cc9092ebb7c311a123/lintcode.1353%20%C2%B7%20Sum%20Root%20to%20Leaf%20Numbers.md)
 
