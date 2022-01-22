@@ -167,6 +167,8 @@
 
 [36 · 翻转链表（二）](https://github.com/mazexiaozhoulu/Leetcode-/blob/425a688ea5e6b74d61671d4779c1589c4e775289/lintcode.36%20%C2%B7%20Reverse%20Linked%20List%20II.md)
 
+[62 · 搜索旋转排序数组](https://github.com/mazexiaozhoulu/Leetcode-/blob/10a860843ceabbd0ace29ebc76fd798894c4506c/lintcode.62%20%C2%B7%20Search%20in%20Rotated%20Sorted%20Array.md)
+
 # sort
 
 [156 · 合并区间](https://github.com/mazexiaozhoulu/Leetcode-/blob/28c59c35d5637ca87937b2a18bc1df724118e5ea/lintcode.156%20%C2%B7%20Merge%20Intervals.md)
@@ -244,6 +246,5 @@
 397 · 最长上升连续子序列
 647 · 子串字谜
 52 · 下一个排列
-62 · 搜索旋转排序数组
 154 · 正则表达式匹配
 414 · 两个整数相除
