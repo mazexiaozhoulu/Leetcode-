@@ -111,7 +111,9 @@
 [34 · N皇后问题（二）](https://github.com/mazexiaozhoulu/Leetcode-/blob/a0ed9d24d25bef9cfe340d6d8000e2eb826319aa/lintcode.33%20%C2%B7%20N-Queens.md)
 
 (排列组合)
-[135 · 数字组合](https://github.com/mazexiaozhoulu/Leetcode-/blob/6520e24a852084686be0dc0a23438ef25252f220/lintcode.135%20%C2%B7%20Combination%20Sum.md)
+[135 · 数字组合](https://github.com/mazexiaozhoulu/Leetcode-/blob/caf6d1cf10a7c73970fa322b3341b3d4daabb8ba/lintcode.135%20%C2%B7%20Combination%20Sum.md)
+
+[153 · 数字组合 II](https://github.com/mazexiaozhoulu/Leetcode-/blob/b06464516cbda19b9be4b7901bd2a55bfbdd8afd/lintcode.153%20%C2%B7%20Combination%20Sum%20II.md)
 
 [1353 · 根节点到叶节点求和](https://github.com/mazexiaozhoulu/Leetcode-/blob/98aaba11a1e73a6df42af7cc9092ebb7c311a123/lintcode.1353%20%C2%B7%20Sum%20Root%20to%20Leaf%20Numbers.md)
 
@@ -206,7 +208,6 @@
 314 · 丢失的记录
 1249 · 密码强度检查器
 347 · 最大值期望
-153 · 数字组合 II
 95 · 验证二叉查找树
 121 · 单词接龙 II
 107 · 单词拆分（一）
