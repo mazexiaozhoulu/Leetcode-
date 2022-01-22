@@ -48,3 +48,38 @@ target/min
             current.pop()
 
 ```
+DFS：
+
+先把list排序
+
+调用DFS，依次把数组里的元素往集合里放，放一个减一次
+
+target == 0 时返回
+
+把去重放在了dfs函数里，当然在主程序里先去一遍重也没毛病。
+```
+class Solution:
+    """
+    @param candidates: A list of integers
+    @param target: An integer
+    @return: A list of lists of integers
+    """
+    def combinationSum(self, candidates, target):
+        result = []
+        candidates.sort()
+        self.dfs(result, [], 0, candidates, target)
+        return result
+        
+    def dfs(self, result, path, index, candidates, target):
+        if target == 0:
+            result.append(path[:])
+            return
+        for i in range(index, len(candidates)):
+            if candidates[i] > target:
+                break
+            if i != index and candidates[i] == candidates[i-1]:
+                continue;
+            path.append(candidates[i])
+            self.dfs(result, path, i, candidates, target - candidates[i])
+            path.pop()
+```
