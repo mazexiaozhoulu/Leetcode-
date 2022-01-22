@@ -171,6 +171,9 @@
 [193 · 最长有效括号](https://github.com/mazexiaozhoulu/Leetcode-/blob/8ae280f1ed03f1fd24a9904d50430fbbc6acc200/lintcode.%20193%20%C2%B7%20Longest%20Valid%20Parentheses.md)
 
 [leetcode 1047. Remove All Adjacent Duplicates In String]https://github.com/mazexiaozhoulu/Leetcode-/blob/6e65ffd56b90acdb61b8211e1dbd66dd21308404/leetcode.1047.%20Remove%20All%20Adjacent%20Duplicates%20In%20String.md
+
+[1721 · 使括号有效的最少添加](https://github.com/mazexiaozhoulu/Leetcode-/blob/97b99cd988423475572d557dda62eba79d78fe5e/lintcode.1721%20%C2%B7%20Minimum%20Add%20to%20Make%20Parentheses%20Valid.md)
+
 # heap
 [606 · 第K大的元素II](https://github.com/mazexiaozhoulu/Leetcode-/blob/092154a72dc12e2847eb0784d494479832034505/lintcode.606%20%C2%B7%20Kth%20Largest%20Element%20II.md)
 
@@ -218,7 +221,7 @@
 397 · 最长上升连续子序列
 810 · 水位上升的泳池中游泳
 1031 · 图可以被二分么？
-1721 · 使括号有效的最少添加
+
 1702 · 不同的子序列 II
 
 149 · 买卖股票的最佳时机
