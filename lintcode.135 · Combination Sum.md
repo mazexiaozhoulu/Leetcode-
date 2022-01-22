@@ -1,12 +1,17 @@
-# 算法流程
-# 1: 由于题目候选数字的集合candidates可能包含重复数字，且返回的结果要求组合内数字非降序，
-# 因此首先需对candidates进行升序排序并去重，得到新的数字集合candidatesNew；
+算法流程
+1: 由于题目候选数字的集合candidates可能包含重复数字，且返回的结果要求组合内数字非降序，
+因此首先需对candidates进行升序排序并去重，得到新的数字集合candidatesNew；
 
-# 2:对新的数字集合进行深度优先搜索，传入的参数包括：数字集合candidatesNew、当前的位置index、当前存入的组合current、距离目标值的差remainTarget、保存答案的列表result；
-# 3: 当remainTarget=0即达到边界，将current添加到result，回溯；
-# 4: 循环遍历index位置到数字集合的末尾，分别递归调用dfs；
-# 5: 递归步进为：remainTarget - candidatesNew[i]；
-# 6: 剪枝：当发现当前的数字加入已超过remainTarget可进行剪枝。
+2:对新的数字集合进行深度优先搜索，传入的参数包括：数字集合candidatesNew、
+当前的位置index、当前存入的组合current、距离目标值的差remainTarget、保存答案的列表result；
+
+3: 当remainTarget=0即达到边界，将current添加到result，回溯；
+
+4: 循环遍历index位置到数字集合的末尾，分别递归调用dfs；
+
+5: 递归步进为：remainTarget - candidatesNew[i]；
+
+6: 剪枝：当发现当前的数字加入已超过remainTarget可进行剪枝。
 
 时间复杂度：O( n^{target/min} )
 （拷贝过程视作O(1)O(1)),n为集合中数字个数，min为集合中最小的数字
