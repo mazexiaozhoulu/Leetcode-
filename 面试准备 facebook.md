@@ -160,7 +160,7 @@
 
 [165 · 合并两个排序链表](https://github.com/mazexiaozhoulu/Leetcode-/blob/226952f0299e121b859ea4c3ffcb69f55af8ed3b/linkedlist%20lintcode%20219%20174%20165%20.md)
 
-[36 · 翻转链表（二）](https://github.com/mazexiaozhoulu/Leetcode-/blob/6ae130dcdee567661739e0ed33bcf4ca3d493c5d/linkedlist%20lintcode%20113%EF%BC%8C%2036.md)
+[36 · 翻转链表（二）](https://github.com/mazexiaozhoulu/Leetcode-/blob/d308acb38eb79cf3e86f6661bcd9e45ce2d24859/linkedlist%20lintcode%20113%EF%BC%8C%2036.md)
 
 # sort
 
