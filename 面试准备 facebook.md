@@ -123,7 +123,7 @@
 
 [616 · 课程表 II](https://github.com/mazexiaozhoulu/Leetcode-/blob/4fd232593c8eda7e1b3550283b05180e6b7f0721/lintcode%20616%20%C2%B7%20Course%20Schedule%20II.md)
 
-# 二分法
+# binary search
 
 [74 · 第一个错误的代码版本](https://github.com/mazexiaozhoulu/Leetcode-/blob/ee829faaa7553c457c30520ddd2f2b2f67a4d846/lintcode.74%20%C2%B7%20First%20Bad%20Version.md)
 
@@ -134,6 +134,7 @@
 
 [1272 · 有序矩阵中的第K小元素](https://github.com/mazexiaozhoulu/Leetcode-/blob/ca7cb069431e9820c164beed0bd46e2abf5f3b51/lintcode.1272%20%C2%B7%20Kth%20Smallest%20Element%20in%20a%20Sorted%20Matrix.md)
 
+[160 · 寻找旋转排序数组中的最小值 II](https://github.com/mazexiaozhoulu/Leetcode-/blob/d0ca0b7cc01cb65834b07d64c6c3dd28f67c192b/lintcode.160%20%C2%B7%20Find%20Minimum%20in%20Rotated%20Sorted%20Array%20II.md)
 # two points
 
 [57 · 三数之和](https://github.com/mazexiaozhoulu/Leetcode-/blob/0c17c4fcb808d133eae34eebae31017a67adf3ab/lintcode%2057%20%C2%B7%203Sum.md)
@@ -214,7 +215,6 @@
 121 · 单词接龙 II
 107 · 单词拆分（一）
 582 · 单词拆分II
-160 · 寻找旋转排序数组中的最小值 II
 660 · 用Read4从文件中读取N个字符 II-多次调用
 86 · 二叉查找树迭代器
 2314 · 列表修改、添加和删除元素
