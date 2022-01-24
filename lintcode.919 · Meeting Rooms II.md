@@ -1,3 +1,22 @@
+# Description
+Given an array of meeting time intervals consisting of start and end times [[s1,e1],[s2,e2],...] (si < ei), find the minimum number of conference rooms required.
+
+# sample
+
+Input: intervals = [(0,30),(5,10),(15,20)]
+
+Output: 2
+
+Explanation:
+
+We need two meeting rooms
+
+room1: (0,30)
+
+room2: (5,10),(15,20)
+
+# complexity:
+O(nlogn)
 ```
 """
 Definition of Interval.
@@ -23,7 +42,7 @@ class Solution:
         ans=0
         #排序
         room=sorted(room)
-        #扫描一遍
+        #扫描一遍,
         for idx,cost in room:
             tmp+=cost
             ans=max(ans,tmp)
