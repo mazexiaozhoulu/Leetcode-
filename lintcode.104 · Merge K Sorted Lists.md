@@ -1,3 +1,17 @@
+# Description
+Merge k sorted linked lists and return it as one sorted list.
+
+Analyze and describe its complexity.
+# Example 1:
+
+Input:
+
+lists = [2->4->null,null,-1->null]
+
+Output:
+
+-1->2->4->null
+
 # brute force 
 
 Time complexity : O(NlogN) where NN is the total number of nodes.
@@ -34,6 +48,8 @@ class Solution(object):
 > Return 'dummy.next'.
 
 ```
+from heapq import heappop, heappush
+
 class Solution:
         # K 指针指向 K 条链表，每次使用小根堆求出最小值
     def mergeKLists(self, lists):
