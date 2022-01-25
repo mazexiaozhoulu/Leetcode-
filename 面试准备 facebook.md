@@ -187,8 +187,7 @@
 
 # heap
 
-[606 · 第K大的元素II]
-(https://github.com/mazexiaozhoulu/Leetcode-/blob/0019815a7dc9707d31146da7579239b15e2c6c42/lintcode.606%20%C2%B7%20Kth%20Largest%20Element%20II.md)
+[606 · 第K大的元素II](https://github.com/mazexiaozhoulu/Leetcode-/blob/0019815a7dc9707d31146da7579239b15e2c6c42/lintcode.606%20%C2%B7%20Kth%20Largest%20Element%20II.md)
 
 [104 · 合并k个排序链表](https://github.com/mazexiaozhoulu/Leetcode-/blob/c12c456bd6b84b2ab3742d49607522cd9b54dfb1/lintcode.104%20%C2%B7%20Merge%20K%20Sorted%20Lists.md)
 
