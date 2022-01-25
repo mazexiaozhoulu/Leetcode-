@@ -170,6 +170,8 @@
 [36 · 翻转链表（二）](https://github.com/mazexiaozhoulu/Leetcode-/blob/3a41dc7c02313e70deff15d82a521c03b44f3334/lintcode.36%20%C2%B7%20Reverse%20Linked%20List%20II.md)
 
 [62 · 搜索旋转排序数组](https://github.com/mazexiaozhoulu/Leetcode-/blob/ff7517d1b0f2e70fadf63291e3f818817eec8560/lintcode.62%20%C2%B7%20Search%20in%20Rotated%20Sorted%20Array.md)
+
+[219 · 在排序链表中插入一个节点; 174 · 删除链表中倒数第n个节点; 165 · 合并两个排序链表](https://github.com/mazexiaozhoulu/Leetcode-/blob/74437eed191bc907832c891c7d03c7bd612e6fd1/linkedlist%20lintcode%20219%20174%20165%20.md)
 # sort
 
 [156 · 合并区间](https://github.com/mazexiaozhoulu/Leetcode-/blob/08fd1c112d1cc45f7ccbb39997e70c7aab41b5e4/lintcode.156%20%C2%B7%20Merge%20Intervals.md)
