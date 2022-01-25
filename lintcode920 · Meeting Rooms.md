@@ -1,3 +1,18 @@
+# Description
+Given an array of meeting time intervals consisting of start and end times [[s1,e1],[s2,e2],...] (si < ei), determine if a person could attend all meetings.
+
+# sample 
+Input: intervals = [(0,30),(5,10),(15,20)]
+
+Output: false
+
+Explanation: 
+
+(0,30), (5,10) and (0,30),(15,20) will conflict
+
+# complexity 
+
+Time complexity : O(n \log n)O(nlogn). The time complexity is dominated by sorting. Once the array has been sorted, only O(n)O(n) time is taken to go through the array and determine if there is any overlap.
 ```
 
 class Solution:
