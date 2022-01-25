@@ -77,6 +77,7 @@ class Solution:
             head = head.next
         return head
 ```
+```
 # （2->3->4）                 round1                 round2                 round3                      round4 
 #start>(head    pre)         (2     none)           (3     2)              (4     3)                   (head为none，停止)
 #step1>(next = head.next)    (2.next是3(叫做next))   (3.next = 4(叫做next))  (4.next = none(叫做next))
@@ -88,3 +89,5 @@ class Solution:
 #>再把head的next指向pre，转换箭头方向
 #>移动指针，head变成新的pre的位置
 #>放了指针的next变成了新的head
+
+```
