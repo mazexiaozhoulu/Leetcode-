@@ -1,3 +1,23 @@
+# Description
+Given two words (start and end), and a dictionary, find the shortest transformation sequence from start to end, output the length of the sequence.
+Transformation rule such that:
+
+Only one letter can be changed at a time
+Each intermediate word must exist in the dictionary. (Start and end words do not need to appear in the dictionary )
+
+# Example 2:
+
+Input:
+
+start ="hit"
+end = "cog"
+dict =["hot","dot","dog","lot","log"]
+Output:
+
+5
+Explanation:
+
+"hit"->"hot"->"dot"->"dog"->"cog"
 ```
 class Solution:
     """
