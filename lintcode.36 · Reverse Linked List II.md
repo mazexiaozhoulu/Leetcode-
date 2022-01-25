@@ -1,3 +1,18 @@
+# Description
+Reverse a linked list from position m to n.
+
+# Example 1:
+
+Input:
+
+linked list = 1->2->3->4->5->NULL
+m = 2
+n = 4
+Output:
+
+1->4->3->2->5->NULL
+
+# 方法
         #先把m—pre和n—next标记，以防丢失，再调换m和n
         #找到m_pre,标记m_pre，标记m_pre和m的关系
         #找到n_next,标记n_next，标记n_next和n的关系，独立出来m-n的部分
@@ -54,6 +69,14 @@ class Solution:
             head = next
         #循环停止条件就是没有node了，head = None
         return pre
+
+    def findkth(self, head, k):
+        for i in range(k):
+            if head is None:
+                return None
+            head = head.next
+        return head
+```
 # （2->3->4）                 round1                 round2                 round3                      round4 
 #start>(head    pre)         (2     none)           (3     2)              (4     3)                   (head为none，停止)
 #step1>(next = head.next)    (2.next是3(叫做next))   (3.next = 4(叫做next))  (4.next = none(叫做next))
@@ -65,10 +88,3 @@ class Solution:
 #>再把head的next指向pre，转换箭头方向
 #>移动指针，head变成新的pre的位置
 #>放了指针的next变成了新的head
-    def findkth(self, head, k):
-        for i in range(k):
-            if head is None:
-                return None
-            head = head.next
-        return head
-```
