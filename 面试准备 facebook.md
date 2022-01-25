@@ -47,7 +47,7 @@
 
 [1025 · 自定义字符串排序](https://github.com/mazexiaozhoulu/Leetcode-/blob/d857033770bbdfaa3b6b0116939def33fdfb67a5/lintcode%201025%20%C2%B7%20Custom%20Sort%20String.md)(https://www.lintcode.com/problem/1025/)
 
-[134 · LRU缓存策略](https://github.com/mazexiaozhoulu/Leetcode-/blob/3d7fdfa7645d083efe4be0c9754155db120d046d/lintcode%20134%20%C2%B7%20LRU%20Cache.md)(https://www.lintcode.com/problem/134/)
+[134 · LRU缓存策略](https://github.com/mazexiaozhoulu/Leetcode-/blob/5f256ddf3e165fe4bca9fe28f349f436359d1336/lintcode%20134%20%C2%B7%20LRU%20Cache.md)
 
 [82 · 落单的数](https://github.com/mazexiaozhoulu/Leetcode-/blob/db1640348384655a751af092463cdc3fbdd1e419/lintcode.82%20%C2%B7%20Single%20Number.md)(https://www.lintcode.com/problem/82/)
 
