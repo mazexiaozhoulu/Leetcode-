@@ -119,6 +119,8 @@
 
 [1353 · 根节点到叶节点求和](https://github.com/mazexiaozhoulu/Leetcode-/blob/98aaba11a1e73a6df42af7cc9092ebb7c311a123/lintcode.1353%20%C2%B7%20Sum%20Root%20to%20Leaf%20Numbers.md)
 
+[780 · 删除无效的括号](https://github.com/mazexiaozhoulu/Leetcode-/blob/b565441d5760e141fec3d4205789d24ca48b008d/lintcode.780%20%C2%B7%20Remove%20Invalid%20Parentheses.md)
+
 # topo
 
 [616 · 课程表 II](https://github.com/mazexiaozhoulu/Leetcode-/blob/4fd232593c8eda7e1b3550283b05180e6b7f0721/lintcode%20616%20%C2%B7%20Course%20Schedule%20II.md)
@@ -163,45 +165,44 @@
 
 # Linkedlist
 
-[165 · 合并两个排序链表](https://github.com/mazexiaozhoulu/Leetcode-/blob/226952f0299e121b859ea4c3ffcb69f55af8ed3b/linkedlist%20lintcode%20219%20174%20165%20.md)
+[165 · 合并两个排序链表](https://github.com/mazexiaozhoulu/Leetcode-/blob/4018e14a2d417e25d5f8d9f2808044289da31f8a/lintcode.165%20%C2%B7%20Merge%20Two%20Sorted%20Lists.md)
 
-[36 · 翻转链表（二）](https://github.com/mazexiaozhoulu/Leetcode-/blob/425a688ea5e6b74d61671d4779c1589c4e775289/lintcode.36%20%C2%B7%20Reverse%20Linked%20List%20II.md)
+[36 · 翻转链表（二）](https://github.com/mazexiaozhoulu/Leetcode-/blob/3a41dc7c02313e70deff15d82a521c03b44f3334/lintcode.36%20%C2%B7%20Reverse%20Linked%20List%20II.md)
 
-[62 · 搜索旋转排序数组](https://github.com/mazexiaozhoulu/Leetcode-/blob/10a860843ceabbd0ace29ebc76fd798894c4506c/lintcode.62%20%C2%B7%20Search%20in%20Rotated%20Sorted%20Array.md)
-
+[62 · 搜索旋转排序数组](https://github.com/mazexiaozhoulu/Leetcode-/blob/ff7517d1b0f2e70fadf63291e3f818817eec8560/lintcode.62%20%C2%B7%20Search%20in%20Rotated%20Sorted%20Array.md)
 # sort
 
-[156 · 合并区间](https://github.com/mazexiaozhoulu/Leetcode-/blob/28c59c35d5637ca87937b2a18bc1df724118e5ea/lintcode.156%20%C2%B7%20Merge%20Intervals.md)
+[156 · 合并区间](https://github.com/mazexiaozhoulu/Leetcode-/blob/08fd1c112d1cc45f7ccbb39997e70c7aab41b5e4/lintcode.156%20%C2%B7%20Merge%20Intervals.md)
 
-[1901 · 有序数组的平方](https://github.com/mazexiaozhoulu/Leetcode-/blob/d5db59b27d7d8dd973b1451921ca6e8cfa10ebf8/lintcode.1901%20%C2%B7%20Squares%20of%20a%20Sorted%20Array.md)
-
+[1901 · 有序数组的平方](https://github.com/mazexiaozhoulu/Leetcode-/blob/2c830a151f6771c19bebb9ad8ee5cc24e47181dd/lintcode.1901%20%C2%B7%20Squares%20of%20a%20Sorted%20Array.md)
 # stack
 
-[12 · 带最小值操作的栈](https://github.com/mazexiaozhoulu/Leetcode-/blob/8dd9966e7b32b69d49af4e3baee8cc91ed8cd4dc/lintcode.12%20%C2%B7%20Min%20Stack.md)
+[12 · 带最小值操作的栈](https://github.com/mazexiaozhoulu/Leetcode-/blob/d91b31f6a8e6a63ec40bbe6d6a5f1318df4377b2/lintcode.12%20%C2%B7%20Min%20Stack.md)
 
-[193 · 最长有效括号](https://github.com/mazexiaozhoulu/Leetcode-/blob/8ae280f1ed03f1fd24a9904d50430fbbc6acc200/lintcode.%20193%20%C2%B7%20Longest%20Valid%20Parentheses.md)
+[193 · 最长有效括号](https://github.com/mazexiaozhoulu/Leetcode-/blob/32d4888f0cd14f19d8b7cfcf1ac0d94f26f6f297/lintcode.%20193%20%C2%B7%20Longest%20Valid%20Parentheses.md)
 
 [leetcode 1047. Remove All Adjacent Duplicates In String](https://github.com/mazexiaozhoulu/Leetcode-/blob/6e65ffd56b90acdb61b8211e1dbd66dd21308404/leetcode.1047.%20Remove%20All%20Adjacent%20Duplicates%20In%20String.md)
 
-[1721 · 使括号有效的最少添加](https://github.com/mazexiaozhoulu/Leetcode-/blob/97b99cd988423475572d557dda62eba79d78fe5e/lintcode.1721%20%C2%B7%20Minimum%20Add%20to%20Make%20Parentheses%20Valid.md)
+[1721 · 使括号有效的最少添加](https://github.com/mazexiaozhoulu/Leetcode-/blob/0d68487ecabddeb0fbca8c25218807653a7d5238/lintcode.1721%20%C2%B7%20Minimum%20Add%20to%20Make%20Parentheses%20Valid.md)
 
 # heap
 
-[606 · 第K大的元素II](https://github.com/mazexiaozhoulu/Leetcode-/blob/092154a72dc12e2847eb0784d494479832034505/lintcode.606%20%C2%B7%20Kth%20Largest%20Element%20II.md)
+[606 · 第K大的元素II]
+(https://github.com/mazexiaozhoulu/Leetcode-/blob/0019815a7dc9707d31146da7579239b15e2c6c42/lintcode.606%20%C2%B7%20Kth%20Largest%20Element%20II.md)
 
-[104 · 合并k个排序链表](https://github.com/mazexiaozhoulu/Leetcode-/blob/9bdf1df1b4044dbc6f9bc48141a2a884a948563c/lintcode.104%20%C2%B7%20Merge%20K%20Sorted%20Lists.md)
+[104 · 合并k个排序链表](https://github.com/mazexiaozhoulu/Leetcode-/blob/c12c456bd6b84b2ab3742d49607522cd9b54dfb1/lintcode.104%20%C2%B7%20Merge%20K%20Sorted%20Lists.md)
 
 # greedy
 
-[945 · 任务计划](https://github.com/mazexiaozhoulu/Leetcode-/blob/efc6c0030fb4d3dfecdd148952d4d4e7be67fd73/lintcode.945%20%C2%B7%20Task%20Scheduler.md)
+[945 · 任务计划](https://github.com/mazexiaozhoulu/Leetcode-/blob/9457c51a027f5126d85d0dd9451c7a98b1d0486b/lintcode.945%20%C2%B7%20Task%20Scheduler.md)
 
-[187 · 加油站](https://github.com/mazexiaozhoulu/Leetcode-/blob/4b85beae586730b631603edccf586dab59dd530e/lintcode.187%20%C2%B7%20Gas%20Station.md)
+[187 · 加油站](https://github.com/mazexiaozhoulu/Leetcode-/blob/b2d8d40c32100d74af1df70c6b33b149f66f3d84/lintcode.187%20%C2%B7%20Gas%20Station.md)
 
 # sort
 
-[920 · 会议室](https://github.com/mazexiaozhoulu/Leetcode-/blob/a30d1c8c1536f8e3049efca09e75e80431388230/lintcode920%20%C2%B7%20Meeting%20Rooms.md)
+[920 · 会议室](https://github.com/mazexiaozhoulu/Leetcode-/blob/0a5b60bd3029add96b36f95cb930e148b6fe1db7/lintcode920%20%C2%B7%20Meeting%20Rooms.md)
 
-[919 · 会议室Ⅱ](https://github.com/mazexiaozhoulu/Leetcode-/blob/e15f19b503d3012740264082a3b1a1999f346194/lintcode.919%20%C2%B7%20Meeting%20Rooms%20II.md)
+[919 · 会议室Ⅱ](https://github.com/mazexiaozhoulu/Leetcode-/blob/c9fe21996060083c7506845ccc162c74f7e9f64c/lintcode.919%20%C2%B7%20Meeting%20Rooms%20II.md)
 
 54 · 转换字符串到整数
 1450 · 矩形面积
@@ -224,7 +225,7 @@
 362 · 滑动窗口的最大值
 418 · 整数转罗马数字
 653 · 添加运算符
-780 · 删除无效的括号
+[780 · 删除无效的括号](https://github.com/mazexiaozhoulu/Leetcode-/blob/b565441d5760e141fec3d4205789d24ca48b008d/lintcode.780%20%C2%B7%20Remove%20Invalid%20Parentheses.md)
 669 · 换硬币
 910 · 最大二叉搜索子树
 551 · 嵌套列表的加权和
