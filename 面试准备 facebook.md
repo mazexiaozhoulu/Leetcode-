@@ -1,8 +1,8 @@
 
 # Array:
-[52 · 下一个排列](https://github.com/mazexiaozhoulu/Leetcode-/blob/7483f782f60a0d97de2e14015352fb337c7f4021/lintcode.52%20%C2%B7%20Next%20Permutation.md
+[52 · 下一个排列](https://github.com/mazexiaozhoulu/Leetcode-/blob/7483f782f60a0d97de2e14015352fb337c7f4021/lintcode.52%20%C2%B7%20Next%20Permutation.md)
 
-[641 · 丢失的间隔](https://github.com/mazexiaozhoulu/Leetcode-/blob/647c0edadb309498c4fd77bb031563403a6b0b6f/lintcode.641%20%C2%B7%20Missing%20Ranges.md
+[641 · 丢失的间隔](https://github.com/mazexiaozhoulu/Leetcode-/blob/647c0edadb309498c4fd77bb031563403a6b0b6f/lintcode.641%20%C2%B7%20Missing%20Ranges.md)
 
 [1304 · H-index](https://github.com/mazexiaozhoulu/Leetcode-/blob/4aa1a1d35a45ac5f988a3fb73ba240c758bc1c81/lintcode.1304%20%C2%B7%20H%E6%8C%87%E6%95%B0.md)
 
