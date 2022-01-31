@@ -3,7 +3,7 @@ Given an array of integers and an integer k, you need to find the minimum size o
 
 if there are no such subarray, return -1.
 
-#Example
+## Example
 Example1
 
 Input: 
