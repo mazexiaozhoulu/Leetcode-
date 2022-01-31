@@ -1,3 +1,19 @@
+## Description
+Given an array of integers and an integer k, you need to find the minimum size of continuous no-empty subarrays whose sum equals to k, and return its length.
+
+if there are no such subarray, return -1.
+
+#Example
+Example1
+
+Input: 
+
+nums = [2,1,-1,4,2,-3] and k = 3
+
+Output: 
+
+2
+
 ## Brute force 
 O(N^3) - TLE
 ```
@@ -11,7 +27,7 @@ O(N^3) - TLE
         return count
 ```
 ## Prefix sum 
-
+only works on positive nums
 O(N^2) - TLE
 ```
     def subarraySumEqualsKII(self, nums, k):
@@ -32,29 +48,24 @@ O(N^2) - TLE
                     size = min(index1 - index2, size)
         return size
 ```
-## Prefix hashmap 
-
-O(N) - [Accepted]
-
-Single scan. Given the current sum and the k, we check if (sum-k) existsed before at an earlier stage (at a smaller window size)
+## 使用 prefix+hash 的方法
 ```
-def subarraySum(self, nums: List[int], k: int) -> int:
-       d = {}
-       d[0] = 1
-       s = 0
-       count = 0
-       for i in range(len(nums)):
-           s += nums[i]
-           if s-k in d: # --- I
-               count += d[s-k]
-               # or return True
-               # or return indicies
-           
-           # add sum to frq dict
-           if s in d:
-               d[s] += 1 # --- II
-           else:
-               d[s] = 1
-       
-       return count
+        if not nums:
+            return -1
+
+        subSum = {0: -1}
+        rightSum = 0
+        less = float('inf')
+        for rightIdx, num in enumerate(nums):
+            rightSum += num
+            leftSum = rightSum - k
+
+            if leftSum in subSum:
+                leftIdx = subSum[leftSum]
+                less = min(less, rightIdx - leftIdx)
+                # print(leftIdx, rightIdx)
+            
+            subSum[rightSum] = rightIdx
+        
+        return -1 if less == float('inf') else less
 ```
