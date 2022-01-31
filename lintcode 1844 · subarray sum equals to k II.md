@@ -56,11 +56,14 @@ O(N^2) - TLE
         answer = float('inf')
         sum2index = {0: 0}
         for end in range(len(nums)):
-            # find prefix_sum[end + 1] - prefix_sum[start] = k
-            # => prefix_sum[start] = prefix_sum[end + 1] - k
+        
+            ## find prefix_sum[end + 1] - prefix_sum[start] = k
+            ## => prefix_sum[start] = prefix_sum[end + 1] - k
+            
             if prefix_sum[end + 1] - k in sum2index:
                length = end + 1 - sum2index[prefix_sum[end + 1] - k] 
                answer = min(answer, length)
+            #因为我们是从end往前计算长度，所以我们遇到更靠近end的start时，就要更新start的位置
             sum2index[prefix_sum[end + 1]] = end + 1
             
         return -1 if answer == float('inf') else answer
