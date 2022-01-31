@@ -50,22 +50,24 @@ O(N^2) - TLE
 ```
 ## 使用 prefix+hash 的方法
 ```
-        if not nums:
-            return -1
-
-        subSum = {0: -1}
-        rightSum = 0
-        less = float('inf')
-        for rightIdx, num in enumerate(nums):
-            rightSum += num
-            leftSum = rightSum - k
-
-            if leftSum in subSum:
-                leftIdx = subSum[leftSum]
-                less = min(less, rightIdx - leftIdx)
-                # print(leftIdx, rightIdx)
-            
-            subSum[rightSum] = rightIdx
+    def subarraySumEqualsKII(self, nums, k):
+        prefix_sum = self.get_prefix_sum(nums)
         
-        return -1 if less == float('inf') else less
+        answer = float('inf')
+        sum2index = {0: 0}
+        for end in range(len(nums)):
+            # find prefix_sum[end + 1] - prefix_sum[start] = k
+            # => prefix_sum[start] = prefix_sum[end + 1] - k
+            if prefix_sum[end + 1] - k in sum2index:
+               length = end + 1 - sum2index[prefix_sum[end + 1] - k] 
+               answer = min(answer, length)
+            sum2index[prefix_sum[end + 1]] = end + 1
+            
+        return -1 if answer == float('inf') else answer
+        
+    def get_prefix_sum(self, nums):
+        prefix_sum = [0]
+        for num in nums:
+            prefix_sum.append(prefix_sum[-1] + num)
+        return prefix_sum
 ```
