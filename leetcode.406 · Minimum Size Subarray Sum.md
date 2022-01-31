@@ -13,7 +13,9 @@ Explanation: The subarray [4,3] has the minimal length under the problem constra
 ## brute force 
 
 > 三重循环，循环1:找start
+
 > 循环2:在start之后循环一个end
+
 > 循环3:在start和end之间找 出来sum，做对比
 
 时间复杂度o(n^3) & 空间复杂的o(1)
@@ -41,11 +43,13 @@ class Solution:
             return result
 
 ```
-## prefix sum improve
+## 优化1: prefix sum 
 时间复杂度o(n^2)&空间复杂度o(n)
 
 > 两重循环，循环1:找start
+
 > 循环2:在start之后循环一个end
+
 > 用prefixsum找到sum
 
 
@@ -71,3 +75,15 @@ class Solution:
             prefix_sum.append(prefix_sum[i-1] + nums[i-1])
         return prefix_sum
 ```
+## 优化2
+
+比o(n^2)还要好的情况就是 
+>o(nlogn);
+[可选：n次二分法(确定起点或终点，再用二分法确定另一个点)；
+不可选：排序（破坏子数组顺序）；
+heap(但可能需要其他的操作，最终到不了logn)；
+n次快速幂算法；求最大公约数]
+
+>o(n * sqrt(n)); [因子(factor)相关问题]
+
+>o(n)；[双指针；单调栈；quick select；树上各类遍历分治；n次并查集操作；n次哈希表]
