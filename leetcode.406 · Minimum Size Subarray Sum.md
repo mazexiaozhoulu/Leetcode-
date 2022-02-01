@@ -75,9 +75,9 @@ class Solution:
             prefix_sum.append(prefix_sum[i-1] + nums[i-1])
         return prefix_sum
 ```
-## 方法3:优化2
 
 比o(n^2)还要好的情况就是 
+
 >o(nlogn);
 [
     可选：n次二分法(nums都是正整数)：(确定起点或终点，再用二分法确定另一个点)对于每个下标i，都让它作为子数组的左边界，使用二分法找到子数组最靠左的右边界，使用前缀和求出子数组之和，与s比较更新答案
@@ -91,6 +91,9 @@ class Solution:
 >o(n * sqrt(n)); [因子(factor)相关问题]
 
 >o(n)；[双指针；单调栈；quick select；树上各类遍历分治；n次并查集操作；n次哈希表]
+
+## 方法3:优化2
+n次二分法 o(nlogn)
 
 ```
 class Solution:
@@ -131,3 +134,17 @@ class Solution:
             prefix_sum.append(prefix_sum[i-1]+nums[i-1])
         return prefix_sum
 ```
+
+双指针：
+
+> 同向：全零子串数量
+
+> 相向：两数之和，三数之和
+
+> 背向：最长回文子串
+
+## 方法4:优化3
+
+同向双指针
+![10491643741958_ pic](https://user-images.githubusercontent.com/60911066/152033181-cfe5125a-705b-4d90-b774-5bf0f97ccbd0.jpg)
+
