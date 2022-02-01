@@ -19,16 +19,21 @@ Output: 55
 
 Explanation: Any substring whose length is not smaller than 3 contains a, b, c.
 
-    For example, there are 10 substrings whose length are 3, "abc", "bca", "cab" ... "abc"
+For example, there are 10 substrings whose length are 3, "abc", "bca", "cab" ... "abc"
     
-    There are 9 substrings whose length are 4, "abca", "bcab", "cabc" ... "cabc"
-    
-    ...
-    
-    There is 1 substring whose length is 12, "abcabcabcabc"
-    
-    So the answer is 1 + 2 + ... + 10 = 55.
+There are 9 substrings whose length are 4, "abca", "bcab", "cabc" ... "cabc"
 
+...
+    
+There is 1 substring whose length is 12, "abcabcabcabc"
+    
+So the answer is 1 + 2 + ... + 10 = 55.
+
+## 方法：
+> 同向双指针
+> hash map 统计当前i-j之间的字符
+> diffierent_chars记录不同字符的个数，如果当前字符在hash map里第一次出现，那就diffierent_chars += 1；如果在hashmap里归零，那就-=1
+> num_of_substring += n - j + 1;n-j+1 是因为 i-j之间有了k个不同的字母，所以j之后道n之间所有的字符都可以算成新的情况，所以只要计算j到n中有多少字母就行。
 ```
 from collections import defaultdict
 class Solution:
@@ -57,8 +62,6 @@ class Solution:
                 j += 1
 
             if diffierent_chars == k:
-                # n-j+1 是因为 i-j之间有了k个不同的字母，所以j之后道n之间所有的字符都可以算成新的情况，
-                #所以只要计算j到n中有多少字母就行。
                 num_of_substring += n - j + 1
             #因为下一个循环是i+1，所以这里的counter[s[i]]要把当前i的数量剪掉一个
             counter[s[i]] -= 1
