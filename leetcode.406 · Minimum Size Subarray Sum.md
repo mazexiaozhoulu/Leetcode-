@@ -10,7 +10,7 @@ Output: 2
 
 Explanation: The subarray [4,3] has the minimal length under the problem constraint.
 
-## brute force 
+## 方法1:brute force 
 
 > 三重循环，循环1:找start
 
@@ -43,7 +43,7 @@ class Solution:
             return result
 
 ```
-## 优化1: prefix sum 
+## 方法2:优化1: prefix sum 
 时间复杂度o(n^2)&空间复杂度o(n)
 
 > 两重循环，循环1:找start
@@ -75,15 +75,59 @@ class Solution:
             prefix_sum.append(prefix_sum[i-1] + nums[i-1])
         return prefix_sum
 ```
-## 优化2
+## 方法3:优化2
 
 比o(n^2)还要好的情况就是 
 >o(nlogn);
-[可选：n次二分法(确定起点或终点，再用二分法确定另一个点)；
-不可选：排序（破坏子数组顺序）；
-heap(但可能需要其他的操作，最终到不了logn)；
-n次快速幂算法；求最大公约数]
+[
+    可选：n次二分法(nums都是正整数)：(确定起点或终点，再用二分法确定另一个点)对于每个下标i，都让它作为子数组的左边界，使用二分法找到子数组最靠左的右边界，使用前缀和求出子数组之和，与s比较更新答案
+
+    不可选：排序（破坏子数组顺序）；
+
+    heap(但可能需要其他的操作，最终到不了logn)；
+
+    n次快速幂算法；求最大公约数]
 
 >o(n * sqrt(n)); [因子(factor)相关问题]
 
 >o(n)；[双指针；单调栈；quick select；树上各类遍历分治；n次并查集操作；n次哈希表]
+
+```
+class Solution:
+    """
+    @param nums: an array of integers
+    @param s: An integer
+    @return: an integer representing the minimum size of subarray
+    """
+    def minimumSize(self, nums, s):
+        # write your code here
+        n = len(nums)
+        min_length = float('inf')
+        prefix_sum = self.get_prefix_sum(nums)
+        for start in range(n):
+            end = self.get_end_of_subarray(prefix_sum, start, s)
+            if prefix_sum[end+1]-prefix_sum[start] >= s:
+                min_length = min(min_length, end-start+1)
+        
+        if min_length == float('inf'):
+            return -1
+        return min_length
+
+    def get_end_of_subarray(self, prefix_sum,start,s):
+        left,right = start, len(prefix_sum)-2
+        while left+1<right:
+            mid = left + (right - left) // 2
+            if prefix_sum[mid+1] - prefix_sum[start] >= s:
+                right = mid
+            else:
+                left = mid
+        if prefix_sum[left+1] - prefix_sum[start] >= s:
+            return left
+        return right
+
+    def get_prefix_sum(self, nums):
+        prefix_sum = [0]
+        for i in range(1, len(nums)+1):
+            prefix_sum.append(prefix_sum[i-1]+nums[i-1])
+        return prefix_sum
+```
