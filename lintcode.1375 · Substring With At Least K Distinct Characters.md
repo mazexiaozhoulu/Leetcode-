@@ -30,6 +30,8 @@ There is 1 substring whose length is 12, "abcabcabcabc"
 So the answer is 1 + 2 + ... + 10 = 55.
 
 ## 方法：
+时间复杂度o（n）
+空间复杂度o（|s|）, ｜s｜中的不同字符数
 > 同向双指针
 
 > hash map 统计当前i-j之间的字符
