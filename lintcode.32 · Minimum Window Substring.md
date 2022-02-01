@@ -1,3 +1,48 @@
+## Description
+Given two strings source and target. Return the minimum substring of source which contains each char of target.
+
+## Example
+Example 1:
+
+Input:
+
+source = "abc"
+
+target = "ac"
+
+Output:
+
+"abc"
+
+Explanation:
+
+"abc" is the minimum substring of source string which contains each char of target "ac".
+
+Example 2:
+
+Input:
+
+source = "adobecodebanc"
+
+target = "abc"
+
+Output:
+
+"banc"
+
+Explanation:
+
+"banc" is the minimum substring of source string which contains each char of target "abc".
+## 思路：
+>统计出现在target中的字符数量
+
+>使用双指针算法
+
+>如果当前的字符数量，恰好满足或者恰好不满足要求，更新计数器
+
+> 对于合适的子串，更新子穿的起点和长度
+
+> 将答案更新为更短的字符
 ```
 class Solution:
     """
