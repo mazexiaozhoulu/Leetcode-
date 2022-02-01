@@ -143,11 +143,11 @@ class Solution:
 
 > 背向：最长回文子串
 
+![10491643741958_ pic](https://user-images.githubusercontent.com/60911066/152033181-cfe5125a-705b-4d90-b774-5bf0f97ccbd0.jpg)
 ## 方法4:优化3 
 时间复杂度o(n + n ) = o(n)
 
 同向双指针
-![10491643741958_ pic](https://user-images.githubusercontent.com/60911066/152033181-cfe5125a-705b-4d90-b774-5bf0f97ccbd0.jpg)
 ```
     def minimumSize(self, nums, s):
         # write your code here
