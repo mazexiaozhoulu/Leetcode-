@@ -18,8 +18,14 @@ Output: 1
 
 Explanation: The longest substring is "b".
 
-time complexity O(n)
+## time complexity 
+O(n)
 
+
+## 方法
+        #>two point i,j in one direction
+        #>set count char in i-j
+        #>count(s[i]) > 1 then result = max(j-i,result)
 ```
 from collections import defaultdict
 class Solution:
@@ -29,9 +35,6 @@ class Solution:
     """
     def lengthOfLongestSubstring(self, s):
         # write your code here
-        #>two point i,j in one direction
-        #>set count char in i-j
-        #>count(s[i]) > 1 then result = max(j-i,result)
         if len(s) == 0:
             return 0
 
