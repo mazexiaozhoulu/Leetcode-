@@ -13,6 +13,7 @@ k = 8
 
 Output: 13
 
+## 方法
 sort函数进行排序的时间复杂度为n*log2n
 build min heap 时间复杂度 logn
 
