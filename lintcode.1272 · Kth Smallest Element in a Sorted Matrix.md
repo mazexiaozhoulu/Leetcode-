@@ -49,10 +49,9 @@ class Solution:
         return heapq.heappop(pq)[0]
 
 ```
-<img src="https://user-images.githubusercontent.com/60911066/152294319-081d2575-8d1d-42f4-b2e4-ef8f1be2bd11.png" width="50%" height="50%">
-
 # 方法4 二分法
-时间复杂度：O(n\log(r-l))O(nlog(r−l))，二分查找进行次数为 O(\log(r-l))O(log(r−l))，每次操作时间复杂度为 O(n)O(n)
+时间复杂度：O(n\log(r-l))，二分查找进行次数为O(log(r−l))，每次操作时间复杂度为 O(n)
+<img src="https://user-images.githubusercontent.com/60911066/152294319-081d2575-8d1d-42f4-b2e4-ef8f1be2bd11.png" width="50%" height="50%">
 
 ```
 class Solution:
