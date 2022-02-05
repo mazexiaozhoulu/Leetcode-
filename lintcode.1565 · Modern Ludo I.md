@@ -1,4 +1,5 @@
-## 方法1 
+## 方法1 BFS+BFS
+时间复杂度 0(m+n)
         #思路
         #>一个bfs找最短路径
         #>一个bfs做一个连通块
@@ -64,3 +65,49 @@ class Solution:
         return unvisited_nodes
 
 ```
+## 方法2
+交替两个queue
+```
+class Solution:
+    """
+    @param length: the length of board
+    @param connections: the connections of the positions
+    @return: the minimum steps to reach the end
+    """
+    def modernLudo(self, length, connections):
+        # Write your code here
+        graph = self.build_graph(length, connections)
+# 先把direct_node都找出来，同层扩展，连通扩展
+        queue = [1]
+        distance = {1:0}
+        while queue:
+            next_queue = []
+            for node in queue:
+                for direct_node in graph[node]:
+                    if direct_node in distance:
+                        continue
+                    distance[direct_node] = distance[node]
+                    queue.append(direct_node)
+#最短路径bfs
+            for node in queue:
+                for next_node in range(node + 1, min(node+7,length+1)):
+                    if next_node in distance:
+                        continue
+                     #扔骰子扔出来的结果，所以distance+1
+                    distance[next_node] = distance[node] + 1
+                    next_queue.append(next_node)
+            queue = next_queue
+        return distance[length]
+            
+    def build_graph(self, length, connections):
+        graph = {
+            i: set()
+            for i in range(1, length+1)
+        }
+        for a, b in connections:
+            #有向边
+            graph[a].add(b)
+        return graph
+```
+## 方法3 spfa最短路径算法
+<img src="https://user-images.githubusercontent.com/60911066/152661954-a5bb86e9-466a-472f-ac85-636e6a0d4e32.png" width="30%" height="30%"> 
