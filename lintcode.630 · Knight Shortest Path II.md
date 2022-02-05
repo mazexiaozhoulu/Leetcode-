@@ -21,6 +21,9 @@ Explanation:
 ## 方法 
 BFS
 
+## 时间复杂度：
+O（N）N是matrix里点的个数。
+空间复杂度：O（N）
 ```
 DIRECTIONS = [(1, 2), (-1, 2), (2, 1), (-2, 1)]
 
