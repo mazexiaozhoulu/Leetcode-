@@ -113,3 +113,73 @@ class Solution:
 <img src="https://user-images.githubusercontent.com/60911066/152661954-a5bb86e9-466a-472f-ac85-636e6a0d4e32.png" width="40%" height="40%"> 
 
 <img src="https://user-images.githubusercontent.com/60911066/152661979-53cb3d4f-2ab6-4b88-8381-e2e4c23bca96.png" width="40%" height="40%"> 
+
+```
+class Solution:
+    def modernLudo(self, length, connections):
+        from collections import deque
+        graph = self.build_graph(length, connections)
+        
+        queue = deque([1])
+        distance = {
+            i: float('inf')
+            for i in range(1, length + 1)
+        }
+        distance[1] = 0
+        while queue:
+            node = queue.popleft()
+            for next_node in graph[node]:
+                if distance[next_node] > distance[node]:
+                    distance[next_node] = distance[node]
+                    queue.append(next_node)
+            for next_node in range(node + 1, min(node + 7, length + 1)):
+                if distance[next_node] > distance[node] + 1:
+                    distance[next_node] = distance[node] + 1
+                    queue.append(next_node)
+        return distance[length]
+
+    def build_graph(self, length, connections):
+        graph = {
+            i: set()
+            for i in range(1, length + 1)
+        }
+        for a, b in connections:
+            graph[a].add(b)
+        return graph
+        
+  
+```
+## 方法4， spfa的heap优化
+```
+class Solution:
+    def modernLudo(self, length, connections):
+        import heapq
+
+        graph = self.build_graph(length, connections)
+        queue = [(0, 1)]
+        distance = {
+            i: float('inf')
+            for i in range(1, length + 1)
+        }
+        distance[1] = 0
+        while queue:
+            dist, node = heapq.heappop(queue)
+            for next_node in graph[node]:
+                if distance[next_node] > dist:
+                    distance[next_node] = dist
+                    heapq.heappush(queue, (dist, next_node))
+            for next_node in range(node + 1, min(node + 7, length + 1)):
+                if distance[next_node] > dist + 1:
+                    distance[next_node] = dist + 1
+                    heapq.heappush(queue, (dist + 1, next_node))
+        return distance[length]
+
+    def build_graph(self, length, connections):
+        graph = {
+            i: set()
+            for i in range(1, length + 1)
+        }
+        for a, b in connections:
+            graph[a].add(b)
+        return graph
+```
