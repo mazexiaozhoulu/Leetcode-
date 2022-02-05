@@ -110,4 +110,6 @@ class Solution:
         return graph
 ```
 ## 方法3 spfa最短路径算法
-<img src="https://user-images.githubusercontent.com/60911066/152661954-a5bb86e9-466a-472f-ac85-636e6a0d4e32.png" width="30%" height="30%"> 
+<img src="https://user-images.githubusercontent.com/60911066/152661954-a5bb86e9-466a-472f-ac85-636e6a0d4e32.png" width="40%" height="40%"> 
+
+<img src="https://user-images.githubusercontent.com/60911066/152661979-53cb3d4f-2ab6-4b88-8381-e2e4c23bca96.png" width="40%" height="40%"> 
