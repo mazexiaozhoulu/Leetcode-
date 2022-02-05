@@ -65,8 +65,7 @@ class Solution:
         return unvisited_nodes
 
 ```
-## 方法2
-交替两个queue
+## 方法2 交替两个queue
 ```
 class Solution:
     """
