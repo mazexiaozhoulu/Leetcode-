@@ -1,11 +1,19 @@
 ## 方法1 BFS+BFS
+
 时间复杂度 0(m+n)
+
         #思路
+        
         #>一个bfs找最短路径
+        
         #>一个bfs做一个连通块
+        
         #1:先把connection做一个hashset的图,每个点的distance用hashamp
+        
         #2:get_unvisited_node函数用BFS做连通块把当前node的neighbor和neighbor的connection neighbors找出来（如果已经在distance里就跳过）
+        
         #3:主函数：将unvisited过（不在distance里）的connection neighbor,用bfs找到最短路径，存到distance里
+        
 ```
 class Solution:
     """
