@@ -28,7 +28,7 @@ class Solution:
         distance = {1:0}
         while queue:
             node = queue.popleft()
-            * neighbor的范围是:当前节点的下一位 直到 骰子1-6之间的所有可能性（如果超出length的范围就不算）*
+            *neighbor的范围是:当前节点的下一位 直到 骰子1-6之间的所有可能性（如果超出length的范围就不算*
             #比如node 1 的neighbor 就是2，3，4，5，6，7
             #比如node 6 的neighbor 就是7，8，9，10
             for neighbor in range(node + 1, min(node + 7, length + 1)):
