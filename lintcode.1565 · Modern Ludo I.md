@@ -95,7 +95,7 @@ class Solution:
                         continue
                     distance[direct_node] = distance[node]
                     queue.append(direct_node)
-#最短路径bfs
+#最短路径bfs, 在distance里每个key，最先保存的value就是value就是最短路径
             for node in queue:
                 for next_node in range(node + 1, min(node+7,length+1)):
                     if next_node in distance:
