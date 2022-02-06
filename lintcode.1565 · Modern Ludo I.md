@@ -132,6 +132,12 @@ class Solution:
 
 <img src="https://user-images.githubusercontent.com/60911066/152661979-53cb3d4f-2ab6-4b88-8381-e2e4c23bca96.png" width="40%" height="40%"> 
 
+        #思路：
+
+        #>发现这个节点的distance更短，就更新distance，并丢回队列重新出发，再从这个节点往下发展
+        
+        #>最后保存的distance一定是最小值
+
 ```
 class Solution:
     def modernLudo(self, length, connections):
@@ -147,6 +153,8 @@ class Solution:
         while queue:
             node = queue.popleft()
             for next_node in graph[node]:
+            #发现这个节点的distance更短，就更新distance，并丢回队列重新出发，再从这个节点往下发展
+            #比如2:{10}; 
                 if distance[next_node] > distance[node]:
                     distance[next_node] = distance[node]
                     queue.append(next_node)
