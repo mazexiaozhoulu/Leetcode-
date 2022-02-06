@@ -75,11 +75,13 @@ class Solution:
 ```
 ## 方法2 交替更迭两个queue
 
-把骰子可以扔到的地方都记录到next_queue，记录distance
+        #思路：
+        
+        #>把骰子可以扔到的地方都记录到next_queue，记录distance
 
-再走一遍next_queue，把可以连通的新地方再加到next_queue里，记录新地方的distance
+        #>再走一遍next_queue，把可以连通的新地方再加到next_queue里，记录新地方的distance
 
-再建立新的next_queue，记录下一个node骰子可以扔到的地方，已经存在就跳过，不然distance+1
+        #>再建立新的next_queue，记录下一个node骰子可以扔到的地方，已经存在就跳过，不然distance+1
 
 ```
 class Solution:
