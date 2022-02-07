@@ -47,7 +47,8 @@ class Solution:
               continue 
             distance[(x_, y_)] = distance[(x, y)] + 1 
             queue.append((x_, y_)) 
-        
+            
+        # 只取了grid[i][j] == 0 为海洋在disance的数值
         sea_distance = [
           distance[(i, j)] 
           for i, j in distance
