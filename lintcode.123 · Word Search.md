@@ -9,7 +9,8 @@ The same letter cell may not be used more than once.
 board = ["ABCE","SFCS","ADEE"]
 word = "ABCCED"
 
-# code 
+# 方法 dfs
+贡献一个非常规整的dfs模板解法。和word searchII一样。 时间复杂度应该是： m * n * 4 ^ word.length;
 ```
 class Solution:
     def exist(self, board, word):
