@@ -1,3 +1,62 @@
+## Example 1:
+
+Input: n = 2, prerequisites = [[1,0]] 
+
+Output: true
+
+Example 2:
+
+Input: n = 2, prerequisites = [[1,0],[0,1]] 
+
+Output: false
+```
+class Solution:
+    """
+    @param numCourses: a total of n courses
+    @param prerequisites: a list of prerequisite pairs
+    @return: true if can finish all courses or false
+    """
+    def canFinish(self, numCourses, prerequisites):
+        graph = [[] for i in range(numCourses)]
+        in_degree = [0] * numCourses
+        
+        # 建图 record every in—depth for node
+        for node_in, node_out in prerequisites:
+            graph[node_out].append(node_in)
+            in_degree[node_in] += 1
+        
+        num_choose = 0
+        queue = collections.deque()
+        
+        # 将入度为 0 的编号加入队列
+        for i in range(numCourses):
+            if in_degree[i] == 0:
+                queue.append(i)
+        #取出队首的元素now，将其加入拓扑序列。
+        while queue:
+            now_pos = queue.popleft()
+            num_choose += 1
+            # 将每条邻边删去，如果入度降为 0，再加入队列
+            for next_pos in graph[now_pos]:
+                in_degree[next_pos] -= 1
+                if in_degree[next_pos] == 0:
+                    queue.append(next_pos)
+        
+        return num_choose == numCourses
+```
+## Example
+Example 1:
+
+Input: n = 2, prerequisites = [[1,0]] 
+
+Output: [0,1]
+
+Example 2:
+
+Input: n = 4, prerequisites = [[1,0],[2,0],[3,1],[3,2]] 
+
+Output: [0,1,2,3] or [0,2,1,3]
+
 ```
 class Solution:
     """
