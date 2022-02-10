@@ -23,10 +23,15 @@
 [236 (就是求二叉树两点之间最短路径，本质其实就是二三流)](https://github.com/mazexiaozhoulu/Leetcode-/blob/fb3a28490ea0a5c74ab6e553d2f267960414eb9a/lintcode.1311%20%C2%B7%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree.md)
 
 [261 Graph Valid Tree](https://github.com/mazexiaozhoulu/Leetcode-/blob/20c4d02d023a6dccdfdddd7739497f27eab75753/lintcode.178%20%C2%B7%20Graph%20Valid%20Tree.md)
-282 Expression Add Operators
-295 Find Median from Data Stream
-301 Remove Invalid Parentheses
-328 Odd Even Linked List
+
+[282 Expression Add Operators](https://github.com/mazexiaozhoulu/Leetcode-/blob/85eaa13345c7a1ab36d93379e57399fc7e1d1632/lintcode.653%20%C2%B7%20Expression%20Add%20Operators.md)
+
+[295 Find Median from Data Stream](https://github.com/mazexiaozhoulu/Leetcode-/blob/8492f818fada7c9c189af5497a9516154d49791a/lintcode.81%20%C2%B7%20Find%20Median%20from%20Data%20Stream.md)
+
+[301 Remove Invalid Parentheses](https://github.com/mazexiaozhoulu/Leetcode-/blob/8492f818fada7c9c189af5497a9516154d49791a/lintcode.780%20%C2%B7%20Remove%20Invalid%20Parentheses.md)
+
+[328 Odd Even Linked List](https://github.com/mazexiaozhoulu/Leetcode-/blob/95f740cb85c2c2754fa5927e2a38b73bd18379fb/lintcode.1292%20%C2%B7%20Odd%20Even%20Linked%20List.md)
+
 341 Flatten Nested List Iterator
 394 Decode String
 490 The Maze
