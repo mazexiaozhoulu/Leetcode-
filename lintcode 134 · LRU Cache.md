@@ -50,8 +50,8 @@ class LRUCache:
 ```
 LRUCache 初始化时设定最大容量，并且设置一前一后两个dummy node以便后面操作
 设定三个辅助函数：
-remove_node
-move_to_tail
+push_back
+kick(move to tail)
 pop_front
 
 接下来的操作就比较简单明了喽，无非是通过哈希表
@@ -63,62 +63,82 @@ pop_front
 这几个操作的组合
 ```
 ```
-class Node:
-    def __init__(self, key= None, value = None):
+class LinkedNode:
+    
+    def __init__(self, key=None, value=None, next=None):
         self.key = key
-        self.val = value
-        self.prev = None
-        self.next = None
-        
+        self.value = value
+        self.next = next
+
 class LRUCache:
-    """
-    @param: capacity: An integer
-    """
+
+    # @param capacity, an integer
     def __init__(self, capacity):
+        self.key_to_prev = {}
+        self.dummy = LinkedNode()
+        self.tail = self.dummy
+        #最大容量，超过就删数据
         self.capacity = capacity
-        self.hash = {}
-        self.head = Node(-1,-1) # dummy node
-        self.tail = Node(-1, -1) # dummy node
-        self.tail.prev = self.head
-        self.head.next = self.tail
-    """
-    @param: key: An integer
-    @return: An integer
-    """
-    def get(self, key):
-        if key not in self.hash: return -1 
-        node = self.hash[key]
-        self.remove_node(node)
-        self.move_to_tail(node)
-        return node.val 
         
-    """
-    @param: key: An integer
-    @param: value: An integer
-    @return: nothing
-    """
-    def set(self, key, value):
-        if self.get(key) != -1:
-            self.hash[key].val = value
-            return 
-        if len(self.hash) >= self.capacity:
-            self.pop_front()
-        node = Node(key, value)
-        self.move_to_tail(node)
-        self.hash[key] = node
-        
-    def remove_node(self, node):
-        node.prev.next = node.next
-        node.next.prev = node.prev
-        
-    def move_to_tail(self, node):
-        node.prev = self.tail.prev 
-        node.next = self.tail 
-        node.prev.next = node 
-        self.tail.prev = node
-        
+    #把数据插入到链表尾部
+    def push_back(self, node):
+    #当前的tail为新的node的前一个节点
+        self.key_to_prev[node.key] = self.tail
+        #尾部加入新的节点
+        self.tail.next = node
+        #tail的指针指向新的节点
+        self.tail = node
+    
     def pop_front(self):
-        del self.hash[self.head.next.key]
-        self.head.next = self.head.next.next
-        self.head.next.prev = self.head
+        # 删除头部节点
+        head = self.dummy.next
+        #在hashmap里删除节点的映射关系
+        del self.key_to_prev[head.key]
+        #dummy后移，指向新的头部节点
+        self.dummy.next = head.next
+        #再hashmap里更新新的头节点映射关系
+        self.key_to_prev[head.next.key] = self.dummy
+        
+    # change "prev->node->next...->tail"
+    # to "prev->next->...->tail->node"
+    def kick(self, prev):	#将数据移动至尾部
+        node = prev.next
+        #如果已经在链表尾部就不用移动
+        if node == self.tail:
+            return
+        #删除node节点
+        # node前一个指向node的下一个
+        prev.next = node.next
+        # 更新node下一个节点对应的前导节点
+        self.key_to_prev[node.next.key] = prev
+        #断开node指向node下一个节点的链接
+        node.next = None
+        #把node放到队尾
+        self.push_back(node)
+
+   
+    def get(self, key):
+    #不在缓存里就返回-1
+        if key not in self.key_to_prev:
+            return -1
+        #找到这个点的前一个节点
+        prev = self.key_to_prev[key]
+        current = prev.next
+        #再把prev应用到kick函数
+        self.kick(prev)
+        return current.value
+
+    def set(self, key, value):
+    #已经存在的话就更新value
+        if key in self.key_to_prev:	   
+        #这个node被更新过，所以移动到链表尾端
+            self.kick(self.key_to_prev[key])
+            #更新节点的值
+            self.key_to_prev[key].next.value = value
+            return
+        #不存在的话，就存入新节点
+        self.push_back(LinkedNode(key, value))  
+        #判断是否超出容量
+        if len(self.key_to_prev) > self.capacity:		
+            self.pop_front()		
     ````
