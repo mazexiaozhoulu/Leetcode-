@@ -47,3 +47,42 @@ class Solution:
         maxGain(root)
         return self.maxSum
 ```
+```
+"""
+Definition of TreeNode:
+class TreeNode:
+    def __init__(self, val):
+        self.val = val
+        self.left, self.right = None, None
+"""
+import sys
+class Solution:
+    """
+    @param root: The root of binary tree.
+    @return: An integer
+    """
+    
+    def maxPathSum(self, root):
+        # write your code here
+        # singlePath: 从root往下走到任意点的最大路径，这条路径可以不包含任何点
+        # maxPath: 从树中任意到任意点的最大路径，这条路径至少包含一个点
+        singlePath, maxPath = self.helper(root)
+        return maxPath
+        
+    def helper(self, root):
+        if root is None:
+            return 0, -sys.maxsize -1
+        
+        # divdie    
+        leftSinglePath, left_maxPath = self.helper(root.left)
+        rightSinglePath, right_maxPath = self.helper(root.right)
+        
+        # conquer 
+        singlePath = max(leftSinglePath, rightSinglePath) + root.val 
+        singlePath = max(singlePath, 0)
+        
+        maxPath = max(left_maxPath, right_maxPath)
+        maxPath = max(maxPath, leftSinglePath + rightSinglePath + root.val)
+        
+        return singlePath, maxPath
+```
