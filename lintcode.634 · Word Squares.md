@@ -24,7 +24,7 @@ l a d y
 
 > 不相等的话，就要再hashmap里找单词;dfs找单词的方法是:
 
-&ensp1:result的纵坐标是result[0]的横坐标
+> >1:result的纵坐标是result[0]的横坐标
    
     >> 2:在hashmap里找纵向字母组合所对应的单词
     
