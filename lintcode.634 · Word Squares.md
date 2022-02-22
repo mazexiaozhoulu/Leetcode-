@@ -14,6 +14,17 @@ a r e a
 l e a d
 
 l a d y
+
+## 方法
+> 建立prefix_to_word的hashmap
+> 循环遍历words里的每个word，放到result里
+> 如果result的len == result[0]的len，则矩阵完成，这种可能性就放到results里
+> 不相等的话，就要再hashmap里找单词;dfs找单词的方法是:
+    > 1:result的纵坐标是result[0]的横坐标
+    > 2:在hashmap里找纵向字母组合所对应的单词
+    > 有单词被找到的话，就加入并且进入新的dfs
+    > 找不到的话就把这层的单词pop掉，换下一个可能
+
 ```
 class Solution:
     """
@@ -49,14 +60,6 @@ class Solution:
         if curt_len == len(subset[0]):
             results.append(list(subset))
             return 
-
-        # purning for feasibility
-        for j in range(curt_len, len(subset[0])):
-            prefix = ""
-            for i in range(curt_len):
-                prefix += subset[i][j]
-            if prefix not in prefix_to_words:
-                return
 
         prefix = ""
         for i in range(curt_len):
