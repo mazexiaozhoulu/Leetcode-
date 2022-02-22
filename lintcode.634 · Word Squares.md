@@ -79,6 +79,14 @@ class Solution:
         if curt_len == len(subset[0]):
             results.append(list(subset))
             return 
+            
+<!--         ## purning for feasibility
+        for j in range(curt_len, len(subset[0])):
+            prefix = ""
+            for i in range(curt_len):
+                prefix += subset[i][j]
+            if prefix not in prefix_to_words:
+                return -->
 
         prefix = ""
         for i in range(curt_len):
