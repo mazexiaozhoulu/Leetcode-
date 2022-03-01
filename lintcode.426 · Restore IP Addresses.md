@@ -21,23 +21,30 @@ class Solution:
     @return: All possible valid IP addresses
     """
     def restoreIpAddresses(self, s):
-        path = []
         result = []
-        self.dfs(s, path, result)
+        self.dfs(s, 0, 0, "", result)
         return result
-    
-    def dfs(self, s, path,result):
+    def dfs(self, s, pos, dot, t_string, result):
+        # 最多加三个点
+        if dot > 3:
+            return
+        # 搜索到最后时
+        if pos == len(s):
+            if dot == 3:
+                nums = t_string.split('.')
+                for num in nums:
+                    if len(num) > 1 and num[0] == '0':
+                        return
+                    if int(num) > 255:
+                        return
+                result.append(t_string)
+                return
+            return
         
-        if not s and len(path) == 4:
-            s = '.'.join(path[::-1])
-            result.append(s)
-            return
-        elif len(path) == 4: 
-            return 
-        else:
-            for i in range(1, min(3, len(s))+1):
-                if int(s[:i]) >= 0 and int(s[:i]) <= 255:
-                    if i > 1 and s[0]=='0': continue
-                    else: self.dfs(s[i:], [s[:i]]+path, result)
-            return
+        # pos后不加点的情况
+        self.dfs(s, pos + 1, dot, t_string + s[pos], result)
+        
+        # pos后加点的情况
+        if pos < len(s) - 1:
+            self.dfs(s, pos + 1, dot + 1, t_string + s[pos] + '.', result)
 ```
