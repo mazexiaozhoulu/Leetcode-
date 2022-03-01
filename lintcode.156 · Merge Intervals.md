@@ -9,21 +9,21 @@ Output: [(1,6),(8,10),(15,18)]
 # time 
 O(n log n) time and O(1) extra space.
 ```
-class Solution:
-    
     def merge(self, intervals):
         
-        if not intervals: return []
-        
-        intervals = sorted(intervals, key = lambda interval: interval.start)
-        
-        last, output = None, []
+        intervals.sort(key=lambda x: x.start)
+
+        merged = []
         for interval in intervals:
-            if not last or last.end < interval.start:
-                output.append(interval)
-                last = interval
+            # if the list of merged intervals is empty or if the current
+            # interval does not overlap with the previous, simply append it.
+            if not merged or merged[-1].end< interval.start:
+                merged.append(interval)
             else:
-                last.end = max(last.end, interval.end)
-                
-        return output
+            # otherwise, there is overlap, so we merge the current and previous
+            # intervals.
+                merged[-1].end = max(merged[-1].end, interval.end)
+
+        return merged
+
 ```
