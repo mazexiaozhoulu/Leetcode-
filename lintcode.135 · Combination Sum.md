@@ -1,4 +1,28 @@
-算法流程
+## 算法流程
+
+```
+class Solution:
+    def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
+        if len(candidates) == 0:
+            return []
+        result = []
+        candidates = sorted(list(set(candidates)))
+        result = self.dfs(candidates, [], result, target, 0)
+        return result
+                
+    def dfs(self, candidates, path, result, target, index):
+        if sum(path) == target:
+            result.append(path[:])
+        for i in range(index, len(candidates)):
+            if target - sum(path) < candidates[i]:
+                break
+            else:
+                path.append(candidates[i])
+                self.dfs(candidates, path, result, target, i)
+                path.pop()
+        return result
+            
+```
 1: 由于题目候选数字的集合candidates可能包含重复数字，且返回的结果要求组合内数字非降序，
 因此首先需对candidates进行升序排序并去重，得到新的数字集合candidatesNew；
 
